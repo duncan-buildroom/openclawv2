@@ -1,0 +1,174 @@
+{
+  "carousel_id": "carousel-006",
+  "topic": "Claude 4.6 Prompt Pack",
+  "theme": {
+    "id": 4,
+    "name": "Tokyo side street at golden hour",
+    "setting": "Neon signage, narrow alley, warm golden light mixing with cool neon, street food stalls in soft background bokeh",
+    "vibe": "Tech-forward, modern, cinematic — feels like the future is already here"
+  },
+  "format": {
+    "dimensions": "1080x1350",
+    "aspect_ratio": "4:5",
+    "platform": "Instagram"
+  },
+  "slide_count": 8,
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "hook",
+      "shot_type": "character",
+      "text": {
+        "headline": "Claude 4.6 just dropped.",
+        "subtext": "Here are 20 prompts built for it. All free."
+      },
+      "copy_notes": "Headline is 4 words. Hard stop. Creates pattern interrupt. Subtext delivers instant value promise.",
+      "image_concept": "Duncan (orange hoodie) standing at the entrance to a narrow Tokyo alley at golden hour. Neon signs glow in the background, warm amber light hits his face from the left. He looks directly into camera, relaxed and confident. Shallow depth of field, the alley stretching behind him into bokeh. Shot from slight low angle to make him look commanding. Text placement: upper left, over the neon-lit building wall above his shoulder.",
+      "reference_photo": "https://i.imgur.com/vc7pPOC.jpeg",
+      "text_position": "top-left",
+      "styling_notes": "Headline 68pt bold white. Subtext 44pt regular white. Stagger x-offsets: headline at 80px, subtext at 100px. Soft drop shadow. Darken background 85%."
+    },
+    {
+      "slide_number": 2,
+      "role": "context",
+      "shot_type": "establishing",
+      "text": {
+        "headline": "1 million tokens. Near-Opus quality. Sonnet price.",
+        "subtext": "It can hold your entire business in one prompt. 4.5 couldn't."
+      },
+      "copy_notes": "Each sentence is a punchy fact. No filler. The 4.5 comparison lands the upgrade angle hard.",
+      "image_concept": "Wide establishing shot of the Tokyo side street at golden hour, no subject in frame. Narrow alley with lanterns overhead, neon Japanese signage on both sides, a warm golden haze in the distance where the alley opens up. Cinematic composition, shot from ground level looking slightly upward toward the light. Environmental storytelling: this is the future, and it's already here.",
+      "text_position": "top-left",
+      "styling_notes": "Headline 60pt bold white. Subtext 42pt regular white. Both blocks in upper-left quadrant, over the darker alley walls. Stagger x: headline 80px, subtext 105px."
+    },
+    {
+      "slide_number": 3,
+      "role": "solution + workflow screenshot",
+      "shot_type": "screenshot",
+      "text": {
+        "headline": "I built an automation that runs these prompts on autopilot.",
+        "subtext": "Pulls documents. Sends to Claude 4.6. Delivers structured reports."
+      },
+      "copy_notes": "Follows the process doc's Slide 3 rule: starts with 'I built an automation that' and lists the 3 things it does.",
+      "image_concept": "Real n8n workflow screenshot. SCREENSHOT_NEEDED: Open https://duncanrogoff.app.n8n.cloud/ and capture the full view of a Claude API integration workflow, ideally one with document intake, Claude AI node, and output delivery nodes. Best candidate: any workflow with 15-25 nodes involving an AI/Claude node. Full workflow view showing all node groups. Color-coded sections visible.",
+      "screenshot_needed": {
+        "url": "https://duncanrogoff.app.n8n.cloud/",
+        "target": "Any workflow using a Claude or AI model node, preferably with document analysis or reporting output",
+        "view": "Full workflow, zoomed to fit all nodes, all section labels visible",
+        "processing": "Resize to 1080x1350, darken to 85% brightness, text overlay in bottom-left quadrant (opposite workflow area)"
+      },
+      "text_position": "bottom-left",
+      "styling_notes": "Headline 58pt bold white. Subtext 40pt regular white. Place text in bottom-left below the workflow. Stagger x: headline 80px, subtext 100px."
+    },
+    {
+      "slide_number": 4,
+      "role": "how it works",
+      "shot_type": "infographic",
+      "text": {
+        "headline": "5 categories. 20 prompts. Zero setup.",
+        "subtext": "Copy. Paste. Get results."
+      },
+      "copy_notes": "Minimal overlay text — the infographic carries the visual weight. Headlines function as a label for the graphic below.",
+      "image_concept": "Clean dark infographic on a near-black background (#0F1117). Five horizontal category blocks stacked vertically, each with a colored accent bar on the left, a bold category name, and a one-line example prompt output. Layout:\n\n[BLUE] Long-Context Analysis — Audits hundreds of SOPs in one pass\n[PURPLE] Document Comprehension — Extracts every obligation from any contract\n[PINK] Frontend Design — Builds a full landing page in 2 minutes\n[GREEN] Business Planning — Maps a 90-day launch plan with dependencies\n[ORANGE] Automation Architecture — Designs multi-agent systems with real tool specs\n\nEach row has: colored left bar, category name in white 28pt bold, example output in gray 20pt regular. Small number badges (1-5) in top-left of each block. Overall feel: premium dark-mode product UI, not a chart or pie graph. Top of slide: '20 PROMPTS' in large gray numeral, bottom: '@DuncanRogoff' in small white. No background photo, dark gradient (#0F1117 to #1A1D2E).",
+      "text_position": "top-left",
+      "styling_notes": "This slide IS the infographic. Overlay text (headline/subtext) goes at very top, above the infographic blocks. Headline 60pt bold white. Subtext 38pt regular gray. All text generated as part of the infographic layout by imgen."
+    },
+    {
+      "slide_number": 5,
+      "role": "value detail — long context",
+      "shot_type": "character",
+      "text": {
+        "headline": "Paste 3 months of client emails. Get every pattern.",
+        "subtext": "Repeat questions. Template candidates. Process fixes. One prompt."
+      },
+      "copy_notes": "Showcases Prompt 3 (Client Email Pattern Extractor). Concrete input, concrete output. No vague language.",
+      "image_concept": "Duncan in the Tokyo alley, slightly different spot than slide 1, now mid-walk, looking down at his phone with a slight smile, as if reading impressive results. Shot from the side at three-quarter angle. Warm neon glow from above hits his shoulder. The alley behind him has soft bokeh, a food stall partially visible. Text overlaid on the darker wall space to his left.",
+      "reference_photo": "https://i.imgur.com/vc7pPOC.jpeg",
+      "text_position": "left",
+      "styling_notes": "Headline 62pt bold white. Subtext 42pt regular white. Text on left side, subject on right. Stagger x: headline 80px, subtext 100px. Mid-frame y placement."
+    },
+    {
+      "slide_number": 6,
+      "role": "value detail — frontend design",
+      "shot_type": "detail",
+      "text": {
+        "headline": "Full landing page. Single HTML file. 2 minutes.",
+        "subtext": "Hero, social proof, how it works, CTA. Looks like a $5K agency built it."
+      },
+      "copy_notes": "Showcases Prompt 9 (Landing Page Generator). The '$5K agency' specificity is directly from the prompt pack — use the exact number.",
+      "image_concept": "Close-up detail shot: a laptop sitting on a wooden surface at a small Tokyo street-side table. The screen glows with a soft light, no visible UI or text on screen (avoid competing with text overlay). A cup of tea or beer on the right side, blurred. Warm neon light from outside casts a strip of color across the surface. Shot from above at a 45-degree angle, DSLR bokeh on the background. iPhone cable or small notebook in frame for authenticity.",
+      "text_position": "top-left",
+      "styling_notes": "Headline 62pt bold white. Subtext 42pt regular white. Text in upper-left, laptop in lower-right quadrant. Stagger x: headline 80px, subtext 105px."
+    },
+    {
+      "slide_number": 7,
+      "role": "social proof",
+      "shot_type": "character",
+      "text": {
+        "headline": "110K followers. 12 months. 6 agents running for $5 a day.",
+        "subtext": "I use prompts like these to run my agency. Now they're yours."
+      },
+      "copy_notes": "Duncan's real numbers front and center. No softening language. The 'Now they're yours' is a give-away moment that primes the CTA.",
+      "image_concept": "Duncan facing camera directly, tight portrait crop (chest up), standing in front of a neon-lit section of the Tokyo alley. Direct eye contact, genuine slight smile, relaxed confidence. Warm amber light on his face. Different angle than slide 1, this time slightly tighter, more intimate, like he's talking to you personally. Text in the upper portion over the darker neon wall behind him.",
+      "reference_photo": "https://i.imgur.com/vc7pPOC.jpeg",
+      "text_position": "top",
+      "styling_notes": "Headline 58pt bold white. Subtext 44pt regular white. Text in upper third of frame above his shoulders. Stagger x: headline 80px, subtext 100px."
+    },
+    {
+      "slide_number": 8,
+      "role": "CTA",
+      "shot_type": "screenshot",
+      "text": {
+        "headline": "Comment \"AI\" to get all 20 prompts.",
+        "subtext": "Free. No email required. Sent automatically."
+      },
+      "copy_notes": "Hard CTA. Three words explain the mechanic (free, no email, automatic). Nothing else needed. Bookends the carousel with the workflow visual.",
+      "image_concept": "Blurred and defocused version of the n8n workflow screenshot from slide 3. Apply a gaussian blur of 20-25px so the workflow nodes are visible as soft glowing shapes but not readable. This creates a clean dark background for text while reinforcing 'these are real automations.' The blur also creates a sense of 'there's more behind this' that pulls people to act.",
+      "blur_source": "Slide 3 screenshot (n8n workflow capture)",
+      "text_position": "center",
+      "styling_notes": "Headline 70pt bold white — make it the largest text in the whole carousel. Subtext 46pt regular white. Center-left placement. Stagger x: headline 80px, subtext 100px. The blurred background provides natural contrast."
+    }
+  ],
+  "shot_mix_validation": {
+    "character": [1, 5, 7],
+    "establishing": [2],
+    "screenshot": [3, 8],
+    "infographic": [4],
+    "detail": [6],
+    "total_character": 3,
+    "total_establishing": 1,
+    "total_screenshot": 2,
+    "total_infographic": 1,
+    "total_detail": 1,
+    "meets_requirements": true,
+    "notes": "Slide 8 screenshot is the blurred version of slide 3 per process doc. Infographic on slide 4 as required. 3 character shots. All mandatory types present."
+  },
+  "copy_compliance": {
+    "hook_word_count": 4,
+    "hook_limit": 8,
+    "hook_passes": true,
+    "no_em_dashes": true,
+    "no_vague_language": true,
+    "cta_keyword": "AI",
+    "cta_platform": "ManyChat"
+  },
+  "theme_compliance": {
+    "theme_selected": "Tokyo side street at golden hour (#4)",
+    "last_5_themes": [
+      "Barcelona terrace overlooking the city",
+      "Rooftop in downtown Manhattan",
+      "Local coffee shop",
+      "Local coffee shop",
+      "City streets"
+    ],
+    "theme_repeated": false,
+    "passes": true
+  },
+  "production_notes": {
+    "screenshot_priority": "HIGH — carousel cannot ship without real n8n screenshot for slides 3 and 8",
+    "infographic_priority": "HIGH — slide 4 is mandatory infographic, non-negotiable",
+    "duncan_reference": "https://i.imgur.com/vc7pPOC.jpeg",
+    "prompt_pack_reference": "/data/.openclaw/workspace/agents/leadmagnet/claude46-prompt-pack.json",
+    "key_numbers_to_use": ["110K followers", "12 months", "6 agents", "$5/day", "20 prompts", "5 categories", "1M tokens", "2 minutes"]
+  }
+}

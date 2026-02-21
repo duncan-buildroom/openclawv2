@@ -1,0 +1,94 @@
+{
+  "carousel_id": "origin-story-001",
+  "title": "Origin Story — Duncan Rogoff",
+  "type": "pinned",
+  "format": "4:5",
+  "dimensions": "1080x1350",
+  "slide_count": 8,
+  "theme": "Bay Area — Marin County, San Francisco, Alameda. Warm golden hour California light. Fog rolling over coastal hills. Each slide is a different location within the Bay Area, but the light and palette stay consistent: deep warm gold, soft blues, morning or late-afternoon coastal haze.",
+  "theme_notes": "Custom theme for Origin Story. NOT drawn from the standard theme bank. Use across all slides: Golden Gate Bridge fog, Sausalito waterfront, SF skyline from Marin Headlands, Alameda shoreline, Point Bonita. Signature orange hoodie where Duncan appears. Bay Area locations should feel iconic but not touristy — these are places a local knows.",
+  "voice": "Duncan's voice. Direct, operator tone. Short sentences. Proof over persuasion. No em dashes. No motivational filler. Every line should pass the test: would someone screenshot this?",
+  "process_notes": "This is a SPECIAL carousel — not a standard automation carousel. No screenshot slide. No infographic slide. This is a narrative origin story. Shot mix is all character and establishing. Standard process rules about screenshots and infographics DO NOT apply here.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "type": "hook",
+      "headline": "110K followers. 12 months.",
+      "body": "Here's the full story.",
+      "full_text": "110K followers. 12 months.\n\nHere's the full story.",
+      "shot_type": "character",
+      "image_concept": "Duncan at Marin Headlands overlook, late afternoon. Golden Gate Bridge visible through fog in the background, partially obscured. Warm amber light on his face. Orange hoodie. Hands relaxed, looking directly into camera. Confident, not posed. Wide-angle so the landscape opens up behind him. Shot is cinematic, not social media influencer.",
+      "notes": "Hook archetype: Shocking + Valuable. Numbers first, no setup. The 'full story' promise is what earns the swipe. Keep all text centered or left-aligned — let the landscape breathe around it."
+    },
+    {
+      "slide_number": 2,
+      "type": "background",
+      "headline": "15 years. Four major brands.",
+      "body": "Apple. PlayStation. Nissan. Charles Schwab.\n\nI built cool shit for other people.\n\nThat was the problem.",
+      "full_text": "15 years. Four major brands.\n\nApple. PlayStation. Nissan. Charles Schwab.\n\nI built cool shit for other people.\n\nThat was the problem.",
+      "shot_type": "establishing",
+      "image_concept": "San Francisco skyline shot from across the Bay, Sausalito waterfront side. Late afternoon golden light on the city. Still water reflecting the skyline. No people in frame. Wide, quiet, slightly melancholy — the city that shaped his career, seen from a distance. Fog starting to creep in over the hills behind SF.",
+      "notes": "Brand names are the proof here. The last two sentences carry the emotional weight — don't bury them. Line breaks between each company name create visual breathing room. 'That was the problem' lands harder on its own line."
+    },
+    {
+      "slide_number": 3,
+      "type": "the_switch",
+      "headline": "Then I walked away.",
+      "body": "Left the creative career in 2023.\nFound AI automation. Went all in. Solo.",
+      "full_text": "Then I walked away.\n\nLeft the creative career in 2023.\nFound AI automation. Went all in. Solo.",
+      "shot_type": "character",
+      "image_concept": "Duncan at Alameda shoreline, sitting on a concrete seawall or low railing. Looking out toward the Bay and SF skyline in the distance. Three-quarter profile, not looking at camera. Golden hour light behind him. Contemplative. Orange hoodie. The space between him and the city is the visual metaphor — the Bay separating the old life from the new. Quiet, not dramatic.",
+      "notes": "The pivot slide. Shorter is better here. 'Went all in. Solo.' hits because of the period between those two words — creates a pause. Do not add explanation or context. The brevity IS the point."
+    },
+    {
+      "slide_number": 4,
+      "type": "proof",
+      "headline": "Here's what happened.",
+      "body": "• 110K followers in under 12 months\n• $14K/mo Skool community\n• Six-figure agency\n• 3,500+ templates sold\n• $150K+ in content revenue",
+      "full_text": "Here's what happened.\n\n• 110K followers in under 12 months\n• $14K/mo Skool community\n• Six-figure agency\n• 3,500+ templates sold\n• $150K+ in content revenue",
+      "shot_type": "detail",
+      "image_concept": "Close-up of an open MacBook on an outdoor table, Sausalito waterfront visible in the soft background. Screen shows a dashboard or analytics view (generic, nothing identifying). Warm afternoon light hits the keyboard edge. Coffee cup just out of frame to the right. Shallow depth of field. The numbers on screen are secondary — the Bay water shimmer in the background is what gives it atmosphere.",
+      "notes": "This is the heaviest slide. Numbers do all the work. No commentary needed beyond 'Here's what happened.' Bullets should be large enough to read immediately. If the list feels tight, consider splitting into two slides: metrics (this slide) and income (next slide). But five bullets on one slide is cleaner if the text scales properly."
+    },
+    {
+      "slide_number": 5,
+      "type": "what_i_built",
+      "headline": "I built The Build Room.",
+      "body": "My Skool community.\n\nAutomation mastery, expert positioning, personal branding.\n\nGuarantee: first leads in 14 days.\n1,500 followers in 49 days.",
+      "full_text": "I built The Build Room.\n\nMy Skool community.\n\nAutomation mastery, expert positioning, personal branding.\n\nGuarantee: first leads in 14 days.\n1,500 followers in 49 days.",
+      "shot_type": "establishing",
+      "image_concept": "Wide shot from Marin Headlands hilltop, looking south. Golden Gate Bridge in the right third of frame. Bay spread out below. Green coastal hills in foreground. Late afternoon, golden light on the hills, fog beginning to roll over from the Pacific side. No people. Expansive, aspirational, but grounded in a specific real place. This is the 'what's possible' shot.",
+      "notes": "The guarantee is the most important element on this slide. Put it in its own visual block. Consider making 'Guarantee:' a different color or size from the rest of the text so it registers as a distinct claim. The community description is three things, three words each — maintain that rhythm."
+    },
+    {
+      "slide_number": 6,
+      "type": "where_everything_lives",
+      "headline": "Here's where to find everything.",
+      "body": "The Build Room (Skool) — community + training\nYouTube — long-form tutorials\nTikTok — short-form content\n30 free automations — link in bio",
+      "full_text": "Here's where to find everything.\n\nThe Build Room (Skool) — community + training\nYouTube — long-form tutorials\nTikTok — short-form content\n30 free automations — link in bio",
+      "shot_type": "establishing",
+      "image_concept": "Sausalito waterfront street scene, late afternoon. Colorful storefronts and marina in background. Low angle looking along the waterfront path. Warm light coming in from the right. No people in foreground. Feels like a place with multiple things happening — the visual parallel to 'here's where to find everything.' Calm and ordered, not chaotic.",
+      "notes": "Note on em dashes: the brief specifies no em dashes, but this slide uses them as list separators, not narrative punctuation. If Duncan prefers pure commas, rewrite as: 'The Build Room (Skool), community + training' etc. Both work — flag it for him to choose. The 'link in bio' call-out on the 30 automations line is functional, not decorative — keep it."
+    },
+    {
+      "slide_number": 7,
+      "type": "whats_next",
+      "headline": "I'm documenting what comes next.",
+      "body": "The wins. The failures. The experiments.\n\nAll of it, here.\n\nFollow along.",
+      "full_text": "I'm documenting what comes next.\n\nThe wins. The failures. The experiments.\n\nAll of it, here.\n\nFollow along.",
+      "shot_type": "character",
+      "image_concept": "Duncan walking on a paved path toward the Golden Gate Bridge, shot from slightly behind and to the left. Morning fog. Bridge towers barely visible through haze. Orange hoodie. He's moving, not posed — mid-stride, relaxed. Shot is wide enough to show the path ahead disappearing into fog. The 'next chapter' is literally in front of him, and you can't quite see where it ends.",
+      "notes": "The fog-and-bridge shot is the visual payoff for the whole carousel. It's one of the most iconic Bay Area compositions. 'The wins. The failures. The experiments.' lands hard because of the three-beat structure and the honesty of including 'failures.' That word earns trust. 'Follow along.' is the softest possible CTA — it's an invitation, not a push. Intentional for this slide since the hard CTA comes next."
+    },
+    {
+      "slide_number": 8,
+      "type": "cta",
+      "headline": "Comment \"AI\" below.",
+      "body": "I'll send you my 30 best automations.\nFree.",
+      "full_text": "Comment \"AI\" below.\n\nI'll send you my 30 best automations.\nFree.",
+      "shot_type": "character",
+      "image_concept": "Duncan at Alameda shoreline at golden hour. Facing camera, slight smile, relaxed. Orange hoodie. Bay water behind him, catching late afternoon light. The light is warm and direct — this is the most approachable, human moment in the carousel. Wide enough to show the water and sky. This is the 'you've made it through the story, here's who I am' shot.",
+      "notes": "\"Free.\" on its own line is intentional. It reads like an afterthought, which makes it land harder than leading with it. The CTA is simple and specific — 'AI' is easy to remember, easy to type. Do not add any qualifiers or secondary asks to this slide. One action only."
+    }
+  ]
+}

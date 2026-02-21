@@ -1,0 +1,47 @@
+[
+  {
+    "slide_number": 1,
+    "sealcam_prompt": "A professional lifestyle photograph of a man in his early 30s with short brown hair and trimmed beard, wearing a fitted t-shirt, walking confidently mid-stride on a sun-drenched city sidewalk. Golden hour light hitting buildings creates urban depth and long shadows. Shot with 85mm lens at eye level, shallow depth of field focused on subject with slight motion blur on background. Photorealistic 35mm film grain, Kodak Vision3 warm tones. 4:5 aspect ratio.",
+    "image_url": "output/instagram-carousel/slide_1_final.png",
+    "dimensions": "1080x1350",
+    "format": "4:5",
+    "text_applied": true,
+    "text_content": "100 personalized videos sent.\\nZero seconds recorded."
+  },
+  {
+    "slide_number": 2,
+    "sealcam_prompt": "Environmental cityscape at sunset - city intersection with long architectural shadows, no people in focus. Static frozen moment capturing golden hour fading with warm-to-cool transition and lengthening shadows. Shot with 35mm wide lens at eye level, deep depth of field. Photorealistic 35mm film grain, Kodak Vision3 warmth. 4:5 aspect ratio.",
+    "image_url": "output/instagram-carousel/slide_2_final.png",
+    "dimensions": "1080x1350",
+    "format": "4:5",
+    "text_applied": true,
+    "text_content": "The old way: 5 manual Looms a day.\\nThe new way: 100+ AI-driven video pitches.\\n3x higher response rates while you walk."
+  },
+  {
+    "slide_number": 4,
+    "sealcam_prompt": "Clean minimalist infographic background with dark slate gray gradient and subtle urban textures. Modern tech aesthetic with warm accent lighting. No text or graphics. 4:5 aspect ratio.",
+    "image_url": "output/instagram-carousel/slide_4_final.png",
+    "dimensions": "1080x1350",
+    "format": "4:5",
+    "text_applied": true,
+    "text_content": "The Personalization Engine:\\nScrapes LinkedIn and website data.\\nAI scripts a unique pitch for every lead."
+  },
+  {
+    "slide_number": 5,
+    "sealcam_prompt": "Close-up macro shot of a steaming espresso cup on a weathered outdoor marble caf\u00e9 table. Urban caf\u00e9 patio setting with blurred city street in background, warm color tones. Static composition with steam rising from cup. Soft diffused afternoon light with warm color temperature. Shot with 50mm macro lens, shallow depth of field, tight framing on cup. Photorealistic 35mm film grain, Kodak Vision3 warmth. 4:5 aspect ratio.",
+    "image_url": "output/instagram-carousel/slide_5_final.png",
+    "dimensions": "1080x1350",
+    "format": "4:5",
+    "text_applied": true,
+    "text_content": "Spend your morning closing deals,\\nnot recording scripts in your office.\\nScalable intimacy at the click of a button."
+  },
+  {
+    "slide_number": 6,
+    "sealcam_prompt": "A professional lifestyle photograph of a man in his early 30s with short brown hair and trimmed beard, wearing a casual button-down shirt with rolled sleeves, in a relaxed posture leaning against a warm brick wall in a quiet city alleyway. Checking phone with slight satisfied smile. Soft diffused light with warm tones bouncing off brick. Shot with 85mm lens slightly wide, shallow depth of field. Photorealistic 35mm film grain, Kodak Vision3 warmth. 4:5 aspect ratio.",
+    "image_url": "output/instagram-carousel/slide_6_final.png",
+    "dimensions": "1080x1350",
+    "format": "4:5",
+    "text_applied": true,
+    "text_content": "Prospect data in.\\nPersonalized video out.\\nYour calendar fills up on autopilot."
+  }
+]

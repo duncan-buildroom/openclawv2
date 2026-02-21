@@ -1,0 +1,51 @@
+[
+  {
+    "slide_number": 1,
+    "text": "I run a $25K/mo brand with zero employees.\n\nMost founders are drowning in 'engagement' and 'content creation.'\n\nI just built a second brain that never sleeps.\n\nHere are the 5 AI automations running my brand on autopilot.",
+    "image_concept": "Duncan in his signature orange hoodie, leaning against a railing on a Barcelona terrace. He looks relaxed, checking his phone while the city stretches out behind him in warm stone and Mediterranean tiles. Direct gaze, 'operator' energy.",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 2,
+    "text": "The bottleneck isn't talent. It's manual labor.\n\nIf you're still manually posting to 5 platforms or 'brainstorming' for 2 hours, you're losing.\n\nScale comes from systems, not 'hustle.'\n\nThese 5 n8n workflows do 80% of my heavy lifting.",
+    "image_concept": "Close-up detail shot on the Barcelona terrace: An espresso cup on a small tiled table next to a MacBook. The screen is visible but blurred, showing a complex n8n node structure. Warm, Mediterranean morning light.",
+    "shot_type": "detail"
+  },
+  {
+    "slide_number": 3,
+    "text": "Automation 1: The Repurpose Engine\n\nI post one TikTok. AI takes over.\n\nIt strips the watermark, rewrites the caption for LinkedIn/X, and auto-posts to IG and YT Shorts.\n\nResult: 5x reach. 0 extra minutes spent.",
+    "image_concept": "SCREENSHOT_NEEDED: The 'Content Repurpose Engine' workflow in n8n. Show the TikTok trigger connecting to OpenAI nodes for caption rewriting, and branching out to LinkedIn, YouTube, and Instagram nodes.",
+    "shot_type": "screenshot"
+  },
+  {
+    "slide_number": 4,
+    "text": "Automation 2: Trend Research Pipeline\n\nStop guessing what your audience wants.\n\nEvery Monday, AI scans Reddit and YouTube for my niche's biggest pain points.\n\nIt compiles a 'Content Cheat Sheet' directly in my Slack. I just pick a topic and film.",
+    "image_concept": "Infographic: A clean flow diagram showing icons for Reddit and YouTube feeding into a central 'AI Brain' (n8n logo), which then outputs a 'Content Idea List' into Slack. Use a clean, modern aesthetic that matches the Barcelona theme colors (terracotta, stone, deep blue).",
+    "shot_type": "infographic"
+  },
+  {
+    "slide_number": 5,
+    "text": "Automation 3 & 4: The Content Loop\n\n3. Comment Scraper: Scrapes my YT comments -> AI extracts the best questions -> adds to my 'to-do' list.\n\n4. Carousel Gen: I drop a topic -> AI writes 7 slides + generates image prompts. (Yes, it helped build this).",
+    "image_concept": "Duncan in his orange hoodie, sitting at a stone table on the Barcelona terrace. He's looking at his laptop, appearing focused and productive. The city view is visible in the background.",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 6,
+    "text": "Automation 5: Smart Lead Scoring\n\nNew lead joins my Skool community -> AI analyzes their profile/answers -> scores them based on revenue.\n\nHigh-value leads get a personal DM. Others get routed to a specific email sequence.\n\nNo manual sorting. Just ROI.",
+    "image_concept": "Establishing shot of the Barcelona terrace and the surrounding architecture at golden hour. The focus is on the environment, conveying a sense of freedom and 'business on autopilot' while Duncan is seen in the distance, not working.",
+    "shot_type": "establishing"
+  },
+  {
+    "slide_number": 7,
+    "text": "These 5 automations save me 20+ hours every single week.\n\nI grew 110K followers in 12 months because I spent my time on strategy, not clicking buttons.\n\nStop being a worker. Start being an operator.",
+    "image_concept": "Duncan standing on the terrace, orange hoodie on, looking out over the Barcelona skyline at sunset. He looks confident and in control. The lighting is dramatic and warm.",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 8,
+    "text": "Want the blueprints?\n\nI've put my 30 best n8n automations into one pack\u2014including all 5 from this carousel.\n\nComment 'AI' and I'll send you the link to grab them for free.",
+    "cta": "Comment 'AI' to get my 30 best automations",
+    "image_concept": "Composite shot: Duncan in the center (orange hoodie) with small, stylized floating icons representing the different automations (Slack, n8n, LinkedIn, YouTube) surrounding him. The Barcelona terrace background is still present but slightly darkened.",
+    "shot_type": "character"
+  }
+]

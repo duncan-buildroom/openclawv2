@@ -1,0 +1,63 @@
+[
+  {
+    "slide_number": 1,
+    "text": "Cold outreach is dead.\n\nUnless you do THIS.",
+    "image_concept": "Character shot: Duncan (orange hoodie) sitting on a Rooftop in downtown Manhattan, skyline backdrop, open sky, urban luxury. He is looking directly at the camera with a confident, slightly challenging expression. Reference: https://i.imgur.com/vc7pPOC.jpeg",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 2,
+    "text": "Standard cold emails get ignored.\n\nLow response rates.\nHigh friction.\nZero trust.",
+    "image_concept": "Establishing shot: A wide view of the Rooftop in downtown Manhattan. Sleek modern furniture, clean lines, urban skyline in the distance under a bright afternoon sky.",
+    "shot_type": "establishing"
+  },
+  {
+    "slide_number": 3,
+    "text": "Personalized Video Prospector.\n\nPersonal touch.\nMass scale.",
+    "image_concept": "Screenshot: A real n8n workflow for the Personalized Video Prospector. Nodes showing 'HTTP Request' for scraping, 'OpenAI' for script generation, and 'HeyGen' for video creation. Clean, technical interface.",
+    "shot_type": "screenshot"
+  },
+  {
+    "slide_number": 4,
+    "text": "How it works:\n\n1. Scrape prospect data\n2. AI writes custom script\n3. AI generates personalized video\n4. Auto-sends via DM or Email",
+    "image_concept": "Infographic: A clean, high-contrast flowchart showing the 4-step process. Icons for web scraping, AI brain, video play button, and a sent airplane. Theme colors applied.",
+    "shot_type": "infographic"
+  },
+  {
+    "slide_number": 5,
+    "text": "The results are staggering.\n\n3x higher response rates.\nInstant rapport.\nWarm-feeling outreach.",
+    "image_concept": "Character shot: Duncan (orange hoodie) leaning against the rooftop railing, downtown Manhattan skyline behind him. He's looking at his phone, appearing relaxed and successful. Reference: https://i.imgur.com/vc7pPOC.jpeg",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 6,
+    "text": "What took hours now takes seconds.\n\nProspect name.\nCompany name.\nSpecific pain points.\nAll woven in automatically.",
+    "image_concept": "Character shot: Duncan (orange hoodie) walking across the rooftop terrace with a laptop under his arm. Natural, casual movement. Modern luxury setting. Reference: https://i.imgur.com/vc7pPOC.jpeg",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 7,
+    "text": "Integrates with your CRM.\n\nAutomated follow-ups.\nSynced deal stages.\nZero manual data entry.",
+    "image_concept": "Detail shot: A close-up of a high-end camera lens or a high-quality smartphone resting on a modern outdoor table on the rooftop. Sunlight reflecting off the surface.",
+    "shot_type": "detail"
+  },
+  {
+    "slide_number": 8,
+    "text": "Turn cold prospects into hot leads.\n\nWhile you sleep.\nAt scale.",
+    "image_concept": "Establishing shot: The Manhattan skyline from the rooftop at sunset. Warm golden light hitting the buildings. The vibe of 'success at scale'.",
+    "shot_type": "establishing"
+  },
+  {
+    "slide_number": 9,
+    "text": "I built this to save you 20 hours a week.\n\nStop grinding.\nStart closing.",
+    "image_concept": "Character shot: Duncan (orange hoodie) sitting on a lounge chair on the rooftop, looking out at the city view. Casual, lifestyle vibe. NOT at a desk. Reference: https://i.imgur.com/vc7pPOC.jpeg",
+    "shot_type": "character"
+  },
+  {
+    "slide_number": 10,
+    "text": "Get the blueprint for all 30 automations.",
+    "image_concept": "Composite shot: A clean layout showing a mobile phone screen with the landing page (leads.buildroom.ai/30-automations) positioned over the rooftop background.",
+    "shot_type": "composite",
+    "cta": "Comment 'AI' to get access to all 30 automations"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "theme": "London pub with afternoon light",
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "Hook",
+      "text": "Outreach is dead.\nMost people are just spamming better.",
+      "image_concept": "Duncan sitting at a dark wood pub table, afternoon light through a window, looking intensely at the camera, wearing his signature orange hoodie.",
+      "shot_type": "character"
+    },
+    {
+      "slide_number": 2,
+      "role": "Problem",
+      "text": "Scaling 1-to-1 video takes forever.\nMost 'personalized' video is just a variable tag.",
+      "image_concept": "Close-up of a pint glass on the dark wood table, sunlight hitting the condensation, blurred pub background.",
+      "shot_type": "detail"
+    },
+    {
+      "slide_number": 3,
+      "role": "Solution",
+      "text": "Personalized Video Prospector.\nn8n scrapes leads, writes scripts, and renders AI videos.",
+      "image_concept": "The full n8n workflow for the Personalized Video Prospector. Clean UI showing Phase 1 to Phase 4 nodes.",
+      "shot_type": "screenshot"
+    },
+    {
+      "slide_number": 4,
+      "role": "How it works",
+      "text": "1. Scrape Apollo\n2. AI finds LinkedIn hooks\n3. Gemini writes scripts\n4. AI renders talking head",
+      "image_concept": "A 4-step process flow diagram showing the automation steps from lead to video.",
+      "shot_type": "infographic"
+    },
+    {
+      "slide_number": 5,
+      "role": "Detail",
+      "text": "The AI finds patents, awards, or hobbies.\nIt doesn't just say 'Hi Name'. It researchs for you.",
+      "image_concept": "Wide shot of the pub interior, Duncan in the background leaning against the bar, natural light pouring in.",
+      "shot_type": "establishing"
+    },
+    {
+      "slide_number": 6,
+      "role": "Proof",
+      "text": "100% automated.\nScale your authority without touching a camera.",
+      "image_concept": "Duncan holding a phone, showing a video thumbnail, smiling slightly, sitting in a leather chair in the pub.",
+      "shot_type": "character"
+    },
+    {
+      "slide_number": 7,
+      "role": "CTA",
+      "text": "Stop spamming.\nStart building authority.",
+      "image_concept": "Composite image: Duncan on the left, a snippet of the n8n workflow on the right.",
+      "shot_type": "composite",
+      "cta": "Comment 'AI' to get access to all 30 automations"
+    }
+  ]
+}

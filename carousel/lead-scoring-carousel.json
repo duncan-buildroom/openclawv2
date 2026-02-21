@@ -1,0 +1,58 @@
+{
+  "theme": {
+    "name": "Morning walk in SoHo, NYC",
+    "description": "Cobblestone streets, cast-iron buildings, golden morning light"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "headline": "Stop chasing dead leads.",
+      "body": "",
+      "shot_type": "character",
+      "image_concept": "Duncan Rogoff (orange hoodie) walking down a cobblestone street in SoHo, NYC. Golden morning light hitting cast-iron buildings in the background. Natural, walking pose. High-end lifestyle photography."
+    },
+    {
+      "slide_number": 2,
+      "headline": "Most owners waste hours manually qualifying.",
+      "body": "Guessing who to call first is a recipe for lost revenue and burnt-out teams.",
+      "shot_type": "establishing",
+      "image_concept": "A low-angle shot of a classic SoHo cast-iron building facade against a clear blue morning sky. Deep shadows and bright highlights on the architectural details."
+    },
+    {
+      "slide_number": 3,
+      "headline": "I built an automation that qualifies for you.",
+      "body": "It scores every lead, routes high-value prospects to sales, and moves low-intent leads to nurture—automatically.",
+      "shot_type": "screenshot",
+      "image_concept": "Clean screenshot of an n8n workflow showing a Webhook trigger connecting to several Scoring Logic nodes, branching out to CRM and Slack nodes."
+    },
+    {
+      "slide_number": 4,
+      "headline": "How it works: The Smart Filter.",
+      "body": "Webhook → Logic Nodes (Score Engagement/Fit) → 1. High Fit (Sales) 2. Med Fit (Nurture) 3. Low Fit (Archive).",
+      "shot_type": "infographic",
+      "image_concept": "A clean, minimalist flowchart showing the flow: Inbound Lead -> Scoring Engine (Engagement, Fit, Intent signals) -> Routing paths (Immediate follow-up, Nurture sequence, Archive)."
+    },
+    {
+      "slide_number": 5,
+      "headline": "Stop guessing. Start closing.",
+      "body": "High-value leads get instant follow-up while they're hot. Low-value leads stay out of your inbox.",
+      "shot_type": "character",
+      "image_concept": "Duncan Rogoff (orange hoodie) leaning against a black cast-iron pillar in SoHo, looking at his phone with a neutral, focused expression. Morning light creating sharp contrast."
+    },
+    {
+      "slide_number": 6,
+      "headline": "Total visibility on lead intent.",
+      "body": "Built in n8n with CRM routing. No more manual data entry. Just a clean pipeline of qualified opportunities.",
+      "shot_type": "detail",
+      "image_concept": "Close up of Duncan's hand holding a high-end espresso cup at a small outdoor cafe table in SoHo. Cobblestones and the base of a cast-iron building visible in the shallow depth of field."
+    },
+    {
+      "slide_number": 7,
+      "headline": "Comment 'AI' to access all 30 automations.",
+      "body": "Get the blueprint for this lead scoring workflow and 29 others today.",
+      "shot_type": "screenshot",
+      "image_concept": "A blurred, high-contrast background of the n8n lead scoring workflow with clean white text overlay.",
+      "cta": "Comment 'AI' to access 30 of my best automations."
+    }
+  ]
+}

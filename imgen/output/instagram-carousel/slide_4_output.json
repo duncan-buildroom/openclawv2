@@ -1,0 +1,13 @@
+{
+  "slide_number": 4,
+  "sealcam_prompt": "Clean minimal process flow infographic showing a three-stage automation pipeline. Stage 1: 'Prospect Data' with LinkedIn icon. Stage 2: 'AI Engine' with chip icon. Stage 3: 'Personalized Video' with message icon. Horizontal flow with connecting arrows. Dark modern background, high tech aesthetic. No complex text, simple labels only.",
+  "image_url": "/data/.openclaw/workspace/agents/imgen/output/instagram-carousel/slide_4_final.png",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5"
+  },
+  "format": "PNG",
+  "text_applied": true,
+  "text_content": "The Personalization Engine:\\nScrapes LinkedIn and website data.\\nAI scripts a unique pitch for every lead."
+}

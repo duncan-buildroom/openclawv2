@@ -1,0 +1,195 @@
+[
+  {
+    "slide": 1,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-01-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-01-final.png",
+    "imgur_url": "https://i.imgur.com/l4opRsg.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-01-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 2,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-02-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-02-final.png",
+    "imgur_url": "https://i.imgur.com/kjJFwVi.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-02-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 3,
+    "status": "pending_screenshot"
+  },
+  {
+    "slide": 4,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-04-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-04-final.png",
+    "imgur_url": "https://i.imgur.com/vyqmx6t.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-04-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 5,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-05-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-05-final.png",
+    "imgur_url": "https://i.imgur.com/iEa7fx5.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-05-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 6,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-06-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-06-final.png",
+    "imgur_url": "https://i.imgur.com/HaPtlJ5.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-06-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 7,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-07-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-07-final.png",
+    "imgur_url": "https://i.imgur.com/Ri0yS8k.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-07-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 8,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-08-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-08-final.png",
+    "imgur_url": "https://i.imgur.com/h9DSYqA.jpeg",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-08-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 9,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-09-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-09-final.png",
+    "imgur_url": "https://i.imgur.com/y7Csc58.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-09-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  },
+  {
+    "slide": 10,
+    "status": "success",
+    "raw_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-10-raw.png",
+    "styled_path": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-10-final.png",
+    "imgur_url": "https://i.imgur.com/983wY7e.png",
+    "validation": {
+      "file": "/data/.openclaw/workspace/agents/imgen/carousel-video-prospector/slide-10-final.png",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "checks": {
+        "dimensions": {
+          "valid": true
+        }
+      },
+      "aspect_ratio": "4:5",
+      "valid": true
+    }
+  }
+]
