@@ -12,7 +12,14 @@
 - `NOTION_TOKEN` - Notion API integration
 - `BLOTATO_API_KEY` - Social media publishing
 - `N8N_INSTANCE` - n8n workflow instance URL
+- `ANTHROPIC_API_KEY` - Claude API fallback (only used on rate limits)
 - Telegram bot token (in openclaw config)
+
+**Claude Authentication:**
+- Primary: Claude Max setup-token (OAuth) via `anthropic:default` profile
+- Fallback: API key from `ANTHROPIC_API_KEY` env var
+- Automatic fallback on rate limits/409 errors
+- Auth order configured in `/data/.openclaw/agents/main/agent/auth-profiles.json`
 
 ## GitHub
 - Repo: duncan-buildroom/openclawv2
