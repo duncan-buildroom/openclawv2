@@ -1,0 +1,752 @@
+{
+  "notion_document": {
+    "title": "The Claude 4.6 Prompt Pack",
+    "subtitle": "20 Business Prompts That Were Impossible Before Today",
+    "metadata": {
+      "created": "2026-02-17",
+      "version": "1.0",
+      "target_audience": "Coaches, consultants, agency owners ($8K–$20K/mo)",
+      "prose_word_count": "~1,350 words",
+      "cta_url": "https://skool.com/buildroom",
+      "cta_label": "Join The Build Room"
+    },
+    "page_settings": {
+      "cover": {
+        "type": "solid_color",
+        "color": "#0F1117",
+        "note": "Dark near-black. Or use a dramatic gradient image (dark blue → black). Notion: Page settings → Cover → Color"
+      },
+      "icon": "⚡",
+      "full_width": true,
+      "small_text": false,
+      "font": "Default (Serif for feel, or Default Sans)"
+    },
+
+    "sections": [
+
+      {
+        "id": "header",
+        "label": "Title Block",
+        "blocks": [
+          {
+            "type": "heading_1",
+            "content": "The Claude 4.6 Prompt Pack",
+            "styling": {
+              "color": "default",
+              "bold": true,
+              "font_size": "largest",
+              "note": "Notion auto-styles H1. This is your page title."
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "20 business prompts that were impossible before today — copy, paste, and get to work.",
+            "styling": {
+              "color": "gray",
+              "italic": true
+            }
+          },
+          {
+            "type": "callout",
+            "icon": "🚀",
+            "content": "Claude Sonnet 4.6 launched Feb 17, 2026. It now has a 1M-token context window, near-Opus intelligence at Sonnet prices, and dramatically better document comprehension. These 20 prompts are built specifically for what's new. Each one either didn't work or worked poorly in 4.5.",
+            "styling": {
+              "background": "blue",
+              "border": false,
+              "note": "Use Notion callout block. Background color: blue."
+            }
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "HOW TO USE: Find your use case. Copy the prompt. Fill in the [BRACKETS]. Paste into Claude.ai. That's it. No setup. No coding.",
+            "styling": {
+              "background": "gray",
+              "note": "Gray callout. Quick-start instruction."
+            }
+          },
+          {
+            "type": "divider"
+          }
+        ]
+      },
+
+      {
+        "id": "category_1",
+        "label": "Category 1 — Long-Context Analysis",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "🗂️ Category 1: Long-Context Analysis",
+            "styling": {
+              "color": "blue",
+              "note": "Blue H2 heading. Use Notion color picker on the text."
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "4.6's 1M-token context window can hold your entire business at once — every SOP, every email, every piece of content. 4.5 hit its limits fast. These prompts only work now.",
+            "styling": { "color": "gray" }
+          },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 1 — SOP Redundancy Finder"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I'm going to paste my full set of Standard Operating Procedures below. Read every single one, then:\n\n1. List every step that appears in more than one SOP\n2. Flag any contradictions where two SOPs give different instructions for the same scenario\n3. Identify SOPs that could be merged without losing functionality\n4. Give me a priority-ranked cleanup list — highest-impact consolidations first\n\nMy business is: [DESCRIBE YOUR BUSINESS IN 1–2 SENTENCES]\n\nHere are all my SOPs:\n[PASTE ALL SOPs HERE]",
+            "styling": {
+              "background": "blue",
+              "note": "Blue callout. This is the copy-paste prompt block. Use monospace or code block inside if Notion supports it."
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6's 1M context window holds hundreds of SOPs simultaneously — 4.5 hit limits and missed cross-document patterns entirely.",
+            "styling": { "color": "default" }
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Redundancy list ranked by frequency, contradiction report, merger recommendations, and a cleanup priority queue.",
+            "styling": { "color": "default" }
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Export your SOPs from Notion or Google Docs as plain text first. Claude reads structure better without formatting noise.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 2 — Content Library Gap Audit"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Below is my complete content library — every blog post, email, video script, and social post I've published. Read everything, then:\n\n1. Map the topics I've covered and how deeply I've covered each\n2. Identify the questions my audience is clearly asking that I've never addressed\n3. Find content I've never repurposed that has high repurpose potential\n4. Suggest 10 content pieces I should create next, ranked by likely impact\n\nMy audience is: [DESCRIBE AUDIENCE]\nMy business goal for content: [E.G., LEADS, AUTHORITY, SEO]\n\nHere's my content library:\n[PASTE ALL CONTENT HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 processes a full year of content in one pass — 4.5 required chunking, which destroyed cross-content pattern detection."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Topic coverage map, gap analysis with specific content ideas, repurpose opportunity list, and a prioritized content calendar."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Include post performance data (views, clicks, replies) alongside the content. Claude will weight recommendations toward what actually converts.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 3 — Client Email Pattern Extractor"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I'm pasting a full quarter of client emails — every email I sent and received between [START DATE] and [END DATE]. Read them all, then:\n\n1. List the top 5 questions or problems clients raised repeatedly\n2. Find where I spent the most time re-explaining the same things\n3. Identify patterns in client frustrations, delays, or misaligned expectations\n4. Flag 3–5 emails I wrote that should become permanent templates\n\nMy business is: [DESCRIBE BUSINESS]\n\nHere are the emails:\n[PASTE EMAIL THREADS HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 analyzes hundreds of emails in a single context window — 4.5 maxed out quickly and missed the longitudinal patterns that only show up across a full quarter."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Pattern report with frequency rankings, template candidates (ready to polish), FAQ list you can add to your onboarding, and 3 process changes to prevent common friction."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Export from Gmail via Google Takeout, or copy-paste directly from email threads. Don't worry about formatting — Claude handles messy real-world email chains.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 4 — Website Copy Consistency Audit"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Below is every page of copy from my website. Read it all, then:\n\n1. Assess whether my brand voice is consistent or shifts across pages\n2. Find contradictions — different claims about the same thing on different pages\n3. Identify where my messaging is weakest vs. strongest\n4. Give me a page-by-page rewrite priority list with 1 specific improvement per page\n\nMy brand voice should feel: [E.G., DIRECT, WARM, AUTHORITATIVE, CONVERSATIONAL]\nMy ideal client is: [DESCRIBE ICP]\n\nHere's my website copy (page by page):\n[PASTE ALL PAGES HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 holds an entire website in context simultaneously — 4.5 couldn't cross-reference pages and consistently missed contradictions hiding across tabs."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Voice consistency rating, contradiction list with exact quotes, page-by-page scores, and a ranked editing queue with one high-leverage fix per page."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Use a browser extension (like Mercury Reader) to strip each page to plain text. Or use Cmd+A, Cmd+C on each page and paste sequentially.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" }
+        ]
+      },
+
+      {
+        "id": "category_2",
+        "label": "Category 2 — Document Comprehension",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "📄 Category 2: Document Comprehension",
+            "styling": { "color": "purple" }
+          },
+          {
+            "type": "paragraph",
+            "content": "4.6 reads real-world documents the way a sharp analyst does — tables, merged cells, legal definitions, financial formatting. These prompts turn documents you'd normally skim into structured, actionable intelligence.",
+            "styling": { "color": "gray" }
+          },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 5 — Contract Action Item Extractor"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I'm attaching a [PAGE COUNT]-page [CONTRACT / AGREEMENT / STATEMENT OF WORK]. Read the entire document, then extract:\n\n1. Every obligation I have, with specific deadlines\n2. Every obligation the other party has, with their deadlines\n3. Any clauses that limit my rights or create financial or legal risk\n4. Renewal terms, auto-renewal clauses, and termination conditions\n5. Any definitions that change the meaning of common words (look for a Definitions section)\n\nFormat all obligations as a table: | Obligation | Owner | Deadline | Risk Flag |\n\n[ATTACH OR PASTE CONTRACT HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6's document comprehension handles dense legal formatting, nested definitions, and cross-referenced clauses — 4.5 regularly missed obligations buried in subsections."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Obligation table with owners and deadlines, risk summary with specific clauses flagged, key dates timeline — shareable with your team or lawyer."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Run this for every vendor contract, not just client agreements. The biggest surprises are always in the service agreements you signed and forgot about.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 6 — Financial Statement Anomaly Detector"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Here are my financial statements for [TIME PERIOD] — P&L, balance sheet, and cash flow statement. Analyze everything and:\n\n1. Flag any line item that changed more than 15% month-over-month without an obvious explanation\n2. Find expense categories growing faster than revenue\n3. Identify the top 3 profit leaks I should investigate immediately\n4. Give me a 3-sentence financial health summary I can share with an advisor\n5. List any numbers that appear inconsistent across the three statements\n\nShow your reasoning for each flag.\n\n[PASTE FINANCIALS OR ATTACH PDF/CSV HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 reads financial tables accurately and cross-references across statements — 4.5 made arithmetic errors on tables with merged cells or non-standard layouts."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Anomaly-flagged line items with reasoning, profit leak analysis ranked by likely impact, cross-statement inconsistencies, and an executive summary."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Export from QuickBooks or Xero as CSV before pasting. Claude reads CSV numbers more accurately than PDFs, especially for tables with dollar formatting.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 7 — Multi-Proposal Comparison Matrix"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I've received [NUMBER] proposals for [PROJECT / ROLE / SERVICE]. Here they are. Compare them and:\n\n1. Build a side-by-side comparison table: price, scope, timeline, deliverables, risk\n2. Identify what each proposal promises that the others don't\n3. Flag gaps — things I need that no proposal adequately addressed\n4. Give me a recommended choice with exactly 3 reasons, based on my priorities\n\nMy top priorities are: [E.G., SPEED, LOWEST RISK, BEST VALUE, SPECIFIC CAPABILITY]\n\n[PASTE ALL PROPOSALS HERE — LABEL EACH ONE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 holds multiple full proposals in context simultaneously and cross-references them — 4.5 lost context between documents and produced inconsistent comparisons."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Comparison matrix, unique-value analysis per proposal, gap report, and a decision recommendation with clear rationale tied to your stated priorities."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** State your priorities upfront and rank them (1 = most important). Claude will weight the recommendation toward what actually matters to you.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 8 — Meeting-to-Project-Plan Converter"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Here is the full transcript from our [MEETING TYPE] meeting on [DATE]. Convert it into a structured project plan:\n\n1. Extract every decision made (owner + what was decided)\n2. Pull every action item with assigned owner and deadline mentioned (or implied)\n3. List all unresolved questions that need follow-up, with a suggested owner\n4. Write a one-paragraph meeting summary for people who weren't in the room\n\nFormat action items as a table: | Action | Owner | Deadline | Status |\n\n[PASTE TRANSCRIPT HERE]",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 understands conversational context and intent — 4.5 pulled literal text but regularly missed implied commitments and soft agreements made mid-discussion."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Decision log, action item table with owners, open questions list, and a shareable one-paragraph summary ready to send to the team."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Use Otter.ai, Fathom, or Fireflies to auto-generate the transcript. Paste directly — the whole workflow takes under 5 minutes per meeting.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" }
+        ]
+      },
+
+      {
+        "id": "category_3",
+        "label": "Category 3 — Frontend Design & Code",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "🎨 Category 3: Frontend Design & Code",
+            "styling": { "color": "pink" }
+          },
+          {
+            "type": "paragraph",
+            "content": "4.6 has real design sensibility. It doesn't just generate functional code — it generates things that look good. These prompts produce assets you can actually use, not just hand to a developer.",
+            "styling": { "color": "gray" }
+          },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 9 — Landing Page Generator"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Build me a complete, conversion-optimized landing page with the following details:\n\nProduct/Service name: [NAME]\nTarget customer: [DESCRIBE WHO THIS IS FOR]\nThe #1 outcome I deliver: [SPECIFIC RESULT]\nPrice: [PRICE OR STARTING FROM X]\nMain objection to address: [THE THING THAT MAKES PEOPLE HESITATE]\nProof I have: [PASTE A TESTIMONIAL OR SPECIFIC RESULT]\nCTA button text and destination: [E.G., 'Book a Call' → calendly.com/yourlink]\n\nReturn a single HTML file, mobile-responsive, with: hero section, social proof bar, 3 core benefits, how it works (3 steps), testimonial, and a final CTA. Modern design. Make it look like a $5,000 agency built it.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 produces polished, design-aware HTML/CSS with real visual hierarchy — 4.5 generated functional but visually dated layouts that needed complete rework."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** A single HTML file you open in any browser and deploy to Netlify in one drag-and-drop. Ready in under 2 minutes."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** After generating, ask Claude to 'add a sticky header with the CTA button and a floating mobile CTA bar.' 4.6 handles these refinements without breaking the existing design.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 10 — Client Dashboard Mockup"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Build me an HTML dashboard for [CLIENT TYPE] clients. It should display:\n\nMetrics to show: [LIST 5–8 METRICS, E.G., 'Monthly revenue, Lead count, Conversion rate, Tasks completed, Next milestone']\nBrand colors: [YOUR HEX CODES, OR 'use a clean navy and white palette']\n\nRequirements:\n- Header with logo placeholder + client name\n- KPI cards at the top (big numbers, trend arrows)\n- A chart section with placeholder data (bar or line)\n- A recent activity / updates table\n- A 'Next Steps' section\n\nSingle HTML file. Use Chart.js from CDN for charts. No other external dependencies.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 has genuine design sensibility for dashboards — 4.5 built functional but visually hollow layouts that looked like 2012 Bootstrap templates."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** A professional-looking dashboard HTML file you can demo to clients immediately, or hand to a developer to wire up with real data."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Screenshot a dashboard you admire and include it with the prompt. Tell Claude 'make it feel like this.' 4.6 can read and adapt visual styles from reference images.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 11 — Email Template System"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Build me a set of HTML email templates for the following use cases:\n\nUse cases: [LIST THEM — E.G., Welcome email, Follow-up after call, Proposal sent, Invoice, Check-in at 30 days, Re-engagement]\nBrand colors: [YOUR HEX CODES]\nLogo: [PLACEHOLDER IS FINE]\n\nRequirements:\n- Consistent header and footer across all templates\n- Mobile-responsive\n- All variable content marked in {{double brackets}} like {{client_name}}, {{date}}, {{offer_name}}\n- Plain-text fallback noted in HTML comments\n- Modern, clean design — not corporate newsletter style\n\nReturn all templates in one file, clearly labeled with HTML comments.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 maintains a consistent design system across multiple templates in one pass — 4.5 drifted in style between templates and frequently broke mobile layouts."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** A complete email template library, ready to import into ConvertKit, ActiveCampaign, or any email platform that accepts custom HTML."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** After the first pass, ask Claude to 'add a dark mode version using @media (prefers-color-scheme: dark).' 4.6 handles email-specific CSS reliably.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 12 — Pricing Page with Conversion Optimization"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Build me a conversion-optimized pricing page in HTML for [PRODUCT/SERVICE].\n\nMy plans:\n- [TIER 1 NAME]: $[PRICE]/mo — [LIST 4–5 FEATURES]\n- [TIER 2 NAME]: $[PRICE]/mo — [LIST 4–5 FEATURES] ← RECOMMENDED\n- [TIER 3 NAME]: $[PRICE]/mo — [LIST 4–5 FEATURES]\n\nInclude:\n1. A 'Most Popular' badge on [TIER NAME]\n2. A monthly/annual pricing toggle (annual = 20% discount)\n3. A FAQ section with these questions: [PASTE 3–5 FAQs]\n4. A money-back guarantee section: [YOUR GUARANTEE]\n5. Social proof from: [PASTE 2–3 SHORT TESTIMONIALS]\n\nMobile responsive. Make the recommended plan visually dominant. Single HTML file.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 builds interactive pricing pages with working toggles and conversion-optimized layouts — 4.5 produced static comparison tables with no interactive states."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** A complete pricing page with working monthly/annual toggle, ready to publish directly or hand to a developer to connect to your payment processor."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Include your competitor's pricing in the prompt and add 'make sure our value advantage is visually obvious.' 4.6 will structure the page around your competitive edge.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" }
+        ]
+      },
+
+      {
+        "id": "category_4",
+        "label": "Category 4 — Business Planning & Strategy",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "🧭 Category 4: Business Planning & Strategy",
+            "styling": { "color": "green" }
+          },
+          {
+            "type": "paragraph",
+            "content": "4.6 thinks in sequences and dependencies, not just lists. These prompts give you strategic outputs a sharp consultant would charge thousands for — because 4.6 can now hold your full context while reasoning long-horizon.",
+            "styling": { "color": "gray" }
+          },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 13 — 90-Day Launch Plan Builder"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I'm launching [PRODUCT/OFFER/SERVICE] on [TARGET DATE OR 'in 90 days']. Here's what I have ready today:\n\nAssets ready: [LIST — e.g., landing page, email list of X people, LinkedIn following of X, 2 testimonials]\nTeam: [E.G., just me / me + 1 VA / small team]\nRevenue target: [$X] in 90 days\n\nBuild me a launch plan:\n- Day-by-day for the first 30 days\n- Week-by-week for days 31–90\n\nFor each task include:\n- Owner (me / VA / vendor)\n- Dependencies (what must happen before this can start)\n- Risk flag (what could cause a delay)\n\nFormat as a table. Flag my critical path.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 tracks task dependencies across a 90-day horizon — 4.5 produced flat task lists that looked complete but had no sequencing logic and fell apart in execution."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** A dependency-aware 90-day plan table with tasks, owners, and risk flags — ready to export directly to Notion, Asana, or ClickUp."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** After generating, paste the plan back in a new message and ask 'Find the 5 tasks with the most downstream dependencies.' That's your critical path — protect those at all costs.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 14 — Competitor Positioning Gap Finder"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Here is the positioning, website copy, and pricing for my main competitors:\n\n[COMPETITOR 1 NAME]: [PASTE THEIR HOMEPAGE HEADLINE + ABOUT + PRICING PAGE]\n[COMPETITOR 2 NAME]: [PASTE THEIR HOMEPAGE HEADLINE + ABOUT + PRICING PAGE]\n[ADD MORE AS NEEDED]\n\nMy business: [DESCRIBE WHAT YOU DO AND FOR WHOM]\nMy current positioning: [PASTE YOUR HOMEPAGE HEADLINE + TAGLINE]\n\nAnalyze the competitive landscape and:\n1. Map how each competitor positions (who they claim to serve and how)\n2. Find the positioning gaps — customer segments or pain points nobody is owning\n3. Identify language patterns and phrases I could own that competitors aren't using\n4. Write 3 positioning statements for me to test — differentiated from every competitor",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 processes full competitor sites in one context and does genuine cross-document synthesis — 4.5 gave surface-level observations without real pattern detection."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Competitive positioning map, gap analysis with specific opportunities, 3 positioning statement options — ready for a strategy session or A/B test."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Include your own homepage copy in the paste and ask Claude 'where am I indistinguishable from my competitors?' The answer is usually uncomfortable and always useful.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 15 — Content Strategy from Your Analytics"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Here is my [PLATFORM — LinkedIn / Instagram / YouTube / email] analytics for the last [TIME PERIOD]:\n\n[PASTE YOUR DATA — post titles, dates, views, likes, comments, clicks, shares, or whatever your platform shows]\n\nBased on what's actually working, build me a 90-day content strategy:\n1. What topics and formats I should double down on (with data to back it up)\n2. What I should stop creating (it's not working)\n3. A realistic weekly content cadence I can sustain\n4. 20 specific content ideas ranked by predicted performance — based on my data, not generic best practices\n\nTie every recommendation to the data. Show me the signal, not just the advice.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 derives strategy from your specific numbers — 4.5 acknowledged your data but defaulted to generic content advice that could have been written without it."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Data-backed content strategy, stop-doing list with rationale, weekly cadence recommendation, and 20 ready-to-use content ideas ranked by predicted performance."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Include revenue impact data if you have it (e.g., 'this post generated 3 discovery calls'). Claude will weight ideas toward what actually converts — not just what gets likes.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 16 — Pricing Scenario Modeler"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "My current pricing and business model:\n\nCurrent offer: [DESCRIBE OFFER]\nCurrent price: [$X/month or $X one-time or $X/project]\nMonthly costs (fixed + variable): [LIST MAIN COSTS]\nCurrent clients: [NUMBER]\nAverage new leads per month: [NUMBER]\nAverage close rate: [%]\n\nModel 4 pricing scenarios:\n1. Current state (baseline)\n2. [PROPOSED CHANGE — e.g., raise price to $X]\n3. [PROPOSED CHANGE — e.g., add a lower-tier entry offer]\n4. Best-case optimization (your recommendation)\n\nFor each scenario, calculate: monthly revenue, gross profit margin, clients needed to hit [$REVENUE GOAL], and break-even. Flag which has the best risk/reward. Show all math.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 builds multi-scenario financial models and shows its reasoning step by step — 4.5 made silent arithmetic errors on multi-variable calculations."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** 4-scenario comparison table with revenue, margin, break-even, and a recommended path with clear math you can verify."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Add 'Assume 20% client churn per month and model the impact on annual revenue' to stress-test each scenario. The scenario that survives churn is the one worth building around.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" }
+        ]
+      },
+
+      {
+        "id": "category_5",
+        "label": "Category 5 — Automation & Agent Planning",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "⚙️ Category 5: Automation & Agent Planning",
+            "styling": { "color": "orange" }
+          },
+          {
+            "type": "paragraph",
+            "content": "4.6 doesn't just describe systems — it designs them with enough specificity that you (or a VA) can actually build them. These prompts produce implementation-ready blueprints, not high-level diagrams.",
+            "styling": { "color": "gray" }
+          },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 17 — Client Onboarding Workflow Designer"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "My current client onboarding: [DESCRIBE WHAT HAPPENS NOW — or 'nonexistent / ad-hoc']\nMy service: [DESCRIBE WHAT CLIENTS HIRED YOU FOR]\nOnboarding window: [HOW LONG FROM SIGNED CONTRACT TO FIRST DELIVERY]\nTools I use: [LIST — e.g., Dubsado, HoneyBook, Notion, Slack, Calendly, Stripe]\n\nDesign a complete automated client onboarding workflow:\n1. Every touchpoint from signed contract to first deliverable (with exact timing)\n2. What gets fully automated vs. what I handle personally\n3. Write the exact email/message for each automated touchpoint\n4. Tool setup instructions — which tool handles each step and how they connect\n5. What a 'premium client experience' looks like at each stage\n\nMake it feel like working with a company 10x my size.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 designs end-to-end workflows AND writes the actual copy for every touchpoint — 4.5 gave high-level process frameworks that still required you to do all the real work."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Full onboarding workflow spec, email copy for every automated touchpoint, tool stack recommendation with setup notes, and a 'client experience' checklist."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Share the output directly with a Zapier or Make.com specialist. It's already in a format they can build from without a lengthy briefing call.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 18 — Lead Scoring System Builder"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "Here is my CRM / lead tracking data for the last [TIME PERIOD]. It includes leads, their sources, behaviors (emails opened, calls booked, pages visited), and which ones became paying clients:\n\n[PASTE DATA — can be a CSV export, a table, or even a list of notes]\n\nBased on this actual data (not generic best practices), build me a lead scoring system:\n1. The top 5 signals that predicted which leads became clients\n2. A point value for each signal (weighted by predictive strength)\n3. Score thresholds: Hot (take action today), Warm (nurture), Cold (low priority)\n4. The exact scoring logic written so a VA or my CRM automation can apply it\n5. What to do differently for each tier",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 derives a custom scoring model from your actual conversion data — 4.5 produced generic lead scoring templates with no connection to your real numbers."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Custom lead scoring rubric with signals, point values, thresholds, and VA-ready implementation instructions for your specific CRM."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Run this quarterly. Your highest-converting lead signals shift as your offer, audience, and marketing channels evolve — a scoring system from 6 months ago is probably misleading you.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 19 — Weekly Reporting Automation Spec"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I want a weekly business report delivered every [DAY] at [TIME]. It should pull from these sources:\n\nData sources:\n- [SOURCE 1, E.G., Stripe]: I want [SPECIFIC METRICS]\n- [SOURCE 2, E.G., Google Analytics]: I want [SPECIFIC METRICS]\n- [SOURCE 3, E.G., CRM / HubSpot]: I want [SPECIFIC METRICS]\n- [ADD MORE AS NEEDED]\n\nDelivery: [Email / Slack / Notion database]\n\nBuild me the complete automation spec:\n1. Exactly what to pull from each data source and how\n2. The report template (with section headers and metric layout)\n3. A 'flag this' rule — what changes should trigger an alert\n4. Tool options to build it (prioritize no-code — Zapier, Make, or native integrations first)\n5. Estimated build time and complexity rating",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 produces complete, implementation-ready automation specs — 4.5 gave process outlines you still had to fully architect yourself before handing to anyone."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Full automation blueprint with data sources, exact report template, alert rules, tool recommendations, and a build complexity estimate."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Add 'Flag anything that changed more than 20% from last week' to your spec as a standing alert rule. That single rule catches 90% of the problems you need to know about early.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" },
+
+          {
+            "type": "heading_3",
+            "content": "Prompt 20 — Multi-Agent System Planner"
+          },
+          {
+            "type": "callout",
+            "icon": "📋",
+            "content": "I want to build an AI agent system to handle: [DESCRIBE THE BUSINESS FUNCTION — e.g., 'researching and qualifying leads before I talk to them' / 'creating and scheduling my weekly content' / 'monitoring client results and flagging issues']\n\nMy current tools and platforms: [LIST WHAT YOU USE]\nMy monthly budget for AI tools: [$X/month]\nMy technical comfort level: [Non-technical / Some tech / Developer]\n\nDesign the system:\n1. What each agent does — be specific (inputs, outputs, decision rules)\n2. How agents hand off work to each other (what triggers the next agent)\n3. What I review before anything goes out (human-in-the-loop checkpoints)\n4. What's fully automated and never needs my attention\n5. Exact tools to use for each agent with setup instructions\n6. Build sequence — what to build first for the fastest ROI\n\nPrioritize no-code or low-code options.",
+            "styling": { "background": "blue" }
+          },
+          {
+            "type": "paragraph",
+            "content": "🆕 **What's New:** 4.6 designs coherent multi-agent systems with real tool recommendations and handoff logic — 4.5 produced vague 'you could use AI agents for this' answers with no actionable architecture."
+          },
+          {
+            "type": "paragraph",
+            "content": "📤 **Expected Output:** Agent role definitions, handoff specs, human checkpoint map, tool list with setup notes, and a phased build sequence starting with highest-ROI agent."
+          },
+          {
+            "type": "callout",
+            "icon": "💡",
+            "content": "**Pro Tip:** Build one agent first — get it working and saving you real time before adding the next. Ask Claude to 'identify which single agent in this system would save me the most hours per week.' Start there.",
+            "styling": { "background": "yellow" }
+          },
+          { "type": "divider" }
+        ]
+      },
+
+      {
+        "id": "cta",
+        "label": "Call to Action",
+        "blocks": [
+          {
+            "type": "heading_2",
+            "content": "What's Next"
+          },
+          {
+            "type": "paragraph",
+            "content": "These 20 prompts are a starting point. The real leverage comes from knowing which prompts to combine, how to chain outputs into workflows, and how to build systems that run without you."
+          },
+          {
+            "type": "callout",
+            "icon": "🏗️",
+            "content": "**The Build Room** is where expertise-rich business owners build AI-powered systems — together.\n\nEvery week: new prompts, live builds, and a community of people at your level using AI to scale without burning out.\n\n👉 **Join free at skool.com/buildroom**",
+            "styling": {
+              "background": "blue",
+              "note": "Make this the most visually prominent block on the page. Bold the CTA line. Consider adding a Notion button block pointing to the URL.",
+              "cta_url": "https://skool.com/buildroom"
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "Built on Feb 17, 2026 — the day Claude Sonnet 4.6 launched.",
+            "styling": { "color": "gray", "italic": true }
+          }
+        ]
+      }
+    ],
+
+    "design_notes": {
+      "typography": {
+        "h1": "Page title — Notion default, largest",
+        "h2": "Category headers — apply color per category (blue, purple, pink, green, orange)",
+        "h3": "Prompt titles — default, bold",
+        "body": "Default Notion paragraph"
+      },
+      "color_system": {
+        "category_1_long_context": "blue",
+        "category_2_documents": "purple",
+        "category_3_frontend": "pink",
+        "category_4_strategy": "green",
+        "category_5_automation": "orange",
+        "prompt_callout": "blue background",
+        "pro_tip_callout": "yellow background",
+        "intro_callout": "blue background",
+        "how_to_callout": "gray background",
+        "cta_callout": "blue background"
+      },
+      "layout_tips": [
+        "Use full-width page layout (Page settings → Full width)",
+        "Add a dark cover image or solid dark color (#0F1117) for contrast",
+        "Set page icon to ⚡",
+        "Each category H2 should have its color set in Notion's text color picker",
+        "Prompt callouts (blue) should feel like 'copy this box'",
+        "Pro tip callouts (yellow) should feel like a sticky note from a mentor",
+        "The CTA block should be the most visually prominent element — consider making it wider with Notion column trick or adding a button block"
+      ],
+      "estimated_reading_time": "12–15 minutes",
+      "prompt_count": 20,
+      "categories": 5,
+      "prompts_per_category": 4
+    }
+  }
+}

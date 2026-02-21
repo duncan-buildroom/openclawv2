@@ -1,0 +1,85 @@
+{
+  "title": "The AI Authority Playbook™",
+  "subtitle": "8 prompts, 7 days, zero fluff — the system that built 110K followers and $14K/mo recurring",
+  "hook": "0 → 110K followers in 12 months. $14K/mo community. All content. All AI-powered. Here's the exact system.",
+  "story_framework": "Behind the Curtain",
+  "story_summary": "No long origin story. Just proof, system, and prompts. Duncan built this in public. The receipts are real. Now you get the playbook.",
+  "format": "playbook",
+  "icon": "🎯",
+  "cover_image_concept": "Dark charcoal background with bold neon green text 'THE AI AUTHORITY PLAYBOOK™' and orange accent line underneath. Minimal, high-contrast, premium feel.",
+  "credibility_line": "Based on 0 → 110K followers in <12 months | $14K/mo community | $150K+ content revenue",
+  "estimated_read_time": "4 minutes",
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "🎯 The System That Built This",
+      "type": "hero",
+      "story_beat": "Credibility + system overview — no backstory, just proof and framework",
+      "content": "I went from 0 to 110K followers in 12 months. Built a $14K/mo community. Generated $150K+ in content revenue. Zero ads. Zero team. Just AI + systems.\n\nBefore that? 15+ years as a senior art director at Apple and PlayStation. Made $250K/year. Had zero leverage. No audience. Every dollar required my time.\n\nNow? Inbound leads daily. Content works while I sleep. That's what distribution does.\n\n---\n\n## **The AI Authority Stack™**\n\nThree layers. Each multiplies the one before it.\n\n**Layer 1: Positioning**  \nAI finds your unfair angle — the intersection of your skills that makes you the obvious choice in a micro-niche. You stop competing with millions. You own a space of hundreds.\n\n**Layer 2: Content Engine**  \nAI generates hooks, scripts, and posts in YOUR voice (not generic slop). You go from 3 posts/week to 15 without burning out. AI handles volume. You handle strategy.\n\n**Layer 3: Distribution**  \nAI repurposes one idea into 6 platform-specific posts. One TikTok becomes a LinkedIn post, Twitter thread, YouTube Short, email, and carousel. That's compounding reach.\n\n**The result:** I post 15x/week and spend 2 hours doing it. You're about to learn how.",
+      "notion_elements": [
+        "callout:💡",
+        "divider"
+      ],
+      "callout_text": "💡 **The Core Logic:** Positioning tells you WHAT to say. Content Engine scales HOW you say it. Distribution multiplies WHERE it's seen.",
+      "takeaway": "Three layers working together create exponential growth — not linear effort",
+      "word_count": 260
+    },
+    {
+      "section_number": 2,
+      "title": "🔧 The 8 Prompts (Copy-Paste Ready)",
+      "type": "content",
+      "story_beat": "The meat — actionable prompts people came for",
+      "content": "These are the 8 prompts I use most. Copy-paste into ChatGPT, Claude, or whatever LLM you use.\n\n---\n\n### **1. The Unfair Advantage Finder**\n**What it does:** Identifies your unique positioning based on your experience stack.\n\n**The Prompt:**\n```\nI want to build authority in [your industry]. Here's my background:\n- Professional experience: [list 3-5 roles/companies]\n- Skills: [list 3-5 core skills]\n- Wins: [list 2-3 measurable results]\n- Audience I serve: [describe ideal client]\n\nAnalyze my experience and identify 3 unique positioning angles that combine my background in ways most people can't replicate. For each: what makes it unique, who it appeals to, content themes. Format as a table.\n```\n\n**How to use:** Pick the angle where you have the most proof + passion. That's your lane.\n\n---\n\n### **2. The One-Liner Generator**\n**What it does:** Turns your positioning into a bio that immediately communicates value.\n\n**The Prompt:**\n```\nMy positioning: [paste from Prompt 1]\nMy proof: [2-3 measurable results]\nMy offer: [what you're driving traffic to]\n\nWrite 5 one-liner bios:\n\"I help [audience] achieve [outcome] using [method] — [proof].\"\n\nPunchy. Specific. Credible. No fluff.\n```\n\n**How to use:** Pick one. Use it everywhere. LinkedIn, Twitter, email footer, every lead magnet intro.\n\n---\n\n### **3. The Hook Generator**\n**What it does:** Writes scroll-stopping first lines for any topic.\n\n**The Prompt:**\n```\nTopic: [what you want to talk about]\nAudience: [who you're speaking to]\nGoal: [educate/inspire/sell]\n\nWrite 10 hooks using:\n1. Specific number + outcome\n2. Contrarian take\n3. Mistake-based\n4. Before/after\n5. Question + payoff\n\nMake them punchy and curiosity-driven.\n```\n\n**How to use:** Generate 10 options. Pick the best 2. Build your content around them.\n\n---\n\n### **4. The Carousel Outliner**\n**What it does:** Turns one idea into a 7-slide visual post (LinkedIn/Instagram).\n\n**The Prompt:**\n```\nTopic: [your idea]\nAudience: [who this is for]\nKey takeaway: [main point]\n\nCreate a 7-slide carousel:\n- Slide 1: Hook\n- Slides 2-5: Core content (one idea per slide, <20 words)\n- Slide 6: Proof or example\n- Slide 7: CTA\n\nShort sentences. No fluff.\n```\n\n**How to use:** Paste into Canva. Design. Post. Carousels get 3x the engagement of text posts.\n\n---\n\n### **5. The Video Script Generator**\n**What it does:** Creates TikTok/Reels/Shorts scripts that hook in 3 seconds.\n\n**The Prompt:**\n```\nTopic: [your idea]\nHook: [opening line]\nLength: [30/60/90 seconds]\n\nWrite a video script:\n- 0:00-0:03: HOOK (scroll-stopper)\n- Next 10-20 sec: Problem/tension\n- Next 20-40 sec: Solution/insight\n- Final 5-10 sec: CTA\n\nFormat: [VISUAL CUE] Voiceover text\nFast-paced. Conversational.\n```\n\n**How to use:** Record based on cues. Edit tight. Post. Short-form video is the fastest growth lever right now.\n\n---\n\n### **6. The Voice Calibration Prompt**\n**What it does:** Trains AI to write in YOUR voice (not generic AI-speak).\n\n**The Prompt:**\n```\nHere are 5 posts I've written that sound like ME:\n[Paste 5 samples]\n\nAnalyze my style:\n1. Sentence structure\n2. Vocabulary choices\n3. Tone\n4. Rhythm\n5. Unique quirks\n\nGive me a \"voice profile\" I can paste into future prompts.\n```\n\n**How to use:** Run this once. Save the voice profile. Paste it into every future prompt so AI writes like you.\n\n---\n\n### **7. The Multi-Platform Repurposing Engine**\n**What it does:** Turns one piece of content into 6 platform-specific versions.\n\n**The Prompt:**\n```\nOriginal content:\n[Paste your post/script/video transcript]\n\nRepurpose into:\n1. LinkedIn post (150-200 words, professional)\n2. Twitter thread (8-10 tweets, punchy)\n3. Instagram caption (100-150 words, casual)\n4. Email section (200-250 words, conversational)\n5. YouTube Short script (30-45 sec)\n6. Carousel outline (7 slides, <15 words/slide)\n\nAdapt tone and format. Keep the core insight the same.\n```\n\n**How to use:** Create once. Repurpose six times. That's how you get 10x the reach from the same effort.\n\n---\n\n### **8. The Weekly Content Calendar Generator**\n**What it does:** Plans 7 days of content in 20 minutes.\n\n**The Prompt:**\n```\nMy content pillars:\n1. [Pillar 1]\n2. [Pillar 2]\n3. [Pillar 3]\n\nPosting schedule:\n- [Platform 1]: [X posts/week]\n- [Platform 2]: [X posts/week]\n\nGenerate a 7-day calendar with:\n- Day\n- Platform\n- Pillar (rotate)\n- Post idea (specific)\n- Hook (first line)\n\nFormat as a table.\n```\n\n**How to use:** Run every Sunday. Batch-create the week's content in one sitting. Stay 7 days ahead.\n\n---\n\n**✅ Key Takeaway:** These 8 prompts are the system. Positioning → content → distribution. Use them in order.",
+      "notion_elements": [
+        "callout:🔥",
+        "toggle",
+        "divider"
+      ],
+      "callout_text": "🔥 **The Difference:** Most people use AI to write faster. You're using it to build a positioning and distribution engine.",
+      "takeaway": "These 8 prompts are the system. Positioning → content → distribution. Use them in order",
+      "word_count": 950
+    },
+    {
+      "section_number": 3,
+      "title": "⚡ The 7-Day Quick Start",
+      "type": "content",
+      "story_beat": "Actionable roadmap — remove all friction to starting",
+      "content": "Here's exactly what to do in the next 7 days. No theory. Just action.\n\n---\n\n**Day 1: Find Your Positioning (60 min)**  \nRun Prompts 1-2. Pick your angle. Update your bio everywhere. If someone reads it and says \"Oh, that's specific,\" you nailed it.\n\n**Day 2: Build Content Pillars (45 min)**  \nIdentify 3 themes you can talk about forever. Generate 5 content ideas per pillar. You now have 15 ideas ready to go.\n\n**Day 3: Create Your First 3 Posts (90 min)**  \nUse Prompt 3 (hooks) + Prompt 4 or 5 (carousel/video). Run Prompt 6 to calibrate your voice. Edit the outputs. You now have 3 posts that sound like YOU.\n\n**Day 4: Repurpose Into 6 Formats (60 min)**  \nTake your best post. Run Prompt 7 (repurposing). Lightly edit. You now have a week of content from 1 idea.\n\n**Day 5: Schedule Everything (30 min)**  \nPick 2-3 platforms. Use Buffer, Hypefury, or Later. Schedule your content for the next 7 days. You're now 7 days ahead.\n\n**Day 6: Engage (45 min)**  \nFind 10 accounts in your niche. Comment on their posts. Reply to comments on YOUR posts. Spend 15 minutes. Set a timer.\n\n**Day 7: Plan Next Week (30 min)**  \nRun Prompt 8 (content calendar). Batch-create next week's content. You're now 2 weeks ahead. This is the leverage point.\n\n---\n\n**After 7 days you'll have:**  \n✅ Clear positioning  \n✅ 3 content pillars  \n✅ 10+ posts created  \n✅ 6-platform repurposing system  \n✅ 14 days of content scheduled  \n✅ Momentum (the thing most people never build)\n\n---\n\n**✅ Key Takeaway:** 7 days to build the system. Then you're just maintaining it — 2-3 hours/week instead of 10+.",
+      "notion_elements": [
+        "callout:💡",
+        "divider"
+      ],
+      "callout_text": "💡 **The Momentum Rule:** The first 7 days are the hardest because you're building the system. After that, you're just running it.",
+      "takeaway": "7 days to build the system. Then you're just maintaining it — 2-3 hours/week instead of 10+",
+      "word_count": 340
+    },
+    {
+      "section_number": 4,
+      "title": "🚀 What's Next",
+      "type": "cta",
+      "story_beat": "Drive to next step in funnel",
+      "content": "You have the system. Now you need the automations that make it effortless.\n\n**I've built 200+ AI workflows.** The 30 best ones are what I use daily to run my content engine, automate my pipeline, and scale without a team.\n\n**You get:**  \n✅ 30 Best Automations (n8n workflows, AI agents, content systems)  \n✅ Access to The Build Room (my community of 200+ AI-powered operators)  \n✅ Weekly workshops where I build in public  \n\n**Comment \"AI\" below and I'll send you the link.**\n\nOr go here: **[leads.buildroom.ai/30-automations](https://leads.buildroom.ai/30-automations)**\n\n---\n\n**✅ Final Thought:** This playbook is the strategy. The automations are the infrastructure. Together, they're how you go from invisible to unavoidable.",
+      "notion_elements": [
+        "callout:🔥",
+        "divider"
+      ],
+      "callout_text": "🔥 **The Build Room:** Where operators who want leverage (not more hours) come to build systems, share workflows, and scale using AI.",
+      "takeaway": "This playbook is the strategy. The automations are the infrastructure. Together, they're how you go from invisible to unavoidable",
+      "word_count": 150
+    }
+  ],
+  "cta": {
+    "headline": "🚀 What's Next",
+    "body": "You have the system. Now you need the automations that make it effortless. I've built 200+ AI workflows. The 30 best ones are what I use daily to run my content engine, automate my pipeline, and scale without a team. Comment \"AI\" below for: 30 Best Automations + Build Room access + weekly workshops.",
+    "action": "Comment \"AI\" below",
+    "link": "https://leads.buildroom.ai/30-automations"
+  },
+  "funnel_position": "top",
+  "social_promo": {
+    "linkedin_hook": "0 → 110K followers in 12 months. $14K/mo community. All content. All AI-powered. Here's the exact system (8 prompts, 7 days, zero fluff):",
+    "instagram_hook": "I built 110K followers in a year using 8 AI prompts. No team. No ads. Just systems. Here's the playbook:",
+    "cta_trigger": "AI"
+  },
+  "word_count_total": 1700,
+  "notes": "Compressed from 8,600 words to ~1,700 words. Cut origin story to 2 sentences. Reduced from 14 prompts to 8 best. Tightened 7-day plan to bullets. Removed all filler. Every word earns its place."
+}

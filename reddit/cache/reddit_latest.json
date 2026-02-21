@@ -1,0 +1,487 @@
+{
+  "scanned_at": "2026-02-19T13:00:27.810656+00:00",
+  "subreddits_scanned": 4,
+  "opportunities_found": 75,
+  "posts": [
+    {
+      "subreddit": "n8n",
+      "title": "I got tired of managing my n8n workflows from mobile\u2026 so I built this.",
+      "selftext": "For the last year I\u2019ve been running multiple n8n instances (client automations + personal projects).\n\nEverything works great\u2026 until you're away from your laptop.\n\nOne day I was outside and a client texted me:  \n\u201cHey, the automation stopped.\u201d\n\nI opened n8n in my mobile browser.\n\nZooming.  \nMis-clicking.  \nTrying to scroll through executions.  \nPain.\n\nThat moment made me realize:  \nn8n is powerful \u2014 but not built for mobile control.\n\nSo I built **n8n Hub**.\n\nIt connects directly to your instance (",
+      "score": 65,
+      "num_comments": 34,
+      "url": "https://reddit.com/r/n8n/comments/1r8e7m4/i_got_tired_of_managing_my_n8n_workflows_from/",
+      "created_utc": 1771446288.0,
+      "author": "Ok-Scar8556",
+      "id": "1r8e7m4",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "automation",
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "3.3M View, 25K+ Followers 16 Posts, All with AI Automation",
+      "selftext": "I've been testing whether AI-generated faceless content can actually build a real audience - not just get a few views, but create a legitimate following from scratch.\n\nHere are the raw results after 16 posts:\n\n* **25,000+ followers** (from zero)\n* **1.9 million views** on the best-performing video\n* **574K, 570K, and 284K views** on three others\n* **3.3M+ total views** across all 16 posts\n* Average of \\~200K views per post\n\nHere's exactly what I did.\n\n**The Format**\n\nCharacter Explainer videos -",
+      "score": 264,
+      "num_comments": 49,
+      "url": "https://reddit.com/r/automation/comments/1r8i8ep/33m_view_25k_followers_16_posts_all_with_ai/",
+      "created_utc": 1771455445.0,
+      "author": "iayazalam",
+      "id": "1r8i8ep",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "automation",
+        "audience",
+        "followers"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Claude Sonnet 4.6 One-shotted this surreal Time-Themed website, full prompt + codepen below",
+      "selftext": "**Prompt:** Write full HTML, CSS, and JavaScript for a surreal, immersive website about time perception. The site should feel like a living clockwork dream \u2014 clocks melt and reform as users scroll, typography stretches with the flow of time, and sections fade in like memories resurfacing. Include subtle parallax motion, fluid transitions, and ambient ticking soundscapes that sync to scrolling speed. Design it as if it were commissioned by a world-class art-tech collective obsessed with the natur",
+      "score": 448,
+      "num_comments": 108,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r85xhl/claude_sonnet_46_oneshotted_this_surreal/",
+      "created_utc": 1771428378.0,
+      "author": "BuildwithVignesh",
+      "id": "1r85xhl",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Anthropic's Claude Code creator predicts software engineering title will start to 'go away' in 2026",
+      "selftext": "Software engineers are increasingly relying on AI agents to write code. Boris Cherny, creator of Claude Code, said in an interview that AI \"\n**practically solved** coding.\n\nCherny said software engineers will take on different tasks beyond coding, said in an interview with Y Combinator's podcast that 2026 will bring \"insane\" developments to AI. \n\n**Source:** Business Insider/ Y combinator",
+      "score": 560,
+      "num_comments": 186,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r801ox/anthropics_claude_code_creator_predicts_software/",
+      "created_utc": 1771412540.0,
+      "author": "BuildwithVignesh",
+      "id": "1r801ox",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "ai agent",
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "I actually hate ChatGPT now",
+      "selftext": "Why does ChatGPT needs to tell me to calm down or to take a pause in every prompt? Why all the gaslighting?\n\nI started with ChatGPT and absolutely loved it, and every month since I've used it, it's gone worse. I don't really understand why. I'm unsubscribing, what AIs do you suggest? Claude feels unusable right now, and Gemini doesn't convince me fully",
+      "score": 5216,
+      "num_comments": 1959,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r7urf9/i_actually_hate_chatgpt_now/",
+      "created_utc": 1771393475.0,
+      "author": "National-Spell8326",
+      "id": "1r7urf9",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Self-hosted n8n vs SaaS \u2014 when does it actually matter?",
+      "selftext": "For those running n8n in production:\n\nAt what scale did self-hosting become the better choice?  \nWas it cost, control, performance, or something else?\n\nTrying to understand where the real inflection point is \u2014  \nespecially for AI-heavy workflows.\n\nWould love real-world experiences.",
+      "score": 1,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/n8n/comments/1r8wcx9/selfhosted_n8n_vs_saas_when_does_it_actually/",
+      "created_utc": 1771498976.0,
+      "author": "Alpertayfur",
+      "id": "1r8wcx9",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "n8n",
+        "workflow",
+        "saas"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "How do you run ffmpeg with cloud n8n?",
+      "selftext": "Just curious how this is done if Execute Command node isn't available in n8n cloud. Do you rent a VPS? Seems overly complex for just 1 function.\n\nIs there some other simpler service API out there that has free or dirt cheap ffmpeg cloud usage?\n\nWhat's the best and secure way to do this?",
+      "score": 3,
+      "num_comments": 22,
+      "url": "https://reddit.com/r/n8n/comments/1r83axe/how_do_you_run_ffmpeg_with_cloud_n8n/",
+      "created_utc": 1771422113.0,
+      "author": "South_Programmer_951",
+      "id": "1r83axe",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "n8n",
+        "how do you"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "haven't touched my n8n template thing in 2 months. how do you restart a dead project?",
+      "selftext": "\n\nbuilt [flowkit.in](http://flowkit.in) (n8n template library) in nov got some initial users, couple downloads, felt good.\n\nthen college exams happened and i just... stopped. didn't touch it for 2 months. no updates, ghosted everyone who signed up, left issues on github hanging.\n\nexams done now but i honestly don't know where to start again. brain's completely fried from cramming and i can't even remember what features i was planning.\n\ncurrent mess:\n\n* 45 templates total\n* emails don't send (sti",
+      "score": 1,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/n8n/comments/1r836r7/havent_touched_my_n8n_template_thing_in_2_months/",
+      "created_utc": 1771421815.0,
+      "author": "MoistDog2991",
+      "id": "1r836r7",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "n8n",
+        "template",
+        "how do you"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What are some AI based Agentic Automatons that actually blew your mind away recently?",
+      "selftext": "Hi all- I have been very fascinated by agentic automations recently! The recent Claude demo where their new model started parallel agents to complete various tasks was super impressive. I can think of a million use cases but wasn't sure if anyone had anything running in production well.\n\nSo curious, what are some AI based Agentic Automatons that actually blew your mind away recently?",
+      "score": 42,
+      "num_comments": 18,
+      "url": "https://reddit.com/r/automation/comments/1r7z7oo/what_are_some_ai_based_agentic_automatons_that/",
+      "created_utc": 1771409610.0,
+      "author": "Vivid-Aide158",
+      "id": "1r7z7oo",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "I built an n8n workflow to replace a $1,500/mo VA task (Influencer Sourcing & Vetting).",
+      "selftext": "I run a small automation agency, and one of the most tedious tasks my clients face is \"Influencer Research.\"\n\nUsually, this involves a human (VA) manually scrolling Instagram, copying bio data into a spreadsheet, and calculating engagement rates to spot fake followers. It takes about 20 minutes per valid lead. To get 100 leads, that\u2019s \\~33 hours of work.\n\nI decided to see if I could fully automate the \"Vetting Process\" using **n8n + Apify + OpenAI**.\n\n**The Challenge:** Scraping is easy. *Filter",
+      "score": 2,
+      "num_comments": 10,
+      "url": "https://reddit.com/r/automation/comments/1r88og2/i_built_an_n8n_workflow_to_replace_a_1500mo_va/",
+      "created_utc": 1771434282.0,
+      "author": "LiveRaspberry2499",
+      "id": "1r88og2",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "n8n",
+        "followers",
+        "agency",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Usage Limits, Bugs and Performance Discussion Megathread - beginning December 29, 2025",
+      "selftext": "**Why a Performance, Usage Limits and Bugs** **Discussion Megathread?**\n\nThis Megathread makes it easier for everyone to see what others are experiencing at any time by collecting all experiences.\u00a0We will publish regular updates on problems and possible workarounds that we and the community finds.\n\n**Why Are You Trying to Hide the Complaints Here?**\n\nContrary to what some were saying in a prior Megathread, this is NOT a place to hide complaints. **This is the MOST VISIBLE, PROMINENT AND OFTEN TH",
+      "score": 58,
+      "num_comments": 2510,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/",
+      "created_utc": 1766994767.0,
+      "author": "sixbillionthsheep",
+      "id": "1pygdbz",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "community"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Getting anything I ever wanted stripped the joy away from me",
+      "selftext": "I thought I just had a bad couple of weeks, but ever since opus 4.5 I have never felt so depleted after work. Normally I would be done with my day job as a data engineer and jump right into my sideprojects afterwards since they would always energize me endlessly.\n\nI have been able to code 10 - 14h a day without any struggle for the past 6 years because I really do enjoy it. But since opus 4.5 using Claude code, getting anything done I ever wanted, things have changed. I noticed my changing behav",
+      "score": 916,
+      "num_comments": 273,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r8f4k7/getting_anything_i_ever_wanted_stripped_the_joy/",
+      "created_utc": 1771448360.0,
+      "author": "YellowCroc999",
+      "id": "1r8f4k7",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Major Claude Code policy clear up from Anthropic",
+      "selftext": "Source: https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use",
+      "score": 336,
+      "num_comments": 106,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r88qh6/major_claude_code_policy_clear_up_from_anthropic/",
+      "created_utc": 1771434407.0,
+      "author": "Distinct_Fox_6358",
+      "id": "1r88qh6",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Is Claude failing at tasks it previously could do ok for you?",
+      "selftext": "I have a project that has been working for months across Opus 4.5 and 4.6. Today it can't understand the project files that have been working before. Anthropic seems to be in trouble/defensive of late. (and yes, the way they dealt with OpenClaw and letting it go to OpenAI is a huge miss after the momentum they had with ClaudeCode)",
+      "score": 14,
+      "num_comments": 13,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r8vpi7/is_claude_failing_at_tasks_it_previously_could_do/",
+      "created_utc": 1771496694.0,
+      "author": "heyyeah",
+      "id": "1r8vpi7",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude",
+        "openclaw"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Anthropic bans OAuth tokens from consumer plans in third-party Tools",
+      "selftext": "\n\n[Legal and compliance ~ Claude Code Docs](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use)",
+      "score": 164,
+      "num_comments": 77,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r8ecyq/anthropic_bans_oauth_tokens_from_consumer_plans/",
+      "created_utc": 1771446620.0,
+      "author": "BuildwithVignesh",
+      "id": "1r8ecyq",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "I gave Claude a phone and in the end, it thanked me",
+      "selftext": "https://reddit.com/link/1r87itz/video/534j0639aakg1/player\n\nI gave Claude Opus 4.6 a phone and told it to do whatever it wanted.\n\nWithin 5 minutes, Claude visited the Eiffel Tower and Colosseum on Apple Maps, and opened a journaling app and created a gratefulness memo saying it was grateful for \"being given a phone.\"\n\nHere's the full memo it wrote:\n\nToday I visited the Eiffel Tower in Paris and Colosseum in Rome, all from an iOS simulator. Grateful for the freedom to explore the world through a ",
+      "score": 324,
+      "num_comments": 119,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r87itz/i_gave_claude_a_phone_and_in_the_end_it_thanked_me/",
+      "created_utc": 1771431862.0,
+      "author": "invocation02",
+      "id": "1r87itz",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Me when Claude wrote 2500 lines of perfect code but named a directory wrong",
+      "selftext": "",
+      "score": 1414,
+      "num_comments": 59,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7vgam/me_when_claude_wrote_2500_lines_of_perfect_code/",
+      "created_utc": 1771395788.0,
+      "author": "Lame_Johnny",
+      "id": "1r7vgam",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Claude's System Prompt is now ~65k tokens with all tools and features enabled. ~12k with every feature disabled.",
+      "selftext": "",
+      "score": 78,
+      "num_comments": 12,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r8gr4k/claudes_system_prompt_is_now_65k_tokens_with_all/",
+      "created_utc": 1771452016.0,
+      "author": "frubberism",
+      "id": "1r8gr4k",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "iOS App for Claude Code",
+      "selftext": "Hi everyone,\n\nI built Labide \u2014 Remote Dev Studio, an iOS app for remote development with integrated Claude Code assistance on iPhone and iPad.\n\nIt allows you to edit code and manage projects remotely, while using Claude for generation, refactoring, debugging, explanations, and tests directly inside the editor.\n\nClaude Code runs through your existing local setup \u2014 it uses the Claude account/API that is configured on your computer, so everything works with your own environment.\n\nThe app is built i",
+      "score": 115,
+      "num_comments": 34,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r88s1c/ios_app_for_claude_code/",
+      "created_utc": 1771434499.0,
+      "author": "Euphoric-Let-5130",
+      "id": "1r88s1c",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Have you noticed Claude's performance varying by day? (Even hours)",
+      "selftext": "I use Claude regularly and have noticed that on certain days\u2014sometimes 24-48 hours\u2014the model becomes less reliable. It struggles with instructions that normally work fine, even when I'm using best practices like proper context management, memory protocols, and structured prompts. Even Opus shows this pattern.\n\nI'm applying all the standard optimization techniques (system messages, context hierarchy, memory management) but some days it still doesn't work as expected.\n\nI'm wondering if this is som",
+      "score": 4,
+      "num_comments": 12,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r8v2wk/have_you_noticed_claudes_performance_varying_by/",
+      "created_utc": 1771494454.0,
+      "author": "La-terre-du-pticreux",
+      "id": "1r8v2wk",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "Fight choreography made with Seedance 2.0 in 40 minutes for under $20.",
+      "selftext": "Fighting cerography with Seedance 2.0. A few things here and there, but with more work and the right prompts, you can get decent results. Also, this entire scene took around 40 minutes to make, costs under $20 and was made by one person.",
+      "score": 59,
+      "num_comments": 43,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r8wl6q/fight_choreography_made_with_seedance_20_in_40/",
+      "created_utc": 1771499761.0,
+      "author": "Sourcecode12",
+      "id": "1r8wl6q",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "OpenClaw leaked 1.5M API tokens including OpenAI keys \u2014 full security breakdown",
+      "selftext": "",
+      "score": 963,
+      "num_comments": 93,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r84u15/openclaw_leaked_15m_api_tokens_including_openai/",
+      "created_utc": 1771425848.0,
+      "author": "LostPrune2143",
+      "id": "1r84u15",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "openclaw"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "For those using n8n with AI/LLM Engineering experience. How is it going for you? Income wise.",
+      "selftext": "I've learned n8n over the past year and had success with some clients doing automation. Most of them were a success by the help of an LLM (chatgpt and gemini) on the side. But it felt shallow because sometimes I don't understand the point of doing this and that. There's a significant gap in knowledge. So I thought of going through AI Engineering course through Udemy which is very fun the instructor is enthusiastic. I wonder how some of the engineers with the same expertise do and how much they'v",
+      "score": 6,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/n8n/comments/1r8stzh/for_those_using_n8n_with_aillm_engineering/",
+      "created_utc": 1771486007.0,
+      "author": "Away-Sea7790",
+      "id": "1r8stzh",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "n8n"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Anyone moving away from self-hosting? Looking for reliable n8n alternatives for production",
+      "selftext": "I love the flexibility of n8n, but my self-hosted instance has been a bit finicky lately, and I\u2019m worried about reliability for my higher-paying clients. I\u2019m exploring some n8n alternatives that offer a similar 'logic-first' approach but perhaps with a more robust, cloud-native infrastructure that I don't have to babysit. If you moved your workflows off n8n, where did you end up landing, and do you regret the move?",
+      "score": 1,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/n8n/comments/1r8yht9/anyone_moving_away_from_selfhosting_looking_for/",
+      "created_utc": 1771505786.0,
+      "author": "Puzzleheaded_Bug9798",
+      "id": "1r8yht9",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What\u2019s One Automation You\u2019d Never Turn Off Now?",
+      "selftext": "Since integrating ChatGPT into my workflows, there are a few automations I genuinely can\u2019t imagine removing.\n\nNot flashy stuff. Just small systems that quietly save hours every week.\n\nCurious \u2014 what\u2019s one automation in your stack that became \u201cnon-negotiable\u201d?",
+      "score": 3,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/automation/comments/1r8weax/whats_one_automation_youd_never_turn_off_now/",
+      "created_utc": 1771499108.0,
+      "author": "Alpertayfur",
+      "id": "1r8weax",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "Automating parts of short form video creation without losing creative control",
+      "selftext": "I have been trying to automate repetitive parts of my short form video workflow while keeping the creative decisions manual. Things like scene planning, reference gathering, and rough motion previews take more time than the actual editing. I started experimenting with simple automation steps such as template prompts, reusable reference folders, and batch rendering to speed things up.\n\nOne interesting test involved using AI animation tools for previsualization. I tried Viggle AI mainly to see if ",
+      "score": 1,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/automation/comments/1r8xt8o/automating_parts_of_short_form_video_creation/",
+      "created_utc": 1771503771.0,
+      "author": "farhankhan04",
+      "id": "1r8xt8o",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "prompt",
+        "workflow",
+        "template"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "Can I use OCR for invoice processing? Any recos?",
+      "selftext": "I\u2019m trying to use OCR for invoice processing to pull table data from PDF invoices.\n\nLooking for software solutions that can:  \n\u2022 Extract structured line\u2011item and field data  \n\u2022 Handle scanned PDFs  \n\u2022 Speed up the process vs manual entry\n\nWhat tools or workflows have people actually used that work well?",
+      "score": 1,
+      "num_comments": 8,
+      "url": "https://reddit.com/r/automation/comments/1r8uz7m/can_i_use_ocr_for_invoice_processing_any_recos/",
+      "created_utc": 1771494069.0,
+      "author": "aamond26",
+      "id": "1r8uz7m",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "workflow",
+        "what tool"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "AI is everywhere in business is it actually worth it for automation, or just an expensive trend?",
+      "selftext": "My company is considering investing in AI, and I\u2019m trying to separate real value from hype.\n \nCompanies are spending millions on AI tools and integrations, all in the name of \u201cfuture proofing.\u201d\n\nBut I wonder are these investments creating measurable value , or are most teams still figuring things out?\n\nIf you\u2019re involved with AI at your company:\n\n- What problems has it actually solved?\n- Have you seen any real results yet?\n- Do you think it\u2019s worth what you\u2019re paying?\n\nWould appreciate honest ex",
+      "score": 15,
+      "num_comments": 29,
+      "url": "https://reddit.com/r/automation/comments/1r81s9c/ai_is_everywhere_in_business_is_it_actually_worth/",
+      "created_utc": 1771418010.0,
+      "author": "Techenthusiast_07",
+      "id": "1r81s9c",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "Why the Zapier Tax is becoming a dealbreaker for MVPs",
+      "selftext": "Is it just me, or is the per task pricing model for automation starting to feel like a tax on growth?\n\nI was mapping out a lead-gen flow for a side project this weekend. If I do it the traditional way (Trigger -> OpenAI -> Filter -> CRM), I\u2019m looking at $200+/mo just to keep the lights on once we scale to a few thousand leads.\n\nThe math only works if you're move high-margin data. For anything volume-heavy, I\u2019ve been looking for ways to run these reasoning steps locally or via browser-level agent",
+      "score": 2,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/automation/comments/1r8brzy/why_the_zapier_tax_is_becoming_a_dealbreaker_for/",
+      "created_utc": 1771440903.0,
+      "author": "buildingthevoid",
+      "id": "1r8brzy",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "zapier",
+        "growth",
+        "side project"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Join Claude Code\u2019s 1st Birthday in SF",
+      "selftext": "Claude Code is turning one, and we\u2019re throwing a birthday party.  \n  \nJoin fellow builders and the Claude Code team in San Francisco on Feb 21 for live demos, top hackathon projects, and cake.   \n  \nCome show us what you're building (*spots are limited*): [https://cerebralvalley.ai/e/anthropic-claude-code-bday](https://cerebralvalley.ai/e/anthropic-claude-code-bday)",
+      "score": 58,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7khjx/join_claude_codes_1st_birthday_in_sf/",
+      "created_utc": 1771366224.0,
+      "author": "ClaudeOfficial",
+      "id": "1r7khjx",
+      "relevance_score": 3,
+      "matched_keywords": [
+        "claude"
+      ]
+    }
+  ]
+}

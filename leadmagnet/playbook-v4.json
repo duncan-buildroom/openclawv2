@@ -1,0 +1,70 @@
+{
+  "title": "The AI Authority Playbook™",
+  "subtitle": "3 layers. 8 prompts. Build an audience that brings you clients.",
+  "hook": "I went from 0 to 110K followers in under 12 months using 8 AI prompts. Here's the exact system.",
+  "story_framework": "Behind the Curtain",
+  "story_summary": "This playbook shows the exact 3-layer system Duncan used to build 110K followers with zero ads. Layer 1: Position yourself so people want to follow. Layer 2: Create content fast. Layer 3: Show up everywhere. Each layer builds on the last. The reader sees the full stack and can start today.",
+  "format": "playbook",
+  "icon": "🎯",
+  "cover_image_concept": "Dark charcoal background with bold neon green text 'THE AI AUTHORITY PLAYBOOK' and orange accent line underneath. Clean, premium, high-contrast.",
+  "credibility_line": "Based on 0 → 110K followers in 12 months, zero ads",
+  "estimated_read_time": "8 minutes",
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "🎯 Layer 1: Positioning",
+      "type": "framework",
+      "story_beat": "First layer of the system — figure out what makes you different and say it clearly",
+      "content": "Most people sound like everyone else.\n\nSame bio. Same content. Same vague promises.\n\nYou need two things to stand out: an unfair advantage people can see, and a one-liner that makes them want to follow you.\n\nThis layer gives you both.\n\n---\n\nPrompt 1: Unfair Advantage Finder\n\nThis prompt finds what makes you different. Not what you think is special. What the market will actually care about.\n\nCopy this into ChatGPT or Claude:\n\n\"I help [who you help] with [what you do]. My background: [list your experience, skills, industries you've worked in, results you've gotten]. Find 3 unfair advantages I have that competitors can't easily copy. Make them specific and provable.\"\n\nExample output:\n- You worked at Apple for 10 years (credibility no one else has)\n- You built a system that cut research time by 80% (specific result)\n- You grew to 110K followers with zero ad spend (proof of method)\n\nPick the one that makes people think \"I want what they have.\"\n\n---\n\nPrompt 2: One-Liner Generator\n\nThis turns your advantage into a bio people read and click Follow immediately.\n\nCopy this:\n\n\"My unfair advantage: [paste the one you picked]. Write 5 different one-liner bios that show this advantage. Make them short. Make them concrete. No fluff. Show the outcome, not the process.\"\n\nExample output:\n- Built 110K followers in 12 months. Zero ads. Here's the system.\n- I turn your expertise into content that brings you clients.\n- Former Apple creative. Now I teach people to build audiences with AI.\n\nPick the one that sounds most like you.\n\n---\n\nNow you know what to say. Here's how to say it without spending 10 hours a week.",
+      "notion_elements": ["callout:💡", "divider", "callout:✅"],
+      "callout_text": "💡 Your bio is a promise. If people don't know what they get by following you, they won't follow you.",
+      "takeaway": "✅ You now have a bio that makes people click Follow and an angle no one else can copy.",
+      "word_count": 320
+    },
+    {
+      "section_number": 2,
+      "title": "⚡ Layer 2: Content Engine",
+      "type": "framework",
+      "story_beat": "Second layer — create a week of content in one sitting using 4 prompts",
+      "content": "Content takes time because you start from scratch every day.\n\nBlank page. Blinking cursor. What do I say today?\n\nThis layer gives you 4 prompts that create content faster than you can manually. You'll make a week of posts in one sitting.\n\n---\n\nPrompt 3: Hook Generator\n\nThis writes 10 first lines designed to stop the scroll.\n\nCopy this:\n\n\"Topic: [what you want to post about]. Write 10 hooks for this topic. Make them short. Make them surprising. Use these patterns: bold claim, question that makes them curious, story opening, contrarian take, specific number.\"\n\nExample output:\n- Most people waste 10 hours a week on content. Here's how to do it in one.\n- I grew to 110K followers without posting every day. Here's what I did instead.\n- You don't need more content. You need better distribution.\n\nPick the one that makes you want to keep reading.\n\n---\n\nPrompt 4: Carousel Outliner\n\nThis turns one idea into a 5-10 slide carousel in 3 minutes.\n\nCopy this:\n\n\"Topic: [your topic]. Hook: [paste the hook you picked]. Create a carousel outline with 7 slides. Slide 1: the hook. Slides 2-6: one idea per slide, each builds on the last. Slide 7: clear takeaway. Keep each slide to 1-2 sentences max.\"\n\nExample output:\nSlide 1: I built 110K followers in 12 months. Zero ads.\nSlide 2: Most people post and pray. I built a system.\nSlide 3: Layer 1: Position yourself so people want to follow.\nSlide 4: Layer 2: Create content in batches, not daily.\nSlide 5: Layer 3: Post once, show up on 6 platforms.\nSlide 6: The system compounds. Every post works harder.\nSlide 7: Build once. Distribute everywhere.\n\nDrop this into Canva. You have a carousel.\n\n---\n\nPrompt 5: Video Script\n\nThis writes a 60-second script you can read on camera.\n\nCopy this:\n\n\"Topic: [your topic]. Write a 60-second video script. Start with a hook that stops the scroll. Middle: one clear point with a specific example. End: one-sentence takeaway. Write it like I'm talking to a friend. Short sentences. No fluff.\"\n\nExample output:\n\"Most people think you need to post every day to grow. You don't. I post 3 times a week and grew to 110K followers in a year. Here's what I do instead: I create one piece of content and turn it into 6. One video becomes a carousel, a thread, a LinkedIn post, a newsletter. Same idea, different formats. You're not creating more. You're distributing smarter. Build once. Show up everywhere.\"\n\nRead it on your phone. Post it as a Reel.\n\n---\n\nPrompt 6: Voice Calibration\n\nThis makes AI sound like you, not a robot.\n\nCopy this:\n\n\"Here are 3 things I've written: [paste 3 of your posts, emails, or tweets]. Analyze my voice. Tell me: sentence length, word choice, tone, how I structure ideas. Then rewrite this post in my voice: [paste a draft].\"\n\nExample output:\n\"Your voice: Short sentences. Concrete examples. You say 'Here's what I did' not 'Here's what you should do.' You use numbers and proof, not adjectives. You write like you talk.\"\n\nNow every post sounds like you wrote it.\n\n---\n\nYou've got content. Now make it show up everywhere.",
+      "notion_elements": ["callout:💡", "divider", "callout:✅"],
+      "callout_text": "💡 Speed matters. If content takes 2 hours to make, you won't make it. These prompts cut that to 20 minutes.",
+      "takeaway": "✅ You can now create a week of content in one sitting and every post sounds like you.",
+      "word_count": 520
+    },
+    {
+      "section_number": 3,
+      "title": "🚀 Layer 3: Distribution",
+      "type": "framework",
+      "story_beat": "Third layer — take one piece of content and show up on 6 platforms with 2 prompts",
+      "content": "You create good content. No one sees it.\n\nWhy? Because you posted it once, on one platform.\n\nThis layer makes one post work six times harder.\n\n---\n\nPrompt 7: Multi-Platform Repurposer\n\nThis takes one post and rewrites it for every platform you use.\n\nCopy this:\n\n\"Here's my post: [paste your content]. Rewrite this for: LinkedIn (professional, 3 paragraphs), Twitter (thread, 5 tweets), Instagram (caption, 2200 characters, story-driven), TikTok (script, 45 seconds), YouTube (description, 150 words). Keep the core idea the same. Change the format and tone for each platform.\"\n\nExample output:\nLinkedIn: Starts with a question, 3 short paragraphs, ends with a takeaway.\nTwitter: Hook tweet, 3 supporting tweets with examples, closing tweet with CTA.\nInstagram: Story opening, emotional middle, clear lesson at the end.\nTikTok: 10-second hook, 20-second explanation, 15-second takeaway.\nYouTube: SEO-friendly description with timestamps and keywords.\n\nYou post once. You show up on 6 platforms.\n\n---\n\nPrompt 8: Weekly Calendar\n\nThis plans your whole week in 5 minutes.\n\nCopy this:\n\n\"I want to post [number] times this week. Platforms: [list them]. My topic focus: [what you help with]. Create a weekly content calendar. Show me: what to post, which platform, and what format. Make sure each post supports the others and builds momentum.\"\n\nExample output:\nMonday: LinkedIn carousel on positioning\nTuesday: TikTok video using the carousel idea\nWednesday: Twitter thread expanding on one slide\nThursday: Instagram post with a client story\nFriday: YouTube short summarizing the week's ideas\n\nYou're not guessing. You have a plan.\n\n---\n\n7-Day Quick Start\n\nHere's how to use this system starting today:\n\nDay 1: Run Unfair Advantage Finder and One-Liner Generator. Update your bio on every platform.\n\nDay 2: Run Hook Generator. Pick your 3 favorite hooks. These become your next 3 posts.\n\nDay 3: Take hook 1. Run Carousel Outliner. Create the carousel. Post it.\n\nDay 4: Take the same carousel idea. Run Video Script. Record it. Post as a Reel or TikTok.\n\nDay 5: Run Multi-Platform Repurposer on your carousel. Schedule the outputs for next week.\n\nDay 6: Run Weekly Calendar for the following week. You now have a plan.\n\nDay 7: Run Voice Calibration on 3 old posts. Save the voice analysis. Use it every time you create content.\n\nIn 7 days you'll have: a new bio, 2 pieces of content posted, 6 pieces scheduled, and a system you can repeat every week.\n\nPeople will start DMing you asking how you can help them.",
+      "notion_elements": ["callout:💡", "divider", "callout:✅"],
+      "callout_text": "💡 Distribution beats creation. One great post on 6 platforms will outperform 6 average posts on one platform.",
+      "takeaway": "✅ You now post once and show up everywhere. People find you no matter where they look.",
+      "word_count": 480
+    },
+    {
+      "section_number": 4,
+      "title": "🎯 What Happens Next",
+      "type": "cta",
+      "story_beat": "Close the loop — you have the prompts, now get the full system",
+      "content": "You now have 8 prompts that handle positioning, content, and distribution.\n\nUse them and you'll have a bio people click, content you can make in 20 minutes, and posts that show up on every platform.\n\nBut here's what this playbook doesn't include:\n\nThe full workflows. The templates. The live builds where you watch the system get made in real time. The community of people doing the same thing you are.\n\nThat's what The Build Room is for.\n\nInside, you get:\n\n- The complete Authority System with every workflow, automation, and template\n- Live builds every week where you see the systems get built step by step\n- A community of operators who are building the same way you are\n- Every playbook, prompt pack, and framework we release\n\nThis playbook gave you the skeleton. The Build Room gives you the whole body.\n\nJoin here: buildroom.ai",
+      "notion_elements": ["callout:🔥", "divider"],
+      "callout_text": "🔥 The playbook is the map. The Build Room is the vehicle.",
+      "takeaway": "",
+      "word_count": 180
+    }
+  ],
+  "cta": {
+    "headline": "🎯 What Happens Next",
+    "body": "You now have 8 prompts that handle positioning, content, and distribution. Use them and you'll have a bio people click, content you can make in 20 minutes, and posts that show up on every platform. But here's what this playbook doesn't include: The full workflows. The templates. The live builds where you watch the system get made in real time. The community of people doing the same thing you are. That's what The Build Room is for. Inside, you get: The complete Authority System with every workflow, automation, and template. Live builds every week where you see the systems get built step by step. A community of operators who are building the same way you are. Every playbook, prompt pack, and framework we release. This playbook gave you the skeleton. The Build Room gives you the whole body.",
+    "action": "Join The Build Room",
+    "link": "buildroom.ai"
+  },
+  "funnel_position": "top",
+  "social_promo": {
+    "linkedin_hook": "I went from 0 to 110K followers in under 12 months using 8 AI prompts. Here's the exact system.",
+    "instagram_hook": "8 prompts. 3 layers. This is how I built 110K followers with zero ads.",
+    "cta_trigger": "PLAYBOOK"
+  }
+}

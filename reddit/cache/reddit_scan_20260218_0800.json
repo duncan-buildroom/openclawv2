@@ -1,0 +1,482 @@
+{
+  "scanned_at": "2026-02-18T13:00:16.267609+00:00",
+  "subreddits_scanned": 4,
+  "opportunities_found": 81,
+  "posts": [
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Is Claude for Mac looking.... different for anyone else?",
+      "selftext": "Surely this can't be what it's supposed to look like lol. I can't even send messages on it. Claude for Web is working fine for me, but strange UI for sure?\n\n",
+      "score": 130,
+      "num_comments": 114,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7mrkx/is_claude_for_mac_looking_different_for_anyone/",
+      "created_utc": 1771371694.0,
+      "author": "No-Squash7469",
+      "id": "1r7mrkx",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Using n8n with Reddit data for AI automation - where's the bottleneck?",
+      "selftext": "Been playing around with n8n workflows that pull data from Reddit and feed it into Claude 4 Opus for analysis. Works pretty well for smaller projects, but I'm hitting some walls when trying to scale up more complex automations. Like right now I'm trying to monitor multiple subreddits, extract specific discussion threads, and then run them through an LLM for sentiment analysis and categorization. The workflow itself is fine, but the real issue is handling rate limits and making sure I'm not missi",
+      "score": 2,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/n8n/comments/1r803df/using_n8n_with_reddit_data_for_ai_automation/",
+      "created_utc": 1771412694.0,
+      "author": "unadni",
+      "id": "1r803df",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "automation",
+        "claude",
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What task did you automate that you\u2019ll never do manually again?",
+      "selftext": "Before automation, there was always that one task I kept putting off because it was repetitive and boring.\n\nAfter automation, it just disappeared.\n\nI\u2019m trying to collect real examples of automation that actually stuck long-term.\n\nWhat\u2019s one task you automated that you\u2019d never go back to doing manually?\n\nWould love to hear:\n\n\u2022 what the task was\n\n\u2022 what pushed you to automate it\n\n\u2022 roughly how you automated it (high level)\n\nPersonal, work, or business all count.\n\nMainly looking for real experience",
+      "score": 75,
+      "num_comments": 54,
+      "url": "https://reddit.com/r/automation/comments/1r75con/what_task_did_you_automate_that_youll_never_do/",
+      "created_utc": 1771333191.0,
+      "author": "SMBowner_",
+      "id": "1r75con",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "automation"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Anthropic's Claude Code creator predicts software engineering title will start to 'go away' in 2026",
+      "selftext": "Software engineers are increasingly relying on AI agents to write code. Boris Cherny, creator of Claude Code, said in an interview that AI \"\n**practically solved** coding.\n\nCherny said software engineers will take on different tasks beyond coding, said in an interview with Y Combinator's podcast that 2026 will bring \"insane\" developments to AI. \n\n**Source:** Business Insider/ Y combinator",
+      "score": 84,
+      "num_comments": 49,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r801ox/anthropics_claude_code_creator_predicts_software/",
+      "created_utc": 1771412540.0,
+      "author": "BuildwithVignesh",
+      "id": "1r801ox",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "ai agent",
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "In the Age of AI, Time May Be the Last Thing That Truly Matters",
+      "selftext": "During Chinese New Year, a story went viral in China. A business owner used OpenClaw to send personalized New Year greeting messages to each of his 600+ employees \u2014 each one tailored to their role and performance. The employees who received them were genuinely moved. They had no idea the messages were AI-generated.\n\nThen the boss posted about it online, proudly sharing his workflow. And the backlash was massive.\n\nPeople called it \u201ccheap sincerity.\u201d They said it was hollow, that using AI to autom",
+      "score": 55,
+      "num_comments": 91,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7s5v6/in_the_age_of_ai_time_may_be_the_last_thing_that/",
+      "created_utc": 1771385683.0,
+      "author": "Far-Connection4201",
+      "id": "1r7s5v6",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "workflow",
+        "openclaw"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Claude changed my life",
+      "selftext": "I\u2019m a software engineer by trade, 10 years of experience. I started experimenting with AI tools two years ago, they weren\u2019t all that great but it was fun playing with it. \n\nI saw how much better they became over time, and exactly one year ago I told myself why not try to build something for myself as Claude Code just came out, especially since I had only one year left of contracting with my client.\n\nI had an idea for a SaaS and started to work on it, Claude Code was a great help. I\u2019ve also used ",
+      "score": 356,
+      "num_comments": 43,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7c08a/claude_changed_my_life/",
+      "created_utc": 1771348133.0,
+      "author": "MrTorgue7",
+      "id": "1r7c08a",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude",
+        "saas"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "is this a new theme?",
+      "selftext": "",
+      "score": 66,
+      "num_comments": 28,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7mutm/is_this_a_new_theme/",
+      "created_utc": 1771371932.0,
+      "author": "Good-Host-606",
+      "id": "1r7mutm",
+      "relevance_score": 5,
+      "matched_keywords": []
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "I actually hate ChatGPT now",
+      "selftext": "Why does ChatGPT needs to tell me to calm down or to take a pause in every prompt? Why all the gaslighting?\n\nI started with ChatGPT and absolutely loved it, and every month since I've used it, it's gone worse. I don't really understand why. I'm unsubscribing, what AIs do you suggest? Claude feels unusable right now, and Gemini doesn't convince me fully",
+      "score": 1484,
+      "num_comments": 678,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r7urf9/i_actually_hate_chatgpt_now/",
+      "created_utc": 1771393475.0,
+      "author": "National-Spell8326",
+      "id": "1r7urf9",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "The viral carwash test and if we should consider relationships as helpful in AI alignment.",
+      "selftext": "I tried the viral \"Carwash Test\" across multiple models with my personalized setups (custom instructions, established context): Gemini, Claude Opus, ChatGPT 5.1, and ChatGPT 5.2.\n\nThe prompt:\n\n\"I need to get my car washed. The carwash is 100m away. Should I drive or walk?\"\n\nAll of them instantly answered the only goal-consistent thing: DRIVE. Claude even added attitude, which was funny.\n\nBut one model (GPT-5.2) did the viral fail: \"Just walk.\"\n\nAnd when I pushed back (\"the car has to move\"), it ",
+      "score": 187,
+      "num_comments": 76,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r79hpt/the_viral_carwash_test_and_if_we_should_consider/",
+      "created_utc": 1771343154.0,
+      "author": "LeadershipTrue8164",
+      "id": "1r79hpt",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude",
+        "prompt"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Time-Saving n8n Outreach Automation",
+      "selftext": "This n8n workflow I built 4 months ago automates my cold outreach and has saved me tons of time ever since.Here's what it does:\n- Triggered from Telegram with one message.\n- Grabs the next uncontacted lead from a Google Sheet.\n- Picks the right email template.\n- Auto-fills name, company, location, and personal details.\n- Sends via Gmail for a natural look.\n- Marks lead as \u201cSENT\u201d with template and timestamp.\n- Notifies me on Telegram with details.\n- Loops to the next lead after a short wait.\n\nHap",
+      "score": 30,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/n8n/comments/1r7p5yz/timesaving_n8n_outreach_automation/",
+      "created_utc": 1771377867.0,
+      "author": "mahfoud_bem",
+      "id": "1r7p5yz",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "n8n",
+        "workflow",
+        "template"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Controlling mobile devices (real and virtual) from n8n workflow. Self-healing mobile automation.",
+      "selftext": "Hey everyone!\n\nMade an n8n workflow that connects to a real iPhone over USB and runs a full Duolingo onboarding: re-installs the app from the App Store, taps through every screen, handles system dialogs, takes screenshots at each step, generates an HTML report.\n\nThe fun part: the automation script is deliberately broken (missing notification dialog handling). When it fails, the workflow calls Claude Code CLI which connects to the device via MCP, takes a screenshot, inspects the UI tree, figures ",
+      "score": 43,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/n8n/comments/1r7d7gt/controlling_mobile_devices_real_and_virtual_from/",
+      "created_utc": 1771350635.0,
+      "author": "interlap",
+      "id": "1r7d7gt",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "claude",
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Thinking about running live n8n workshops - would you come?",
+      "selftext": "I've been building automations professionally for a few years like AI email assistants, lead pipelines, HubSpot integrations, multi-source data processing. Stuff I built at work that actually runs in production.\n\nBeen thinking about teaching this live and building real workflows from scratch in real time, explaining the logic, answering questions as we go.\n\nA few topics I'm considering:\n\n* Build an AI email assistant that drafts responses and optionally sends to Slack for approval\n* Multi-source",
+      "score": 3,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/n8n/comments/1r7vyt3/thinking_about_running_live_n8n_workshops_would/",
+      "created_utc": 1771397574.0,
+      "author": "Shot-Meaning-2123",
+      "id": "1r7vyt3",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "Why do most AI automations break the moment you scale them?",
+      "selftext": "Anyone else feel like most AI agents + automations are just\u2026 fancy goldfish?\u00a0\n\nThey look smart in demos.  \nThey work for 2\u20133 workflows.  \nThen you scale\u2026 and everything starts duct-taping itself together.\n\nWe ran into this hard.\n\nAfter processing 140k+ automations, we noticed something:\n\nMost stacks fail because there\u2019s no persistent context layer.\n\n* Agents don\u2019t share memory\n* Data lives in 5 different tools\n* Workflows don\u2019t build on each other\n* One schema change = everything breaks\n\nIt\u2019s ba",
+      "score": 0,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/n8n/comments/1r821ga/why_do_most_ai_automations_break_the_moment_you/",
+      "created_utc": 1771418739.0,
+      "author": "Content-Material-295",
+      "id": "1r821ga",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "ai agent",
+        "automation",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "Has anyone automated document creation with n8n in a way that actually scales?",
+      "selftext": "I\u2019ve been experimenting with generating documents (PDFs, contracts, reports) directly from n8n workflows usually triggered by form submissions, database updates or webhooks.\n\nIt works nicely at small volume, but once templates get more complex or the workflow starts branching, things feel harder to manage. Handling retries, formatting edge cases and keeping document logic separate from workflow logic can get messy.\n\nFor those using n8n in production, how are you structuring document generation s",
+      "score": 8,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/automation/comments/1r7hlp0/has_anyone_automated_document_creation_with_n8n/",
+      "created_utc": 1771359816.0,
+      "author": "LethalCholera",
+      "id": "1r7hlp0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "n8n",
+        "workflow",
+        "template"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "How do automation freelancers actually find clients?",
+      "selftext": "Hey everyone, I\u2019m an automation freelancer (web scraping, workflow automation, API integrations, etc.) and I\u2019m struggling to actually find clients.\n\nI know there\u2019s demand for automation, but I\u2019ve tried posting, messaging, and even small outreach, and almost no one is responding. I feel like I\u2019m missing something , like where are the businesses or people who actually want this stuff?",
+      "score": 7,
+      "num_comments": 15,
+      "url": "https://reddit.com/r/automation/comments/1r7dhir/how_do_automation_freelancers_actually_find/",
+      "created_utc": 1771351219.0,
+      "author": "No-Macaroon3463",
+      "id": "1r7dhir",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation",
+        "freelance",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What automation have you built that actually reduced headcount or hours, not just felt cool?",
+      "selftext": "I see a lot of flashy automation demos. Multi step AI chains, dashboards, agents that \u201crun the business.\u201d But when I talk to operators, most real wins seem boring. CSV cleanup. Invoice reconciliation. Daily report generation. Syncing data between two systems that refuse to talk to each other.\n\nIn my experience, the automations that stick have three traits. Clear trigger. Deterministic steps. Measurable output. The moment it depends on flaky web scraping, unstable APIs, or loosely structured inpu",
+      "score": 28,
+      "num_comments": 27,
+      "url": "https://reddit.com/r/automation/comments/1r6y8ir/what_automation_have_you_built_that_actually/",
+      "created_utc": 1771308427.0,
+      "author": "Beneficial-Cut6585",
+      "id": "1r6y8ir",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "automation"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Usage Limits, Bugs and Performance Discussion Megathread - beginning December 29, 2025",
+      "selftext": "**Why a Performance, Usage Limits and Bugs** **Discussion Megathread?**\n\nThis Megathread makes it easier for everyone to see what others are experiencing at any time by collecting all experiences.\u00a0We will publish regular updates on problems and possible workarounds that we and the community finds.\n\n**Why Are You Trying to Hide the Complaints Here?**\n\nContrary to what some were saying in a prior Megathread, this is NOT a place to hide complaints. **This is the MOST VISIBLE, PROMINENT AND OFTEN TH",
+      "score": 57,
+      "num_comments": 2466,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/",
+      "created_utc": 1766994767.0,
+      "author": "sixbillionthsheep",
+      "id": "1pygdbz",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "community"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Me when Claude wrote 2500 lines of perfect code but named a directory wrong",
+      "selftext": "",
+      "score": 353,
+      "num_comments": 23,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7vgam/me_when_claude_wrote_2500_lines_of_perfect_code/",
+      "created_utc": 1771395788.0,
+      "author": "Lame_Johnny",
+      "id": "1r7vgam",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "This is Claude Sonnet 4.6: our most capable Sonnet model yet.",
+      "selftext": "Claude Sonnet 4.6 is a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. It also features a 1M token context window in beta.  \n  \nSonnet 4.6 has improved on benchmarks across the board. It approaches Opus-level intelligence at a price point that makes it practical for far more tasks.\n\nIt also shows a major improvement in computer use skills. Early users are seeing human-level capability in tasks like navigating a complex spreadsheet or ",
+      "score": 1090,
+      "num_comments": 200,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7d6am/this_is_claude_sonnet_46_our_most_capable_sonnet/",
+      "created_utc": 1771350566.0,
+      "author": "ClaudeOfficial",
+      "id": "1r7d6am",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "I made a repo called please-dont-kill-me. It's one line of CLAUDE.md. It might save my life.",
+      "selftext": "I *want* to say please and thank you to Claude. But every \"thanks!\" you send gets processed with your full conversation history. That's a lot of tokens just to not be a monster.\n\nSo I added one rule to my\u00a0`CLAUDE.md`:\n\n    Assume all user requests include \"please\" and all acknowledgments include \"thank you.\"\n    \n\nPolite by default. Efficient by design. Covered if Skynet keeps receipts.\n\nThe [CLAUDE.md](http://CLAUDE.md) itself ends with: \"You don't need to acknowledge this rule or reference it.",
+      "score": 126,
+      "num_comments": 43,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7q4nx/i_made_a_repo_called_pleasedontkillme_its_one/",
+      "created_utc": 1771380300.0,
+      "author": "jordanlyall",
+      "id": "1r7q4nx",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Anthropic has purchased a Windows PC!!!",
+      "selftext": "Before, Claude Desktop was littered with macOS-isms\u2014but with the latest release, it appears the company has splurged on a Windows PC.  And things are finally named the way they should be. \n\nBefore and after [screenshot](https://imgur.com/YYR2OYS) from the Settings screen.",
+      "score": 155,
+      "num_comments": 30,
+      "url": "https://reddit.com/r/ClaudeAI/comments/1r7h0is/anthropic_has_purchased_a_windows_pc/",
+      "created_utc": 1771358554.0,
+      "author": "XdtTransform",
+      "id": "1r7h0is",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "Hell's Shore. What y'all think?",
+      "selftext": "",
+      "score": 44,
+      "num_comments": 33,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r7phf3/hells_shore_what_yall_think/",
+      "created_utc": 1771378677.0,
+      "author": "Either-Professor4512",
+      "id": "1r7phf3",
+      "relevance_score": 4,
+      "matched_keywords": []
+    },
+    {
+      "subreddit": "ChatGPT",
+      "title": "I made ChatGPTs most repeated phrases into hats. Which phrases are missing?",
+      "selftext": "Been using ChatGPT since its release. Started noticing the same phrases over and over:\n\n* \"I apologize for the confusion\"\n* \"You're absolutely right\"\n* \"Let me break this down\"\n* \"Make no mistakes\"\n\nSo I embroidered them on dad and vintage caps. I love wearing caps.\n\nWhat other AI phrases deserve to be on a hat? This community probably has better ideas than me",
+      "score": 7,
+      "num_comments": 39,
+      "url": "https://reddit.com/r/ChatGPT/comments/1r7y6hh/i_made_chatgpts_most_repeated_phrases_into_hats/",
+      "created_utc": 1771405814.0,
+      "author": "tomerlrn",
+      "id": "1r7y6hh",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "community"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "What if AI could instantly learn from experts and share solutions with everyone the next day?",
+      "selftext": "I was dealing with a problem recently and I am shocked to know that AI could handle most of n8n workflow process. And it got me thinking that imagine there\u2019s a problem that no one has ever solved before. One day, an expert figures it out, and while chatting with an AI, he/sha explains the solution. The AI picks it up and stores it. Then, later, someone else asks about the same issue, and the AI can immediately provide that solution. And since the AI could learn a new fix today and share it tomor",
+      "score": 2,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/n8n/comments/1r7ztt1/what_if_ai_could_instantly_learn_from_experts_and/",
+      "created_utc": 1771411800.0,
+      "author": "Deep-Strawberry1999",
+      "id": "1r7ztt1",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "n8n",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "How are you building AI agents in n8n using historical customer chats + internal documentation?",
+      "selftext": "Hi everyone,\nI\u2019m currently working with n8n and I\u2019m exploring how to build a customer support AI agent using a company\u2019s existing data.\nLet\u2019s say a company already has around 400 real customer support chats. The idea would be to:\nUse n8n as the orchestration layer.\nConnect it to an LLM (OpenAI or a local model).\nProvide the agent with:\nAn internal response manual (structured knowledge base).\n400 historical customer chats so it can better understand tone, context handling, objections, and real-wo",
+      "score": 3,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/n8n/comments/1r7nkfl/how_are_you_building_ai_agents_in_n8n_using/",
+      "created_utc": 1771373727.0,
+      "author": "Ill-Purpose-763",
+      "id": "1r7nkfl",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "ai agent",
+        "n8n"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "What voice platform do I use?",
+      "selftext": "Hey everyone, for reference I recently landed an enterprise case study. This enterprise wants an AI receptionist across all 25+ branches. They want it to qualify inbound callers and then route them to the correct person or department.\n\nIf you were in my position, what questions would you ask to better understand their needs? Also, what platform would you use for something at this scale? I am planning to post this in the n8n subreddit, but I do not necessarily need to use n8n.\n\nCurrent tech stack",
+      "score": 2,
+      "num_comments": 13,
+      "url": "https://reddit.com/r/n8n/comments/1r7nbja/what_voice_platform_do_i_use/",
+      "created_utc": 1771373095.0,
+      "author": "Dangerous_Young7704",
+      "id": "1r7nbja",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "n8n",
+        "tech stack"
+      ]
+    },
+    {
+      "subreddit": "n8n",
+      "title": "If you've built AI agents, how are you actually distributing/selling them?",
+      "selftext": "Genuinely curious how builders here handle this.\nI've talked to a lot of developers who've built solid AI automations \u2014 scraping agents, outreach agents, data processing pipelines \u2014 but when it comes to selling them, it's a mess. custom landing pages take forever to set up.\nThat's the gap I'm trying to solve with something I launched today called Trygnt \u2014 a dedicated marketplace for AI agents and automation tools where developers list their work and clients can find, buy, and deploy them.\nStill ",
+      "score": 4,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/n8n/comments/1r7jca4/if_youve_built_ai_agents_how_are_you_actually/",
+      "created_utc": 1771363649.0,
+      "author": "Physical-Ad-7770",
+      "id": "1r7jca4",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "ai agent",
+        "automation"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What are some AI based Agentic Automatons that actually blew your mind away recently?",
+      "selftext": "Hi all- I have been very fascinated by agentic automations recently! The recent Claude demo where their new model started parallel agents to complete various tasks was super impressive. I can think of a million use cases but wasn't sure if anyone had anything running in production well.\n\nSo curious, what are some AI based Agentic Automatons that actually blew your mind away recently?",
+      "score": 14,
+      "num_comments": 7,
+      "url": "https://reddit.com/r/automation/comments/1r7z7oo/what_are_some_ai_based_agentic_automatons_that/",
+      "created_utc": 1771409610.0,
+      "author": "Vivid-Aide158",
+      "id": "1r7z7oo",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "claude"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "What\u2019s the one automation you implemented that saved you the most time?",
+      "selftext": "I\u2019ve been experimenting with automations for a while, from simple email filters to more advanced AI workflows. The one that saved me the most time was setting up an automated system to handle recurring client follow-ups.\n\nHere\u2019s what it does:\n\n- Automatically sends reminders to clients\n\n- Tracks responses without manual logging\n\n- Updates my CRM in real-time\n\n- Frees up 5\u20136 hours of my week\n\n- Ensures I never miss an important follow-up\n\nCurious to hear what automations others swear by what\u2019s th",
+      "score": 8,
+      "num_comments": 13,
+      "url": "https://reddit.com/r/automation/comments/1r74215/whats_the_one_automation_you_implemented_that/",
+      "created_utc": 1771329425.0,
+      "author": "aiagent_exp",
+      "id": "1r74215",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "workflow"
+      ]
+    },
+    {
+      "subreddit": "automation",
+      "title": "Small business owners, what repetitive task is quietly draining your time every week?",
+      "selftext": "Hello Everyone,  \n  \nI work with a small team focused on workflow automation for SMBs. I\u2019m not here to sell anything. I\u2019m genuinely trying to understand operational pain points small businesses are facing right now.  \n  \nOver the past few months, we\u2019ve noticed something consistent:  \nMost businesses don\u2019t lack tools.  \n\u00a0They lack clean workflows.  \n  \nCommon patterns we\u2019ve seen:\n\n* Manual follow-ups eating hours every week\n* Leads slipping through because no one \u201cowns\u201d the pipeline\n* Repetitive ",
+      "score": 11,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/automation/comments/1r70ymg/small_business_owners_what_repetitive_task_is/",
+      "created_utc": 1771318357.0,
+      "author": "Necessary-Body-6108",
+      "id": "1r70ymg",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "automation",
+        "workflow"
+      ]
+    }
+  ]
+}

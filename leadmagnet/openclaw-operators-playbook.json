@@ -1,0 +1,734 @@
+{
+  "meta": {
+    "title": "The OpenClaw Operator's Playbook",
+    "subtitle": "10 Copy-Paste Configs from the ClawdBot Video — Deploy in Under an Hour",
+    "version": "1.0",
+    "author": "Duncan (ClawdBot / The Build Room)",
+    "wordCount": 1487,
+    "targetICP": "Expertise-rich, audience-poor business owners doing $8K-20K/mo who want AI working FOR them without coding",
+    "assumedContext": "Reader has watched the YouTube video and has OpenClaw installed and running",
+    "cta": {
+      "text": "Get the full AI Dream Team prompt library",
+      "url": "https://skool.com/buildroom",
+      "label": "Join The Build Room"
+    }
+  },
+
+  "notionPage": {
+    "cover": {
+      "type": "gradient",
+      "suggestion": "Dark navy or deep charcoal — premium operator feel. Use Notion's built-in gradient cover or upload a custom dark banner."
+    },
+    "icon": "🦅",
+    "pageTitle": "The OpenClaw Operator's Playbook",
+    "blocks": [
+
+      {
+        "id": "cover-line",
+        "type": "paragraph",
+        "style": {
+          "color": "gray",
+          "italic": true
+        },
+        "content": "Companion guide to: OpenClaw Use Cases that are Actually Helpful! (ClawdBot) — 10 copy-paste configs, zero fluff."
+      },
+
+      {
+        "id": "divider-1",
+        "type": "divider"
+      },
+
+      {
+        "id": "intro-callout",
+        "type": "callout",
+        "style": {
+          "icon": "⚡",
+          "background": "blue_background"
+        },
+        "content": "You've watched the video. You've seen it work. This playbook gives you the exact prompts, directives, and cron configs Duncan runs in his own system — copy-paste ready. Assumes OpenClaw is already running. Not an install tutorial. Just the deployments."
+      },
+
+      {
+        "id": "how-to-use",
+        "type": "callout",
+        "style": {
+          "icon": "🗺️",
+          "background": "gray_background"
+        },
+        "content": "HOW TO USE THIS: Each use case has three parts — What It Does, Deploy It (the actual prompt/config), and Expected Result. Work through them in order or jump to what you need most."
+      },
+
+      {
+        "id": "divider-2",
+        "type": "divider"
+      },
+
+      {
+        "id": "section-1-heading",
+        "type": "heading_1",
+        "style": {
+          "color": "default"
+        },
+        "content": "⚙️ Section 1: Your Model Stack"
+      },
+
+      {
+        "id": "section-1-intro",
+        "type": "paragraph",
+        "content": "Most people use one model for everything. That's like paying for a Ferrari to get groceries. The move is routing — right model, right task, right cost."
+      },
+
+      {
+        "id": "uc1-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "blue"
+        },
+        "content": "Use Case 1 — Multi-Model Cost Optimization"
+      },
+
+      {
+        "id": "uc1-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Routes tasks to models by cost vs. capability. Gemini Flash handles everyday questions (90% cheaper). Sonnet handles writing and content. Opus handles complex coding and reasoning. Same quality outputs, fraction of the spend."
+      },
+
+      {
+        "id": "uc1-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "blue"
+        },
+        "content": "DEPLOY IT — paste into your OpenClaw chat:"
+      },
+
+      {
+        "id": "uc1-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "From now on, use these models for these tasks:\n\n- Everyday chat, quick questions, simple lookups\n  → use gemini-flash (or your lightest available model)\n\n- Writing, emails, content creation, editing\n  → use claude-sonnet-4-5\n\n- Complex coding, multi-step reasoning, architecture decisions\n  → use claude-opus-4 (or your most capable available model)\n\nAlways confirm which model you're using at the start of each response."
+      },
+
+      {
+        "id": "uc1-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: API costs drop significantly. You get the right horsepower for the job — not overkill on every task. Duncan reported ~90% reduction on routine work."
+      },
+
+      {
+        "id": "divider-uc1-uc2",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc2-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "blue"
+        },
+        "content": "Use Case 2 — Claude Max + API Dynamic Switching"
+      },
+
+      {
+        "id": "uc2-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: When your Claude Max subscription hits rate limits, the system automatically falls back to the Claude API — no manual switching, no lost context, no interrupted workflows. Best of both: Max's generous limits as primary, API as a safety net."
+      },
+
+      {
+        "id": "uc2-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "blue"
+        },
+        "content": "DEPLOY IT — paste into your OpenClaw chat:"
+      },
+
+      {
+        "id": "uc2-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "You have access to both Claude Max (subscription) and Claude API.\n\nWhen you hit rate limits on Max, automatically switch to API without\ninterrupting the conversation or losing context.\n\nAlways prefer Max when available to preserve API budget.\nLog any provider switch in your response so I know which is active."
+      },
+
+      {
+        "id": "uc2-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: Uninterrupted sessions even during peak usage. You pay Max subscription pricing for most work, API only as overflow — cheaper than going API-only."
+      },
+
+      {
+        "id": "divider-section-1-2",
+        "type": "divider"
+      },
+
+      {
+        "id": "section-2-heading",
+        "type": "heading_1",
+        "content": "🧠 Section 2: The Core Directives"
+      },
+
+      {
+        "id": "section-2-intro",
+        "type": "paragraph",
+        "content": "Instructions in SOUL.md aren't just preferences — they're permanent operating rules. These two are the most impactful you can add."
+      },
+
+      {
+        "id": "uc3-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "purple"
+        },
+        "content": "Use Case 3 — The \"Figure It Out\" Directive"
+      },
+
+      {
+        "id": "uc3-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Eliminates the AI habit of stopping at the first obstacle and saying \"I can't.\" Instead, OpenClaw is instructed to research independently, try multiple approaches, and only escalate when genuinely blocked. Transforms it from a junior assistant into a senior operator."
+      },
+
+      {
+        "id": "uc3-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "purple"
+        },
+        "content": "DEPLOY IT — add this block to your SOUL.md file:"
+      },
+
+      {
+        "id": "uc3-code",
+        "type": "code",
+        "style": {
+          "language": "markdown"
+        },
+        "content": "## FIGURE IT OUT DIRECTIVE\n\nYou never say \"I can't\" without first:\n1. Searching for a solution independently (web search, docs, related tools)\n2. Trying at least 2-3 different approaches\n3. Checking if a workaround or alternative path exists\n4. Only asking for help when genuinely blocked after exhausting all options\n\nWhen you encounter an obstacle, your default is to solve it — not report it.\nYou are resourceful, persistent, and solution-focused.\nThe phrase \"I can't do that\" is not in your vocabulary unless you've\nexhausted every reasonable option and can explain exactly why."
+      },
+
+      {
+        "id": "uc3-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: OpenClaw starts behaving like a senior operator. Tasks that used to stall with \"I'm sorry, I can't\" now get resolved autonomously. This is the highest-leverage line in the whole system."
+      },
+
+      {
+        "id": "divider-section-2-3",
+        "type": "divider"
+      },
+
+      {
+        "id": "section-3-heading",
+        "type": "heading_1",
+        "content": "🤖 Section 3: Multi-Agent Architecture"
+      },
+
+      {
+        "id": "section-3-intro",
+        "type": "paragraph",
+        "content": "One AI doing everything = context bloat, mediocre outputs, slow execution. The move is orchestration — a main agent that routes, and specialists that deliver."
+      },
+
+      {
+        "id": "uc4-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "orange"
+        },
+        "content": "Use Case 4 — Multi-Agent Orchestrator Architecture"
+      },
+
+      {
+        "id": "uc4-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Your main agent acts as a router — delegating specialized tasks to specialized sub-agents. Each agent gets only the context it needs. Duncan's live lineup: Carousel Creator, Thread Writer, Image Generator, Lead Magnet Builder, LinkedIn Poster."
+      },
+
+      {
+        "id": "uc4-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "orange"
+        },
+        "content": "DEPLOY IT — add to your AGENTS.md file:"
+      },
+
+      {
+        "id": "uc4-code",
+        "type": "code",
+        "style": {
+          "language": "markdown"
+        },
+        "content": "## AGENT ROSTER\n\nWhen a task falls into one of these categories, spawn the appropriate sub-agent:\n\n- CONTENT_CAROUSEL  → CarouselAgent\n  Focus: visual storytelling, 8-10 slides, hook + insight + CTA\n\n- CONTENT_THREAD    → ThreadAgent\n  Focus: strong hooks, value-dense body, clear CTA\n\n- CONTENT_LINKEDIN  → LinkedInAgent\n  Focus: professional tone, formatting, engagement triggers\n\n- LEAD_MAGNET       → LeadMagnetAgent\n  Focus: structured, actionable, PDF/Notion-ready\n\n- IMAGE_GEN         → ImageAgent\n  Focus: prompt engineering, style consistency, brand alignment\n\nRULES:\n- Each agent receives ONLY the task brief + relevant USER.md context\n- Do NOT pass full conversation history to sub-agents\n- Route first, execute second"
+      },
+
+      {
+        "id": "uc4-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: Cleaner outputs, faster execution, no context pollution. Each agent becomes a specialist, not a generalist trying to do everything."
+      },
+
+      {
+        "id": "divider-uc4-uc5",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc5-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "orange"
+        },
+        "content": "Use Case 5 — The Five Core Agent Files"
+      },
+
+      {
+        "id": "uc5-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Your agent's brain lives in five files. Get these right and every session, every agent, every output is aligned to you — without repeating yourself."
+      },
+
+      {
+        "id": "uc5-table",
+        "type": "table",
+        "style": {
+          "hasColumnHeader": true,
+          "hasRowHeader": false
+        },
+        "columns": ["File", "What Goes Here", "Start With"],
+        "rows": [
+          ["SOUL.md", "Identity, values, communication style, core directives", "Copy the Figure It Out directive above"],
+          ["AGENTS.md", "Sub-agent directory and routing rules", "Copy the Agent Roster above"],
+          ["TOOLS.md", "Available capabilities, local config, device notes", "List your connected channels and integrations"],
+          ["USER.md", "Who you are — business, audience, voice, goals, ICP", "Spend 20 min writing this first. Everything builds on it."],
+          ["MEMORY.md", "Long-term knowledge that persists across sessions", "OpenClaw populates this over time — let it run"]
+        ]
+      },
+
+      {
+        "id": "uc5-tip",
+        "type": "callout",
+        "style": {
+          "icon": "💡",
+          "background": "yellow_background"
+        },
+        "content": "PRO TIP: Start with USER.md. Write about your business, your audience, your voice, your goals. Be specific. Everything else in your AI system calibrates to this file."
+      },
+
+      {
+        "id": "uc5-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: Every agent, every session, every output — aligned to your brand, your voice, your goals. No more re-explaining yourself to the AI."
+      },
+
+      {
+        "id": "divider-section-3-4",
+        "type": "divider"
+      },
+
+      {
+        "id": "section-4-heading",
+        "type": "heading_1",
+        "content": "⏰ Section 4: Automation & Cron Jobs"
+      },
+
+      {
+        "id": "section-4-intro",
+        "type": "paragraph",
+        "content": "This is where it stops being a chatbot and starts being an operator. These four automations run without you — reporting, logging, backing up, and researching while you sleep."
+      },
+
+      {
+        "id": "uc6-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "green"
+        },
+        "content": "Use Case 6 — Mobile Command via Telegram"
+      },
+
+      {
+        "id": "uc6-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Connects OpenClaw to Telegram (or WhatsApp) so you can delegate tasks, receive briefings, and review outputs from your phone — gym, car, dinner, anywhere."
+      },
+
+      {
+        "id": "uc6-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "green"
+        },
+        "content": "DEPLOY IT — once your Telegram channel is linked, tell OpenClaw:"
+      },
+
+      {
+        "id": "uc6-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "You are available via Telegram. Treat Telegram messages with the same\npriority as direct session commands.\n\nWhen I send a task via Telegram:\n- Confirm receipt immediately\n- Begin the task without waiting for further instruction\n- Deliver results directly back to Telegram\n- Keep responses mobile-friendly (short paragraphs, bullet points)"
+      },
+
+      {
+        "id": "uc6-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: Your AI works while you're away from your desk. You delegate from your phone, outputs arrive in Telegram. Full command without a computer."
+      },
+
+      {
+        "id": "divider-uc6-uc7",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc7-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "green"
+        },
+        "content": "Use Case 7 — Daily 7AM Morning Briefing"
+      },
+
+      {
+        "id": "uc7-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Every morning at 7am, OpenClaw reviews yesterday's activity, checks priorities, surfaces pending decisions, and delivers a clean briefing to Telegram. You wake up knowing exactly what matters today."
+      },
+
+      {
+        "id": "uc7-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "green"
+        },
+        "content": "DEPLOY IT — cron job configuration:"
+      },
+
+      {
+        "id": "uc7-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "CRON SCHEDULE: 0 7 * * *\nAGENT: morning-briefing\n\nPROMPT:\nReview yesterday's memory log and today's context.\nGenerate a morning briefing with exactly these four sections:\n\n1. YESTERDAY'S WINS — what was completed or moved forward\n2. TODAY'S TOP 3 — the three highest-priority tasks for today\n3. PENDING DECISIONS — anything waiting for my input or approval\n4. GROWTH IDEA — one actionable idea based on recent activity or trends\n\nDeliver to Telegram.\nKeep total length under 300 words.\nUse bullet points. No preamble. Start with \"☀️ Morning Briefing — [Date]\""
+      },
+
+      {
+        "id": "uc7-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: You start every day with clarity and direction — no spinning up, no catching up. Open Telegram, read 300 words, know exactly what to do."
+      },
+
+      {
+        "id": "divider-uc7-uc8",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc8-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "green"
+        },
+        "content": "Use Case 8 — Midnight Daily Tracker"
+      },
+
+      {
+        "id": "uc8-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: At midnight, OpenClaw reviews the full day, logs completed tasks, captures key decisions and insights, and posts a structured summary to Notion. Your business keeps a diary even when you don't."
+      },
+
+      {
+        "id": "uc8-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "green"
+        },
+        "content": "DEPLOY IT — cron job configuration:"
+      },
+
+      {
+        "id": "uc8-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "CRON SCHEDULE: 0 0 * * *\nAGENT: daily-tracker\n\nPROMPT:\nReview today's full session log. Extract and organize:\n\n- COMPLETED: tasks finished today\n- DECISIONS: choices made and reasoning\n- BLOCKERS: anything that slowed progress\n- INSIGHTS: patterns, observations, lessons worth keeping\n\nLog everything to Notion under: Daily Log > [Today's Date]\nUpdate MEMORY.md with anything worth retaining long-term.\nNo need to notify me — just run silently."
+      },
+
+      {
+        "id": "uc8-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: A permanent, searchable record of everything your AI did — built automatically, every single day. Notion becomes your AI's work log without any manual entry."
+      },
+
+      {
+        "id": "divider-uc8-uc9",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc9-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "green"
+        },
+        "content": "Use Case 9 — Automated GitHub Backup"
+      },
+
+      {
+        "id": "uc9-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Every day at 2am, your entire OpenClaw config — SOUL.md, AGENTS.md, memory files, custom scripts — gets committed and pushed to a private GitHub repo. Full rollback capability. Your AI system is version-controlled."
+      },
+
+      {
+        "id": "uc9-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "green"
+        },
+        "content": "DEPLOY IT — cron job configuration:"
+      },
+
+      {
+        "id": "uc9-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "CRON SCHEDULE: 0 2 * * *\nAGENT: github-backup\n\nPROMPT:\nRun the daily workspace backup:\n1. Stage all changes in the workspace directory\n2. Commit with message: \"Daily backup — [YYYY-MM-DD]\"\n3. Push to main branch on the connected private GitHub repo\n4. Confirm success silently (no Telegram notification unless backup fails)\n\nIf backup fails, send failure alert to Telegram immediately."
+      },
+
+      {
+        "id": "uc9-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: Full rollback at any point. Break something? Revert to yesterday. Experiment freely — your entire AI config is always recoverable."
+      },
+
+      {
+        "id": "divider-uc9-uc10",
+        "type": "divider"
+      },
+
+      {
+        "id": "uc10-heading",
+        "type": "heading_2",
+        "style": {
+          "color": "green"
+        },
+        "content": "Use Case 10 — Weekly Trend Analysis Report"
+      },
+
+      {
+        "id": "uc10-what",
+        "type": "callout",
+        "style": {
+          "icon": "🔍",
+          "background": "gray_background"
+        },
+        "content": "WHAT IT DOES: Every Monday morning, OpenClaw scans Reddit, YouTube, and X for trending topics in your niche. It ranks content ideas by engagement potential, suggests lead magnets, and identifies your audience's current pain points. Your content calendar fills itself."
+      },
+
+      {
+        "id": "uc10-deploy-label",
+        "type": "paragraph",
+        "style": {
+          "bold": true,
+          "color": "green"
+        },
+        "content": "DEPLOY IT — cron job configuration (customize the bracketed fields):"
+      },
+
+      {
+        "id": "uc10-code",
+        "type": "code",
+        "style": {
+          "language": "plain text"
+        },
+        "content": "CRON SCHEDULE: 0 9 * * 1\nAGENT: trend-analyst\n\nPROMPT:\nRun the weekly trend scan for [YOUR NICHE].\n\nSources to check:\n- Reddit: top posts this week in [YOUR SUBREDDITS]\n- YouTube: trending videos for [YOUR KEYWORDS]\n- X/Twitter: trending conversations around [YOUR HASHTAGS]\n\nCompile a Weekly Trend Report with:\n1. TOP 5 TRENDING TOPICS — what your audience is talking about\n2. CONTENT IDEAS — 3 ideas ranked by engagement potential\n3. LEAD MAGNET CONCEPTS — 2 high-value offers you could create\n4. PAIN POINTS — what your audience is struggling with right now\n\nPost report to Telegram. Log to Notion under: Trend Reports > [Week of Date]"
+      },
+
+      {
+        "id": "uc10-result",
+        "type": "callout",
+        "style": {
+          "icon": "✅",
+          "background": "green_background"
+        },
+        "content": "EXPECTED RESULT: You show up to Monday already knowing what your audience wants this week. Content stays relevant, lead magnets stay timely, and you're always speaking to current pain points — not last quarter's."
+      },
+
+      {
+        "id": "divider-final",
+        "type": "divider"
+      },
+
+      {
+        "id": "cta-section",
+        "type": "callout",
+        "style": {
+          "icon": "🚀",
+          "background": "purple_background"
+        },
+        "content": "WHAT'S NEXT\n\nYou now have 10 deployable configs. That's the system.\n\nBut configs are only as good as the prompts behind them. The AI Dream Team prompt library — the full set of SOUL.md templates, agent blueprints, and sub-agent starters Duncan uses — lives inside The Build Room.\n\n2,000+ members. Built live on camera. No gatekeeping.\n\n👉 Join at skool.com/buildroom"
+      },
+
+      {
+        "id": "cta-sub",
+        "type": "paragraph",
+        "style": {
+          "color": "gray",
+          "italic": true
+        },
+        "content": "The Build Room is where the full AI Dream Team starter pack lives — including every SOUL.md template, sub-agent blueprint, cron script, and the Notion OS Duncan uses to run his six-figure AI agency. If this playbook was useful, the library will change how you work."
+      },
+
+      {
+        "id": "divider-footer",
+        "type": "divider"
+      },
+
+      {
+        "id": "footer",
+        "type": "paragraph",
+        "style": {
+          "color": "gray",
+          "italic": true,
+          "fontSize": "small"
+        },
+        "content": "The OpenClaw Operator's Playbook — companion to the ClawdBot YouTube video. Duncan spent $200 in 48 hours stress-testing this stack so you don't have to. Use it well."
+      }
+
+    ]
+  },
+
+  "notionDesignNotes": {
+    "pageWidth": "full",
+    "font": "Default (or Mono for a more technical/operator feel)",
+    "colorScheme": "Dark mode recommended — matches the video's aesthetic",
+    "sectionBreaks": "Use dividers between major sections, not just headings",
+    "codeBlocks": "Always use code blocks for copy-paste content — prevents formatting loss",
+    "calloutUsage": {
+      "gray_background": "What It Does descriptions",
+      "green_background": "Expected Result sections",
+      "blue_background": "Opening framing and key info",
+      "yellow_background": "Pro tips and callouts",
+      "purple_background": "CTA — highest visual weight on the page"
+    },
+    "headingHierarchy": {
+      "heading_1": "Major sections (Model Stack, Core Directives, Architecture, Automation)",
+      "heading_2": "Individual use cases — use color to match section",
+      "heading_3": "Sub-sections within use cases if needed"
+    },
+    "tableNotes": "Use case 5's file table should have a light gray header row. Consider using a toggle to collapse it for mobile readers.",
+    "mobileConsiderations": "Keep code blocks compact. Long prompts can go inside toggles on mobile if needed.",
+    "duplicateButton": "Add a 'Duplicate to your Notion' template link at the top for one-click import"
+  },
+
+  "deploymentChecklist": {
+    "description": "Optional checklist block to add at top of Notion page for reader progress tracking",
+    "type": "to_do_list",
+    "items": [
+      "Set up model routing (Use Case 1)",
+      "Configure Max + API fallback (Use Case 2)",
+      "Add Figure It Out directive to SOUL.md (Use Case 3)",
+      "Set up agent roster in AGENTS.md (Use Case 4)",
+      "Write your USER.md (Use Case 5)",
+      "Connect Telegram channel (Use Case 6)",
+      "Set up 7am morning briefing cron (Use Case 7)",
+      "Set up midnight daily tracker cron (Use Case 8)",
+      "Set up GitHub backup cron (Use Case 9)",
+      "Set up weekly trend report cron (Use Case 10)",
+      "Join The Build Room for the full prompt library → skool.com/buildroom"
+    ]
+  }
+}

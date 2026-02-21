@@ -1,0 +1,147 @@
+# The Claude Cowork Starter Kit™
+
+Stop chatting with AI. Start putting it to work on your actual files.
+
+By Duncan Rogoff — buildroom.ai
+Based on real user workflows from Reddit, Discord, and 6 months of Cowork beta testing
+
+---
+
+## 🎯 What Claude Cowork Actually Is
+
+Claude Cowork is not Claude Chat. It's a separate mode inside the Claude desktop app. You give it access to specific folders on your computer, set a task, and walk away. Claude breaks the work into steps, executes them in an isolated virtual machine on your machine, and pings you before doing anything destructive. It's like hiring an assistant who works on your files while you're in a meeting.
+
+Cowork is in research preview right now. It's available to anyone with a paid Claude account (Pro at $20/mo, Max at $100-200/mo, or Team at $20/seat). It can connect to cloud tools like Slack, Notion, and GitHub. It has plugins for specialized tasks. And it pairs with a Chrome extension so Claude can work in your browser.
+
+The big difference? Chat is back and forth. Cowork is set it and forget it.
+
+If you've been copying and pasting between Claude and your files all day, you've been doing it the hard way.
+
+> 💡 Cowork runs in a virtual machine on YOUR computer. Your files never leave your machine. Claude just gets temporary access to the folders you choose.
+
+> ✅ Key Takeaway: Chat is for conversation. Cowork is for autonomous file work.
+
+---
+
+## 🔀 Chat vs Cowork vs Code — When to Use Each
+
+Here's the simple breakdown:
+
+Chat: You want answers, ideas, or help writing something. You're having a conversation. You ask, Claude responds, you refine. Good for brainstorming, learning, editing copy, asking questions.
+
+Cowork: You have a task that involves your files. You want Claude to do the work while you do something else. You point it at a folder and describe the outcome you want. Good for organizing files, drafting documents from notes, cleaning up folders, batch processing.
+
+Code: You're writing or editing code in a specific codebase. You want Claude to understand your project structure and make changes across multiple files. Good for debugging, refactoring, building features.
+
+The mistake most people make? They use Chat for everything. They copy files into Chat, ask Claude to process them, then copy the output back. That works, but it's slow. If you're doing that more than twice for the same type of task, switch to Cowork.
+
+Cowork is best when the task is repetitive, involves multiple files, or takes more than 5 steps. Chat is best when you need to think out loud or iterate quickly on one thing.
+
+> ⚠️ If you find yourself doing the same copy-paste workflow more than twice, that's a Cowork task.
+
+> ✅ Key Takeaway: Match the tool to the task. Chat for conversation, Cowork for file work, Code for codebases.
+
+---
+
+## 🔥 The 5 Best Tasks for Cowork (With Exact Prompts)
+
+These are the tasks real users have reported success with. Not theory. Not what should work. What actually works.
+
+### 1. Clean Up Your Downloads Folder
+
+Most people have 500+ random files sitting in Downloads. Cowork can organize them in minutes.
+
+📋 Prompt to use:
+"Go through my Downloads folder. Create subfolders by file type (Images, Documents, Videos, Archives, Other). Move each file into the right folder. Delete any files older than 6 months that are clearly junk (installers, duplicate screenshots, tmp files). Show me what you plan to delete before you do it."
+
+### 2. Turn Meeting Notes Into Polished Reports
+
+You have a folder of raw notes from client calls or team meetings. You need them formatted and summarized.
+
+📋 Prompt to use:
+"Read all the notes in the /meeting-notes folder. Create one summary document that organizes them by project. For each project, include key decisions, action items, and open questions. Format it as a clean report I can send to my team."
+
+### 3. Convert Screenshots Into Spreadsheets
+
+You have receipts, invoices, or data tables in image form. You need them in a spreadsheet.
+
+📋 Prompt to use:
+"Look at all the images in the /receipts folder. Extract the data from each one (date, vendor, amount, category). Create a CSV file with columns for Date, Vendor, Amount, Category, and Notes. If anything is unclear, flag it in the Notes column."
+
+### 4. Draft Marketing Content From a Brand Voice Folder
+
+You have examples of your writing style. You need new posts, emails, or landing page copy that sounds like you.
+
+📋 Prompt to use:
+"Read everything in my /brand-voice folder. Learn how I write — tone, structure, word choice. Then draft 10 LinkedIn posts about [your topic]. Match my style exactly. Each post should be 150-200 words, start with a hook, and end with a clear takeaway."
+
+### 5. Create Daily Briefings From Multiple Sources
+
+You want a morning summary of what happened in Slack, what's on your calendar, and what GitHub issues need attention.
+
+📋 Prompt to use:
+"Connect to my Slack workspace, Google Calendar, and GitHub. Every morning, create a briefing document that includes: (1) Slack messages I was mentioned in or DMs I received, (2) Calendar events for today and tomorrow, (3) GitHub issues assigned to me or updated in the last 24 hours. Save it as a new file in /briefings with today's date as the filename."
+
+These five tasks cover 80% of what Cowork does well right now. Start with one. Get it working. Then add the next.
+
+> 🔥 Copy these prompts exactly. Adjust folder names and details to match your setup. The structure works.
+
+> ✅ Key Takeaway: Start with Downloads folder cleanup. It's low-risk and you'll see results in 5 minutes.
+
+---
+
+## ⚠️ Safety Setup (Read This Before You Start)
+
+Real talk: people have lost files using Cowork. Not because it's broken, but because they gave it access to everything and said yes to a destructive action without reading it.
+
+Here's how to avoid that:
+
+Create a dedicated Cowork folder. Don't point Claude at your entire Documents folder or your Desktop. Make a new folder called /Cowork-Workspace. Put copies of the files you want it to work on in there. Work from copies until you trust it.
+
+Never give access to your entire drive. When Cowork asks what folders it can access, be specific. Give it one folder at a time. You can always add more later.
+
+Start with read-only tasks. Your first few tasks should be things like "summarize these files" or "create a report from these notes." Not "delete," "move," or "rename." Get comfortable with how it works before you let it change things.
+
+Always review before approving destructive actions. Cowork will show you what it plans to delete, move, or overwrite. Read it. If you're not sure, say no. You can refine the task and try again.
+
+The people who have the best experience with Cowork treat it like a junior employee. You wouldn't let a new hire delete your entire project folder on day one. Same rule applies here.
+
+> ⚠️ Work from a dedicated /Cowork-Workspace folder with COPIES of your files until you trust the workflow. You can always expand access later.
+
+> ✅ Key Takeaway: Start safe. Give limited access. Review destructive actions. Expand permissions as you build trust.
+
+---
+
+## 🎯 What This Unlocks for Content Creators
+
+If you're building an audience, you're drowning in content work. Repurposing posts, organizing research, drafting scripts, managing brand assets, tracking performance.
+
+Cowork is built for this. Point it at your content library and it can:
+
+- Repurpose one long-form post into 10 short-form variations
+- Organize your swipe file by topic, platform, and performance
+- Draft video scripts from bullet-point outlines
+- Turn voice memos into polished blog posts
+- Create content calendars from a folder of ideas
+
+The pattern that works: give Cowork access to your content folder (scripts, posts, templates, research), tell it what you need, and let it draft while you record, engage, or sell.
+
+You stop being the bottleneck. Your content system runs whether you're working or not.
+
+Inside Build Room, we've built entire Cowork plugins for content workflows. Automations that connect your content library to your publishing tools. Prompts that turn one piece of content into 20. Systems that let you create once and distribute everywhere.
+
+If you're serious about using AI to build your audience faster, Build Room is where you learn how to do it. We don't teach theory. We give you the exact automations, prompts, and systems that are working right now.
+
+Join Build Room at buildroom.ai and get access to every content automation we've ever built. Plus the community of people actually doing this, not just talking about it.
+
+> 🔥 The real power isn't one task. It's building a system where Cowork handles your content backlog while you focus on the work only you can do.
+
+> ✅ Key Takeaway: Cowork turns your content creation from a bottleneck into a system.
+
+---
+
+## Ready to Build Your Content System?
+
+Join Build Room and get access to every AI automation, prompt, and system we've built for content creators. No fluff. Just the exact workflows that took Duncan from 0 to 110K followers in under 12 months.
+
+Learn more at buildroom.ai

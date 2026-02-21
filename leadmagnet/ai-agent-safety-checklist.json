@@ -1,0 +1,113 @@
+{
+  "title": "The AI Agent Safety Checklist™ for Consultants & Professional Services",
+  "subtitle": "Deploy AI agents without risking your reputation, your clients, or your business",
+  "hook": "Everyone's selling the AI agent dream. Nobody's talking about what happens when they access the wrong file, leak client data, or go rogue at 2 AM.",
+  "story_framework": "Behind the Curtain",
+  "story_summary": "The OpenClaw/Claude Code explosion brought 12M+ YouTube views and real security anxiety. Every comment section shows the same fear: 'completely unhinged, no guardrails,' 'the biggest security issue.' This checklist is the safety net nobody's selling — the responsible operator's guide to deploying AI agents without blowing up your business.",
+  "format": "guide",
+  "icon": "🛡️",
+  "cover_image_concept": "Dark charcoal background with neon green shield icon, bold white text: 'AI Agent Safety Checklist' with small orange subtitle 'Deploy without destroying'",
+  "credibility_line": "Based on 200+ production AI workflows and real incidents from consultants scaling with autonomous agents",
+  "estimated_read_time": "7 minutes",
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "🎯 Why This Exists",
+      "type": "hero",
+      "story_beat": "Set up the problem — everyone wants AI agents, nobody knows how to deploy them safely",
+      "content": "12 million YouTube views across OpenClaw and Claude Code content in 90 days. Every comment section shows the same anxiety: \"This is completely unhinged. No guardrails.\" \"The biggest security issue is not only that it's vulnerable...\"\n\nEveryone is selling you the AI agent dream. Build while you sleep. Scale without hiring.\n\nNobody is selling the safety net.\n\nYou're doing $8K-20K/mo. You built your reputation over years. One leaked client file, one rogue email at 2 AM, one exposed API key — and you're explaining yourself instead of closing deals.\n\nThis checklist is the unsexy work that lets you deploy AI agents without destroying what you built.\n\n> 💡 The opportunity: Everyone wants autonomous agents. Almost nobody knows how to deploy them responsibly. Be the expert who does both.",
+      "notion_elements": ["callout:💡", "divider"],
+      "callout_text": "The opportunity: Everyone wants autonomous agents. Almost nobody knows how to deploy them responsibly. Be the expert who does both.",
+      "word_count": 130
+    },
+    {
+      "section_number": 2,
+      "title": "⚠️ The Three-Zone Safety Framework",
+      "type": "framework",
+      "story_beat": "Give them the core mental model — not all automation is created equal",
+      "content": "Before you automate anything, classify it into one of three zones.\n\n### 🟢 Green Zone: Automate Freely\nLow-risk tasks where errors are reversible or low-impact.\n\n- Social media research and drafting (not publishing)\n- Meeting summaries and internal notes\n- Market research and competitor analysis\n- Content ideation and outlining\n\n> ✅ Rule: If a mistake costs you 5 minutes and zero reputation damage, it's Green Zone.\n\n───────────────────────\n\n### 🟡 Yellow Zone: Automate with Human Approval\nMedium-risk tasks where AI drafts, you approve.\n\n- Client email responses (draft only, you send)\n- Social media publishing (you approve first)\n- Document generation using client data\n- Appointment scheduling involving clients\n- Invoice and proposal generation\n\n> ✅ Rule: AI drafts it. You approve it. No exceptions.\n\n───────────────────────\n\n### 🔴 Red Zone: Never Fully Automate\nHigh-risk tasks where full automation creates unacceptable exposure.\n\n- Anything involving client financial data\n- Legal documents or contract modifications\n- Access to production databases or client systems\n- Password or credential management\n- Deleting files or data\n- Direct communication with high-value clients\n\n> ⚠️ Critical: Just because you CAN automate something doesn't mean you SHOULD. Red Zone tasks stay human-reviewed, always.\n\n───────────────────────\n\n> 💡 Most disasters happen when someone automates a Yellow or Red Zone task as Green Zone. Know the difference.",
+      "notion_elements": ["callout:✅", "callout:⚠️", "callout:💡", "divider"],
+      "callout_text": "Most disasters happen when someone automates a Yellow or Red Zone task as Green Zone. Know the difference.",
+      "takeaway": "Classify every automation into Green (safe), Yellow (needs approval), or Red (never fully automate)",
+      "word_count": 250
+    },
+    {
+      "section_number": 3,
+      "title": "🔒 The 10-Minute Security Audit",
+      "type": "content",
+      "story_beat": "Give them a concrete checklist they can run right now",
+      "content": "Run this audit on every AI agent you deploy. Takes 10 minutes. Saves your business.\n\n**1. Permission Scope Check**\n- [ ] Agent has access ONLY to folders/data it needs\n- [ ] No blanket access to entire drives or email\n- [ ] File permissions reviewed in last 30 days\n- [ ] Client folders are isolated from your internal data\n\n**2. API Key Audit**\n- [ ] Every key has minimum required permissions (not admin)\n- [ ] Keys rotate every 90 days\n- [ ] Keys stored in environment variables, never hardcoded\n- [ ] Deactivated keys are deleted, not disabled\n\n**3. Data Access Map**\n- [ ] You can list every system the agent reads from\n- [ ] You can list every system the agent writes to\n- [ ] Client data is separated from internal data\n- [ ] Agent cannot access previous clients' information\n\n**4. Output Review Process**\n- [ ] Yellow Zone tasks have mandatory human review\n- [ ] Log exists of what agent generated vs. what you approved\n- [ ] Failed tasks notify you immediately\n- [ ] Agent cannot publish or send without approval\n\n**5. Kill Switch Test**\n- [ ] You know how to immediately disable the agent\n- [ ] Disabling doesn't require technical knowledge\n- [ ] You tested the kill switch in last 30 days\n- [ ] Backup person can kill it if you're unavailable\n\n> 🔥 If you can't check all 5 categories, don't deploy. Fix the gaps first.",
+      "notion_elements": ["callout:🔥", "divider"],
+      "callout_text": "If you can't check all 5 categories, don't deploy. Fix the gaps first.",
+      "takeaway": "Run this 5-category audit before deploying — permission scope, API keys, data access, output review, kill switch",
+      "word_count": 240
+    },
+    {
+      "section_number": 4,
+      "title": "📋 Audit Trail Setup (15 Minutes)",
+      "type": "content",
+      "story_beat": "Show them how to create accountability and visibility",
+      "content": "The scariest disasters happen silently. You don't know something broke until a client emails. An audit trail gives you visibility.\n\n**What to log:**\n- Agent actions (files read, emails sent, API calls)\n- Decisions made (why AI chose option A over B)\n- Errors and failures\n- Human overrides (when you rejected AI output)\n\n**How to set it up:**\n\n> 📋 OpenClaw/Claude Code: Enable session logging. Review ~/.openclaw/logs/ weekly.\n\n> 📋 n8n workflows: Add logging node after critical steps. Log timestamp, workflow name, input, output, success/fail.\n\n> 📋 API agents: Use Logtail or Papertrail. Alert on keywords: 'error,' 'failed,' 'client,' 'delete.'\n\n**Review schedule:**\n- Daily: Scan for errors\n- Weekly: Review what agent accessed and produced\n- Monthly: Audit for permission creep\n\n> ✅ An audit trail is proof you run a professional operation when clients ask about data safety.",
+      "notion_elements": ["callout:📋", "callout:✅", "divider"],
+      "callout_text": "An audit trail is proof you run a professional operation when clients ask about data safety.",
+      "takeaway": "Log actions, decisions, errors, overrides — review daily for errors, weekly for outputs, monthly for permission creep",
+      "word_count": 160
+    },
+    {
+      "section_number": 5,
+      "title": "💬 How to Tell Clients You Use AI",
+      "type": "tool",
+      "story_beat": "Address the elephant in the room — client communication",
+      "content": "You will get asked. Here's how to answer without sounding defensive.\n\n**The Framework:**\n1. Lead with the outcome, not the tool\n2. Position AI as quality control, not replacement\n3. Show what stays human\n\n**Template 1: Proactive (in proposal)**\n\n> 📋 \"We use AI-assisted tools for research, drafting, and analysis. Every deliverable is reviewed and approved by our team before delivery. This lets us move faster on repetitive work so we spend more time on strategy for your business.\"\n\n**Template 2: Reactive (when asked directly)**\n\n> 📋 \"Yes, we use AI for research, drafting, and data analysis. The strategy, decisions, and final output are always human-led. I can walk you through exactly how we use it and what safeguards we have.\"\n\n**Template 3: Premium Positioning**\n\n> 📋 \"We combine AI tools with 15 years of expertise to deliver faster without sacrificing quality. AI handles grunt work. We handle the thinking — strategy, customization, and alignment with your brand.\"\n\n> ⚠️ Never say: 'It's just AI,' 'Don't worry,' or dodge the question. Transparency builds trust. Defensiveness destroys it.",
+      "notion_elements": ["callout:📋", "callout:⚠️", "divider"],
+      "callout_text": "Never say: 'It's just AI,' 'Don't worry,' or dodge the question. Transparency builds trust. Defensiveness destroys it.",
+      "takeaway": "Lead with outcomes, position AI as quality control, show what stays human",
+      "word_count": 200
+    },
+    {
+      "section_number": 6,
+      "title": "🚨 Recovery Protocols (When Things Go Wrong)",
+      "type": "content",
+      "story_beat": "Prepare for worst-case so they're not paralyzed when it happens",
+      "content": "Something will break. Here's your playbook.\n\n**Step 1: Immediate Containment (First 5 Minutes)**\n- Disable the agent\n- Revoke exposed API keys or credentials\n- Identify what data was accessed or sent\n- Document the timeline\n\n**Step 2: Assess Impact (Next 15 Minutes)**\n- Was client data exposed?\n- Was anything sent externally?\n- Is there regulatory risk? (HIPAA, GDPR)\n- Can the action be reversed?\n\n**Step 3: Client Communication (If Needed)**\n\nOnly if client data was exposed or something sent in their name.\n\n> 📋 \"I'm reaching out immediately about an issue with one of our automation tools. [What happened]. Here's what we've done: [containment]. Here's what we're doing next: [prevention]. I take full responsibility. Let's schedule a call.\"\n\n**Step 4: Root Cause Fix (Next 24 Hours)**\n- What permission allowed this?\n- What approval gate was missing?\n- How do we prevent this category of error?\n- Update your Security Audit checklist\n\n> 🔥 The pros don't avoid mistakes. They catch them fast and fix them transparently. Your response builds more trust than never having an incident.",
+      "notion_elements": ["callout:📋", "callout:🔥", "divider"],
+      "callout_text": "The pros don't avoid mistakes. They catch them fast and fix them transparently. Your response builds more trust than never having an incident.",
+      "takeaway": "Containment (5 min) → Impact assessment (15 min) → Client communication (if needed) → Root cause fix (24 hours)",
+      "word_count": 210
+    },
+    {
+      "section_number": 7,
+      "title": "🔧 Tool-Specific Safety Tips",
+      "type": "tool",
+      "story_beat": "Give concrete guidance for popular agent tools",
+      "content": "### OpenClaw / Claude Code\n\n**Key Risk:** Full shell access. Can read/write/delete any file.\n\n- Run in dedicated workspace folder, not home directory\n- Use .gitignore to block sensitive folders\n- Review session logs after every use\n- Never give access to ~/.ssh/ or credential managers\n- Use 'ask first' mode for deletions\n\n───────────────────────\n\n### n8n / Make.com Workflows\n\n**Key Risk:** Credentials stored in workflow, wide API access.\n\n- Use separate API keys per workflow\n- Set up error notifications to phone/email\n- Test with dummy data first\n- Version control workflows (export JSON weekly)\n- Schedule high-risk workflows during work hours only\n\n───────────────────────\n\n### Custom GPT / Assistants API\n\n**Key Risk:** Attached files accessible across sessions.\n\n- Never upload client files directly — use anonymized versions\n- Test with adversarial prompts\n- Rotate API keys monthly\n- Review API usage logs for spikes\n\n───────────────────────\n\n> 💡 The more autonomous the agent, the tighter the permissions. Power requires constraints.",
+      "notion_elements": ["callout:💡", "divider"],
+      "callout_text": "The more autonomous the agent, the tighter the permissions. Power requires constraints.",
+      "takeaway": "OpenClaw needs workspace isolation, n8n needs per-workflow keys, GPT needs file anonymization",
+      "word_count": 170
+    },
+    {
+      "section_number": 8,
+      "title": "✅ Final Checklist: Safe to Deploy?",
+      "type": "content",
+      "story_beat": "Give them a final go/no-go decision framework",
+      "content": "Before you deploy any AI agent:\n\n- [ ] Classified this task as Green, Yellow, or Red Zone\n- [ ] Agent has minimum required permissions\n- [ ] I know exactly what data it can read and write\n- [ ] Yellow/Red Zone tasks have mandatory human review\n- [ ] Audit trail is logging agent actions\n- [ ] Tested the kill switch\n- [ ] API keys have expiration dates and aren't admin-level\n- [ ] Have a recovery protocol if this breaks\n- [ ] Can explain safeguards to clients\n- [ ] Reviewed this setup in last 30 days\n\n> 🔥 10 out of 10? Deploy. Anything less? Fix the gaps. Your reputation is worth more than shipping fast.",
+      "notion_elements": ["callout:🔥", "divider"],
+      "callout_text": "10 out of 10? Deploy. Anything less? Fix the gaps. Your reputation is worth more than shipping fast.",
+      "takeaway": "All 10 boxes checked = safe to deploy. Anything less = fix first.",
+      "word_count": 130
+    }
+  ],
+  "cta": {
+    "headline": "Want the AI systems that scale your consulting business safely?",
+    "body": "This checklist keeps you safe. But safety alone doesn't grow your business.\n\nInside The Build Room, you get the full system: AI workflows that generate leads, create content, and automate client delivery — with safety baked in from day one.\n\n200+ production-ready automations. Weekly training. A community of operators who've deployed this in real businesses.\n\nNo theory. No fluff. Just systems that work.",
+    "action": "Join The Build Room at skool.com/buildroom",
+    "link": "https://skool.com/buildroom"
+  },
+  "funnel_position": "top",
+  "social_promo": {
+    "linkedin_hook": "12M YouTube views. Every comment shows the same fear: 'No guardrails. Completely unhinged.' Everyone's selling AI agents. Nobody's talking about what happens when they go wrong.",
+    "instagram_hook": "You want AI agents. You're terrified of what they could access. Here's the safety checklist nobody's selling.",
+    "cta_trigger": "SAFETY"
+  }
+}

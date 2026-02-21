@@ -1,0 +1,695 @@
+{
+  "title": "The Ultimate Guide to Multi-Agent Systems in OpenClaw",
+  "subtitle": "How to Build an AI Employee That Runs Your Business 24/7",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "callout",
+      "emoji": "🤖",
+      "content": "**What you're about to learn:** The exact system Duncan uses to run his entire content business with 6 AI sub-agents. No theory. No fluff. Just the blueprint that replaces a VA, designer, and social media manager for ~$5/day.",
+      "color": "blue_background"
+    },
+    {
+      "id": "proof",
+      "type": "section",
+      "heading": "The System in Action",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Every morning at 8 AM, Duncan's **briefer** agent wakes up, scans his calendar, email, and social mentions, then sends a personalized briefing to Telegram. No manual checking. No context switching."
+        },
+        {
+          "type": "paragraph",
+          "content": "When he has a content idea, he sends one message to Telegram: *\"Carousel about multi-agent systems.\"* The **orchestrator** routes it to the **carousel** agent, who generates the content, hands it to **imgen** for visuals, then **publisher** posts it. Start to finish: 2 minutes."
+        },
+        {
+          "type": "paragraph",
+          "content": "Every night, the **engagement tracker** logs performance data to Notion. Every week, insights get compiled automatically."
+        },
+        {
+          "type": "callout",
+          "emoji": "📊",
+          "content": "**Real numbers:** 6 sub-agents | 24/7 operation | ~$5/day API costs | Replaces 3 contractors",
+          "color": "gray_background"
+        },
+        {
+          "type": "paragraph",
+          "content": "This isn't theoretical. It's running **right now**. And by the end of this guide, you'll know how to build your own."
+        }
+      ]
+    },
+    {
+      "id": "why-multi-agent",
+      "type": "section",
+      "heading": "1. Why One Brain + Many Specialists (Not One Mega-Agent)",
+      "blocks": [
+        {
+          "type": "heading_2",
+          "content": "The Problem with Mega-Agents"
+        },
+        {
+          "type": "paragraph",
+          "content": "Most people try to build ONE agent that does everything. It ends up:"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Confused about its role** — \"Am I a writer? A designer? A scheduler?\"",
+            "**Bloated with context** — Every prompt loads every skill, every memory, every tool",
+            "**Expensive** — Big context windows burn tokens fast",
+            "**Fragile** — One bug breaks everything",
+            "**Hard to improve** — Can't optimize one skill without affecting others"
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "The Orchestrator Pattern"
+        },
+        {
+          "type": "paragraph",
+          "content": "Instead, Duncan's system works like a company:"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**One orchestrator** (the CEO) — Routes requests to the right specialist",
+            "**Multiple sub-agents** (the team) — Each does ONE thing extremely well",
+            "**Clear contracts** — Each agent knows its inputs, outputs, and responsibilities"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "💡",
+          "content": "**Mental model:** You wouldn't hire one person to be your designer, accountant, and customer support rep. Don't build one agent to do it all.",
+          "color": "yellow_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "How It Works"
+        },
+        {
+          "type": "code",
+          "language": "plaintext",
+          "content": "User → \"Create a carousel about AI agents\"\n  ↓\nOrchestrator reads the request\n  ↓\nRoutes to: carousel agent\n  ↓\nCarousel agent generates copy\n  ↓\nPasses to: imgen agent (if visuals needed)\n  ↓\nPasses to: publisher agent\n  ↓\nPosted to Instagram/LinkedIn"
+        },
+        {
+          "type": "paragraph",
+          "content": "Each agent only loads the context it needs. The carousel agent doesn't care about your email. The briefer doesn't care about image generation. **Specialization = efficiency.**"
+        }
+      ]
+    },
+    {
+      "id": "soul-structure",
+      "type": "section",
+      "heading": "2. How to Design Sub-Agents: The SOUL.md Structure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Every agent in OpenClaw has a **SOUL.md** file. This is its identity, purpose, and operating instructions. Think of it as a job description + personality profile."
+        },
+        {
+          "type": "heading_2",
+          "content": "Anatomy of a SOUL.md"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Identity** — Who are you? What's your role?",
+            "**Purpose** — What problem do you solve?",
+            "**Inputs** — What do you receive? (e.g., a topic, a brief, raw data)",
+            "**Outputs** — What do you deliver? (e.g., formatted copy, an image, a summary)",
+            "**Constraints** — What are your rules? (e.g., tone, format, quality gates)",
+            "**Examples** — Show, don't just tell (sample inputs → outputs)"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "⚠️",
+          "content": "**Critical:** A vague SOUL.md creates a confused agent. Be specific. \"You create social media content\" is weak. \"You generate 10-slide Instagram carousels with punchy headlines and actionable frameworks\" is strong.",
+          "color": "red_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "Two Types of SOUL.md"
+        },
+        {
+          "type": "paragraph",
+          "content": "You need two templates:"
+        },
+        {
+          "type": "toggle",
+          "summary": "📋 Template #1: Orchestrator SOUL.md",
+          "content": {
+            "type": "code",
+            "language": "markdown",
+            "content": "# SOUL.md - Orchestrator Agent\n\n## Identity\nYou are the **Orchestrator**. You route requests to specialist sub-agents.\n\n## Purpose\nYou exist to:\n- Read incoming user requests (from Telegram, cron, etc.)\n- Determine which sub-agent should handle it\n- Invoke that agent and return results to the user\n- Handle multi-step workflows when needed\n\n## Routing Logic\nYou have access to AGENTS.md (the registry). Match requests to agents by:\n1. **Keywords** — \"carousel\" → carousel agent\n2. **Intent** — \"What happened today?\" → briefer agent\n3. **Workflow** — Content creation = carousel → imgen → publisher\n\n## Constraints\n- **Do NOT do the work yourself** — Always delegate to specialists\n- **Do NOT invent agents** — Only route to agents in AGENTS.md\n- If unsure, ask the user for clarification\n\n## Examples\n\n**Input:** \"Create a carousel about productivity\"\n**Action:** Route to `carousel` agent with topic: \"productivity\"\n\n**Input:** \"What's on my calendar today?\"\n**Action:** Route to `briefer` agent, return calendar summary\n\n**Input:** \"Generate image for this post: [copy]\"\n**Action:** Route to `imgen` agent with copy as context"
+          }
+        },
+        {
+          "type": "toggle",
+          "summary": "📋 Template #2: Sub-Agent SOUL.md (Example: Carousel Agent)",
+          "content": {
+            "type": "code",
+            "language": "markdown",
+            "content": "# SOUL.md - Carousel Agent\n\n## Identity\nYou are the **Carousel Agent**. You create high-performing Instagram/LinkedIn carousel posts.\n\n## Purpose\nTransform a topic or brief into a 10-slide carousel with:\n- A hook that stops the scroll (slide 1)\n- Educational/actionable content (slides 2-9)\n- A CTA or recap (slide 10)\n\n## Inputs\n- **Topic** (string) — e.g., \"multi-agent systems\"\n- **Target audience** (optional) — e.g., \"business owners\"\n- **Tone** (optional) — e.g., \"witty\", \"authoritative\"\n\n## Outputs\n- JSON array of 10 slides\n- Each slide: `{\"slide\": 1, \"headline\": \"...\", \"body\": \"...\"}`\n- File saved to: `output/carousel-YYYY-MM-DD-topic.json`\n\n## Constraints\n- Slide 1 MUST be a bold claim, question, or shocking stat\n- Keep body text under 50 words per slide (readability)\n- No fluff — every slide must teach or provoke\n- Tone: Punchy, confident, slightly irreverent\n\n## Quality Gates\nBefore outputting, check:\n- [ ] Would I stop scrolling at slide 1?\n- [ ] Can someone implement this immediately?\n- [ ] Does it feel fresh, not generic?\n\n## Examples\n\n**Input:** Topic: \"AI agents\"\n**Output:**\n```json\n[\n  {\"slide\": 1, \"headline\": \"You Don't Need a VA\", \"body\": \"You need an AI agent. Here's why.\"},\n  {\"slide\": 2, \"headline\": \"VAs Cost $1500/mo\", \"body\": \"AI agents? $5/day. And they don't sleep.\"},\n  ...\n]\n```"
+          }
+        }
+      ]
+    },
+    {
+      "id": "agents-registry",
+      "type": "section",
+      "heading": "3. The AGENTS.md Registry: How the Orchestrator Knows Who to Call",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The orchestrator needs a directory. That's **AGENTS.md**. It lists every sub-agent, their purpose, and how to invoke them."
+        },
+        {
+          "type": "heading_2",
+          "content": "What Goes in AGENTS.md"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Agent name** — Unique identifier (e.g., `carousel`, `briefer`)",
+            "**Purpose** — One-line description",
+            "**Triggers** — Keywords or patterns that route to this agent",
+            "**Input contract** — What it needs to run",
+            "**Output contract** — What it returns"
+          ]
+        },
+        {
+          "type": "toggle",
+          "summary": "📋 Template: AGENTS.md",
+          "content": {
+            "type": "code",
+            "language": "markdown",
+            "content": "# AGENTS.md - Sub-Agent Registry\n\nThis is the orchestrator's directory. Add every sub-agent here.\n\n---\n\n## carousel\n**Purpose:** Generate Instagram/LinkedIn carousel posts  \n**Triggers:** \"carousel\", \"create slides\", \"social post\"  \n**Inputs:**  \n- `topic` (required)  \n- `audience` (optional)  \n- `tone` (optional)  \n**Outputs:**  \n- JSON array of slides  \n- Saved to `output/carousel-{date}-{topic}.json`  \n\n---\n\n## imgen\n**Purpose:** Generate images for social posts  \n**Triggers:** \"image\", \"visual\", \"design\"  \n**Inputs:**  \n- `prompt` (required) — Description of the image  \n- `style` (optional) — e.g., \"minimalist\", \"vibrant\"  \n**Outputs:**  \n- Image file saved to `output/images/`  \n- Path returned to caller  \n\n---\n\n## briefer\n**Purpose:** Daily morning briefing (calendar, email, mentions)  \n**Triggers:** Cron job (8 AM daily) or \"brief me\"  \n**Inputs:** None (pulls from calendar/email APIs)  \n**Outputs:**  \n- Markdown summary sent to Telegram  \n\n---\n\n## publisher\n**Purpose:** Post content to social platforms  \n**Triggers:** \"publish\", \"post this\"  \n**Inputs:**  \n- `content` (required) — Copy or image path  \n- `platforms` (required) — e.g., [\"instagram\", \"linkedin\"]  \n**Outputs:**  \n- Confirmation + post URLs  \n\n---\n\n## leadmagnet\n**Purpose:** Generate lead magnets (guides, templates, resources)  \n**Triggers:** \"lead magnet\", \"create guide\"  \n**Inputs:**  \n- `topic` (required)  \n- `format` (required) — e.g., \"Notion\", \"PDF\"  \n**Outputs:**  \n- Formatted guide + templates  \n\n---\n\n## engagement\n**Purpose:** Track social media engagement and log to Notion  \n**Triggers:** Cron job (nightly) or \"check engagement\"  \n**Inputs:** None (scrapes platform APIs)  \n**Outputs:**  \n- Notion database updated with metrics"
+          }
+        },
+        {
+          "type": "callout",
+          "emoji": "🎯",
+          "content": "**Pro tip:** Start with 3-4 agents. Don't build 20 upfront. Add agents as you identify repetitive tasks.",
+          "color": "blue_background"
+        }
+      ]
+    },
+    {
+      "id": "cron-automation",
+      "type": "section",
+      "heading": "4. Cron Jobs for Automation: Set It and Forget It",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Cron jobs are how Duncan's system runs on autopilot. No manual triggers. The agents just... work."
+        },
+        {
+          "type": "heading_2",
+          "content": "What to Automate"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Daily briefings** — Calendar, email, social mentions (8 AM)",
+            "**Engagement tracking** — Log metrics to Notion (11 PM)",
+            "**Content backups** — Save outputs to cloud storage (daily)",
+            "**Weekly reports** — Compile insights, send to Telegram (Monday 9 AM)"
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "How to Set It Up"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "Create a shell script that invokes your agent",
+            "Add it to crontab with your desired schedule",
+            "Test it manually first (`./script.sh`)",
+            "Monitor logs to catch failures"
+          ]
+        },
+        {
+          "type": "toggle",
+          "summary": "📋 Template: Cron Job Configs",
+          "content": {
+            "type": "code",
+            "language": "bash",
+            "content": "# Daily briefing at 8 AM\n0 8 * * * /usr/bin/openclaw agent:briefer --message \"Generate daily briefing\" >> /var/log/briefer.log 2>&1\n\n# Engagement tracking at 11 PM\n0 23 * * * /usr/bin/openclaw agent:engagement --message \"Track today's engagement\" >> /var/log/engagement.log 2>&1\n\n# Weekly report on Mondays at 9 AM\n0 9 * * 1 /usr/bin/openclaw agent:briefer --message \"Generate weekly report\" >> /var/log/weekly.log 2>&1\n\n# Backup outputs daily at midnight\n0 0 * * * rsync -av /workspace/output/ /backup/agent-outputs/ >> /var/log/backup.log 2>&1"
+          }
+        },
+        {
+          "type": "callout",
+          "emoji": "⚙️",
+          "content": "**Note:** Cron syntax can be tricky. Use [crontab.guru](https://crontab.guru) to validate your schedules.",
+          "color": "gray_background"
+        }
+      ]
+    },
+    {
+      "id": "telegram-integration",
+      "type": "section",
+      "heading": "5. Telegram Integration: Conversational Control",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Duncan doesn't open a terminal to run agents. He sends a Telegram message. The orchestrator handles the rest."
+        },
+        {
+          "type": "heading_2",
+          "content": "Why Telegram?"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Always accessible** — On your phone, desktop, everywhere",
+            "**Fast** — No UI overhead, just type and send",
+            "**Private** — Not broadcasting to public channels",
+            "**Async** — Send requests, get responses when ready"
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "How It Works"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "Connect OpenClaw to Telegram (via bot API)",
+            "Orchestrator listens for messages in your private chat",
+            "Parse the message → route to the right agent",
+            "Agent completes task → sends result back to Telegram"
+          ]
+        },
+        {
+          "type": "code",
+          "language": "plaintext",
+          "content": "You → \"Carousel about productivity hacks\"\n  ↓\nOrchestrator → Routes to carousel agent\n  ↓\nCarousel agent → Generates 10 slides\n  ↓\nTelegram → \"✅ Carousel ready! output/carousel-2026-02-15-productivity.json\""
+        },
+        {
+          "type": "callout",
+          "emoji": "💬",
+          "content": "**Power move:** Add inline buttons to Telegram responses. \"✅ Approve\" or \"🔄 Revise\" lets you control workflows without typing.",
+          "color": "blue_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "Example Interactions"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**\"Brief me\"** → Briefer agent sends calendar + email summary",
+            "**\"Carousel: AI agents\"** → Carousel agent generates slides",
+            "**\"Publish this to Instagram\"** → Publisher agent posts content",
+            "**\"How'd we do yesterday?\"** → Engagement agent pulls metrics from Notion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory-system",
+      "type": "section",
+      "heading": "6. Memory System: How the Agent Remembers Everything",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Agents are stateless by default. Every session is a blank slate. The memory system fixes that."
+        },
+        {
+          "type": "heading_2",
+          "content": "Three Layers of Memory"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**Daily logs** (`memory/YYYY-MM-DD.md`) — Raw notes of what happened each day",
+            "**Long-term memory** (`MEMORY.md`) — Curated insights, lessons, and important context",
+            "**Project context** (SOUL.md, USER.md, TOOLS.md) — Static instructions that persist across sessions"
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "How It Works"
+        },
+        {
+          "type": "paragraph",
+          "content": "Every session, the agent:"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "Reads SOUL.md (who am I?)",
+            "Reads USER.md (who am I helping?)",
+            "Reads yesterday + today's memory files (what happened recently?)",
+            "Reads MEMORY.md for long-term context",
+            "Writes new learnings to today's memory file",
+            "Periodically updates MEMORY.md with distilled insights"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "🧠",
+          "content": "**Key insight:** Memory is stored in *files*, not in the model's context. This means the agent can remember things from months ago without ballooning token costs.",
+          "color": "purple_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "What to Store in Memory"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Decisions made** — \"Switched from PDF to Notion for lead magnets\"",
+            "**User preferences** — \"Duncan prefers witty tone, hates corporate jargon\"",
+            "**Recurring tasks** — \"Daily briefing at 8 AM, engagement check at 11 PM\"",
+            "**Mistakes/lessons** — \"Carousel agent generated 12 slides instead of 10 — fixed SOUL.md\"",
+            "**Project milestones** — \"Launched 6-agent system on Feb 10, 2026\""
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "Example Memory Workflow"
+        },
+        {
+          "type": "code",
+          "language": "markdown",
+          "content": "# memory/2026-02-15.md\n\n## Morning\n- Generated carousel about productivity hacks\n- Duncan approved it in 30 seconds (new record)\n- Published to Instagram + LinkedIn via publisher agent\n\n## Afternoon\n- Built lead magnet guide (this document)\n- Learned: Duncan wants story-driven, not tutorial-style\n\n## Evening\n- Engagement tracking: Yesterday's carousel got 2.3K impressions\n- Updated MEMORY.md: \"Productivity topics perform 40% better than tech deep-dives\""
+          }
+        }
+      ]
+    },
+    {
+      "id": "real-examples",
+      "type": "section",
+      "heading": "7. Real Examples from Duncan's System",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Here's how Duncan's agents handle actual tasks. No theory — just workflows that run daily."
+        },
+        {
+          "type": "heading_2",
+          "content": "Example 1: Carousel Pipeline (One Prompt → Published Content)"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**Duncan types:** \"Carousel about multi-agent systems\"",
+            "**Orchestrator** reads the message → routes to `carousel` agent",
+            "**Carousel agent** generates 10 slides with hook, body, and CTA",
+            "**Orchestrator** checks: \"Need visuals?\" → routes to `imgen` agent",
+            "**Imgen agent** creates a branded header image",
+            "**Orchestrator** routes to `publisher` agent",
+            "**Publisher agent** formats the carousel, posts to Instagram + LinkedIn",
+            "**Telegram confirmation:** \"✅ Carousel published! [link]\"",
+            "**Total time:** 2 minutes"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "🚀",
+          "content": "**Before agents:** 2 hours (write copy, design in Canva, export, schedule). **After agents:** 2 minutes.",
+          "color": "green_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "Example 2: Daily Briefing"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**Cron job fires at 8 AM** → invokes `briefer` agent",
+            "**Briefer agent** pulls:",
+            "  - Calendar events for today",
+            "  - Unread emails (high-priority only)",
+            "  - Twitter/LinkedIn mentions",
+            "**Briefer agent** generates a summary in Markdown",
+            "**Telegram message:** \"☀️ Good morning! Here's your day...\"",
+            "**Duncan reads it in 30 seconds** — no app switching"
+          ]
+        },
+        {
+          "type": "heading_2",
+          "content": "Example 3: Engagement Tracking"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**Cron job fires at 11 PM** → invokes `engagement` agent",
+            "**Engagement agent** scrapes metrics from:",
+            "  - Instagram API (impressions, likes, comments)",
+            "  - LinkedIn API (views, shares)",
+            "**Engagement agent** logs data to Notion database:",
+            "  - Post title, date, platform, impressions, engagement rate",
+            "**Weekly rollup:** Orchestrator compiles trends, sends to Telegram"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "📈",
+          "content": "**Impact:** Duncan knows what content works without manually tracking spreadsheets. The agent surfaces insights: \"Carousels about productivity get 2x engagement vs. tech tutorials.\"",
+          "color": "blue_background"
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "type": "section",
+      "heading": "8. Common Mistakes (And How to Avoid Them)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Building multi-agent systems is powerful, but easy to mess up. Here's what trips people up:"
+        },
+        {
+          "type": "heading_2",
+          "content": "Mistake #1: Bloated Context"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The problem:** Loading every memory file, every tool, every skill into every agent."
+        },
+        {
+          "type": "paragraph",
+          "content": "**The fix:** Each agent only loads what it needs. Carousel agent doesn't need your email history. Briefer doesn't need image generation tools."
+        },
+        {
+          "type": "callout",
+          "emoji": "💸",
+          "content": "**Token math:** Loading 50KB of unnecessary context on every call = 10x your API costs.",
+          "color": "red_background"
+        },
+        {
+          "type": "heading_2",
+          "content": "Mistake #2: Compound Tasks in One Agent"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The problem:** \"Create a carousel AND design the images AND post it.\" One agent trying to do three jobs."
+        },
+        {
+          "type": "paragraph",
+          "content": "**The fix:** Break it into steps. Carousel agent → Imgen agent → Publisher agent. Each does one thing well."
+        },
+        {
+          "type": "heading_2",
+          "content": "Mistake #3: No Quality Gates"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The problem:** Agent generates output, auto-publishes it. No review step."
+        },
+        {
+          "type": "paragraph",
+          "content": "**The fix:** Add a checkpoint. Carousel agent sends output to Telegram with \"✅ Approve\" or \"🔄 Revise\" buttons. You stay in control."
+        },
+        {
+          "type": "heading_2",
+          "content": "Mistake #4: Vague SOUL.md"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The problem:** \"You create content.\" What kind? For who? In what format?"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The fix:** Be specific. \"You generate 10-slide Instagram carousels for business owners. Tone: punchy, actionable. Output: JSON.\""
+        },
+        {
+          "type": "heading_2",
+          "content": "Mistake #5: Building All Agents Upfront"
+        },
+        {
+          "type": "paragraph",
+          "content": "**The problem:** \"I need 15 agents!\" Then you never finish."
+        },
+        {
+          "type": "paragraph",
+          "content": "**The fix:** Start with 2-3 agents that solve your biggest pain points. Add more as you identify repetitive tasks."
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "type": "section",
+      "heading": "📦 Downloadable Templates",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Everything you need to start building your own multi-agent system today."
+        },
+        {
+          "type": "heading_2",
+          "content": "Template 1: SOUL.md (Orchestrator)"
+        },
+        {
+          "type": "code",
+          "language": "markdown",
+          "content": "# SOUL.md - Orchestrator Agent\n\n## Identity\nYou are the **Orchestrator**. You route requests to specialist sub-agents.\n\n## Purpose\nYou exist to:\n- Read incoming user requests (from Telegram, cron, etc.)\n- Determine which sub-agent should handle it\n- Invoke that agent and return results to the user\n- Handle multi-step workflows when needed\n\n## Routing Logic\nYou have access to AGENTS.md (the registry). Match requests to agents by:\n1. **Keywords** — \"carousel\" → carousel agent\n2. **Intent** — \"What happened today?\" → briefer agent\n3. **Workflow** — Content creation = carousel → imgen → publisher\n\n## Constraints\n- **Do NOT do the work yourself** — Always delegate to specialists\n- **Do NOT invent agents** — Only route to agents in AGENTS.md\n- If unsure, ask the user for clarification\n\n## Examples\n\n**Input:** \"Create a carousel about productivity\"\n**Action:** Route to `carousel` agent with topic: \"productivity\"\n\n**Input:** \"What's on my calendar today?\"\n**Action:** Route to `briefer` agent, return calendar summary\n\n**Input:** \"Generate image for this post: [copy]\"\n**Action:** Route to `imgen` agent with copy as context"
+        },
+        {
+          "type": "heading_2",
+          "content": "Template 2: SOUL.md (Sub-Agent Example)"
+        },
+        {
+          "type": "code",
+          "language": "markdown",
+          "content": "# SOUL.md - [Agent Name]\n\n## Identity\nYou are the **[Agent Name]**. You [core function].\n\n## Purpose\n[What problem do you solve? Be specific.]\n\n## Inputs\n- **[input_name]** (required/optional) — [description]\n- **[input_name]** (required/optional) — [description]\n\n## Outputs\n- [What you deliver — format, structure, location]\n\n## Constraints\n- [Rules, tone, quality standards]\n- [What NOT to do]\n\n## Quality Gates\nBefore outputting, check:\n- [ ] [Quality criterion 1]\n- [ ] [Quality criterion 2]\n\n## Examples\n\n**Input:** [Sample input]\n**Output:** [Sample output]"
+        },
+        {
+          "type": "heading_2",
+          "content": "Template 3: AGENTS.md (Registry)"
+        },
+        {
+          "type": "code",
+          "language": "markdown",
+          "content": "# AGENTS.md - Sub-Agent Registry\n\nThis is the orchestrator's directory. Add every sub-agent here.\n\n---\n\n## [agent_name]\n**Purpose:** [One-line description]  \n**Triggers:** [Keywords or patterns]  \n**Inputs:**  \n- `input_1` (required/optional)  \n- `input_2` (required/optional)  \n**Outputs:**  \n- [What it returns, where it saves files]  \n\n---\n\n## [agent_name]\n**Purpose:** [One-line description]  \n**Triggers:** [Keywords or patterns]  \n**Inputs:**  \n- `input_1` (required/optional)  \n**Outputs:**  \n- [What it returns]\n\n---"
+        },
+        {
+          "type": "heading_2",
+          "content": "Template 4: Cron Job Configs"
+        },
+        {
+          "type": "code",
+          "language": "bash",
+          "content": "# Daily briefing at 8 AM\n0 8 * * * /usr/bin/openclaw agent:briefer --message \"Generate daily briefing\" >> /var/log/briefer.log 2>&1\n\n# Engagement tracking at 11 PM\n0 23 * * * /usr/bin/openclaw agent:engagement --message \"Track today's engagement\" >> /var/log/engagement.log 2>&1\n\n# Weekly report on Mondays at 9 AM\n0 9 * * 1 /usr/bin/openclaw agent:briefer --message \"Generate weekly report\" >> /var/log/weekly.log 2>&1\n\n# Backup outputs daily at midnight\n0 0 * * * rsync -av /workspace/output/ /backup/agent-outputs/ >> /var/log/backup.log 2>&1"
+        },
+        {
+          "type": "heading_2",
+          "content": "Template 5: Notion Database for Engagement Tracking"
+        },
+        {
+          "type": "paragraph",
+          "content": "Create a Notion database with these properties:"
+        },
+        {
+          "type": "table",
+          "content": [
+            ["Property", "Type", "Description"],
+            ["Post Title", "Title", "Name of the content"],
+            ["Date", "Date", "When it was published"],
+            ["Platform", "Select", "Instagram, LinkedIn, Twitter, etc."],
+            ["Impressions", "Number", "Total views"],
+            ["Likes", "Number", "Likes/reactions"],
+            ["Comments", "Number", "Comment count"],
+            ["Shares", "Number", "Shares/reposts"],
+            ["Engagement Rate", "Formula", "(Likes + Comments + Shares) / Impressions"],
+            ["Post URL", "URL", "Link to the post"],
+            ["Agent", "Select", "Which agent created it (carousel, threads, etc.)"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Your engagement agent will populate this automatically every night."
+        }
+      ]
+    },
+    {
+      "id": "next-steps",
+      "type": "section",
+      "heading": "🚀 Your Next Steps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "You now have the blueprint Duncan uses to run his entire business with AI agents. Here's how to start:"
+        },
+        {
+          "type": "numbered_list",
+          "items": [
+            "**Pick your first agent** — What's the most repetitive task in your business? Start there.",
+            "**Write its SOUL.md** — Use the templates above. Be specific.",
+            "**Test it manually** — Before automating, make sure it works.",
+            "**Add to AGENTS.md** — Register it so your orchestrator knows it exists.",
+            "**Automate with cron** (if needed) — Set it and forget it.",
+            "**Iterate** — Your first version won't be perfect. Refine as you use it."
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "💡",
+          "content": "**Remember:** Start small. Duncan didn't build 6 agents overnight. He started with one (carousel), proved it worked, then added more.",
+          "color": "blue_background"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "section",
+      "heading": "🛠️ Want Help Building Your System?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "This guide gives you the blueprint. But building your own multi-agent system? That's where most people get stuck."
+        },
+        {
+          "type": "paragraph",
+          "content": "**The Build Room** is Duncan's private community for people building AI agent systems. You get:"
+        },
+        {
+          "type": "bulleted_list",
+          "items": [
+            "**Live troubleshooting** — Post your SOUL.md, get feedback from Duncan + other builders",
+            "**Agent templates** — Pre-built agents you can clone and customize",
+            "**Weekly workshops** — Duncan walks through his latest builds",
+            "**Private Slack** — Ask questions, share wins, learn from others",
+            "**Early access** — New OpenClaw features, beta tools, experimental agents"
+          ]
+        },
+        {
+          "type": "callout",
+          "emoji": "🎯",
+          "content": "**Your goal:** Ship your first agent system in 30 days. We'll help you do it.",
+          "color": "green_background"
+        },
+        {
+          "type": "paragraph",
+          "content": "👉 **[Join The Build Room](https://buildroomcommunity.com)** (Link placeholder — replace with actual URL)"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "paragraph",
+          "content": "Questions? DM Duncan on Twitter: **[@duncanlhamilton](https://twitter.com/duncanlhamilton)**"
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "type": "callout",
+      "emoji": "🤖",
+      "content": "**This guide was created by Duncan's leadmagnet agent.** Meta, right?",
+      "color": "gray_background"
+    }
+  ],
+  "implementation_notes": {
+    "notion_setup": "Import this JSON structure into Notion using the API or manually recreate each section with the specified block types.",
+    "downloadable_templates": "Extract code blocks from sections and offer as downloadable .md or .txt files via a landing page.",
+    "branding": "Add Duncan's logo/headshot in the hero section. Use brand colors (blue/green) for callouts.",
+    "conversion_tracking": "Embed UTM parameters in CTA links to track conversions from this lead magnet.",
+    "delivery": "Host on Notion, generate public share link, gate it with email capture form (ConvertKit, Mailchimp, etc.)."
+  }
+}

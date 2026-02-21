@@ -1,0 +1,856 @@
+{
+  "_meta": {
+    "title": "15 OpenClaw Automations That Run Your Business While You Sleep",
+    "description": "Lead magnet for Duncan's YouTube video: OpenClaw Use Cases that are Actually Helpful! (ClawdBot)",
+    "target_audience": "Coaches, consultants, agency owners doing $8K-20K/mo from referrals. Non-developers.",
+    "word_count_estimate": 1430,
+    "cta_url": "skool.com/buildroom",
+    "cta_label": "Join The Build Room",
+    "version": "1.0",
+    "created": "2026-02-17",
+    "usage_note": "Strip the _meta block before pushing to Notion API. Set 'parent' to your target database_id or page_id.",
+    "notion_api_endpoint": "POST https://api.notion.com/v1/pages",
+    "block_count": 97
+  },
+  "icon": { "type": "emoji", "emoji": "⚡" },
+  "properties": {
+    "title": {
+      "title": [
+        { "type": "text", "text": { "content": "15 OpenClaw Automations That Run Your Business While You Sleep" } }
+      ]
+    }
+  },
+  "children": [
+
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "The copy-paste playbook for coaches, consultants, and agency owners who want AI doing the heavy lifting — without touching a single line of code." }, "annotations": { "bold": false } },
+          { "type": "text", "text": { "content": "\n\n🎯 15 real automations  •  Copy-paste system prompts  •  Difficulty + setup time for each" } }
+        ],
+        "icon": { "type": "emoji", "emoji": "🤖" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's OpenClaw setup runs 24/7. Every morning at 7am it sends him a briefing with overnight emails, trends, and his calendar — before coffee. His content pipeline turns Reddit threads into LinkedIn posts automatically. This lead magnet? An AI built it in 12 minutes.\n\nNone of it required writing a single line of code." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "💬" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Below are 15 automations you can copy right now. Each one includes the exact system prompt to paste into OpenClaw, a difficulty rating, and an honest setup time. Skip to what fits your business — no need to read top to bottom." } }
+        ]
+      }
+    },
+
+    { "object": "block", "type": "divider", "divider": {} },
+
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "📋 THE 15 USE CASES" } }],
+        "color": "default"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "1. Morning Intelligence Briefing" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Every morning at 7am, delivers a personalized digest to Telegram — overnight emails flagged by urgency, today's calendar events, and 3 priorities. You wake up knowing what matters before you touch your phone." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Everyone with email + calendar  |  🟢 Difficulty: Easy  |  ⏱ Setup: 20 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "You are my morning briefing agent. Every weekday at 7am: 1) Check my Gmail for unread emails from the last 12 hours and flag anything urgent with a ⚠️, 2) Pull today's Google Calendar events in chronological order, 3) List my top 3 priorities for the day. Send everything to my Telegram as a clean, scannable digest. Keep it under 300 words. Never send after 9am." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Gets this every morning at 7:05am. Hasn't missed a single day in 60+ days." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "2. Email Triage Agent" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Scans your inbox on a schedule, sorts every unread email by urgency (URGENT / THIS WEEK / FYI / JUNK), and drafts replies for the top 3 most important ones — waiting for your approval before anything gets sent." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Anyone spending 2+ hours/day in email  |  🟢 Difficulty: Easy  |  ⏱ Setup: 20 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Scan my inbox. Categorize every unread email as: URGENT (needs same-day reply), THIS WEEK (can wait 2-3 days), FYI (no reply needed), or JUNK (safe to archive). For the top 3 URGENT emails, draft a professional but concise reply. Show me the drafts for approval — never send anything without my explicit OK. Then give me a 2-sentence inbox summary." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "3. Trend Research Pipeline" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Scans Reddit, X, and YouTube comments every week for trending topics in your niche. Saves findings to a Notion database — pain points, recurring questions, and content ideas, automatically organized." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Content creators, coaches building thought leadership  |  🟡 Difficulty: Medium  |  ⏱ Setup: 45 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Search Reddit r/[YOUR NICHE], X/Twitter for #[YOUR HASHTAG], and YouTube comments on the top 5 videos about [YOUR TOPIC] posted this week. Identify patterns: recurring questions, high-engagement pain points, phrases people keep using. Output as a Notion table with columns: Topic | Platform | Engagement Signal | Content Idea. Run every Monday at 9am." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Replaced 3 hours of manual research per week. Runs every Monday without touching it." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "4. Content Repurposing Agent" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Paste one piece of long-form content (blog post, transcript, video script). Get back five platform-ready versions: LinkedIn post, Twitter thread, carousel outline, email hook, and short-form video script. One input, five outputs." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Coaches and consultants posting on multiple platforms  |  🟢 Difficulty: Easy  |  ⏱ Setup: 15 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "I'm going to paste a piece of content. Repurpose it into: 1) LinkedIn post (150-200 words, first-person, ends with a question), 2) Twitter thread (7 tweets, strong hook tweet first), 3) Carousel outline (8 slides, title + one bullet each), 4) Email subject line + preview sentence, 5) 15-second verbal hook for short-form video. Match my voice: direct, practical, no corporate jargon." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Powers the carousel agent, thread agent, and LinkedIn agent in his content pipeline. One YouTube transcript → 5 posts." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "5. Social Media Publishing Agent" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Checks your Notion content queue daily for posts marked 'Approved.' Auto-publishes them to the right platform via Blotato, then updates the Notion row to 'Published' with the date. Fully closed loop — zero manual posting." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Anyone managing social at scale  |  🟡 Difficulty: Medium  |  ⏱ Setup: 30 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Check my Notion 'Content Queue' database for posts with status 'Approved'. For each one, publish to the platform listed in the 'Platform' field using Blotato. After each successful post, update the Notion row: set Status to 'Published' and enter today's date in the 'Posted On' field. Run this check every day at 10am. If Blotato returns an error, flag it in Telegram." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Posts consistently on LinkedIn and Twitter without opening social apps. Notion is the only interface he touches." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "6. Lead Magnet Generator" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Give it a topic and your ICP. Get back a complete, structured lead magnet with sections, copy-paste prompts, and a CTA — in under 15 minutes. Outputs in Notion-ready format." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Course creators, coaches, content marketers  |  🟢 Difficulty: Easy  |  ⏱ Setup: 10 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Create a lead magnet for [TOPIC]. My ideal customer is [ICP DESCRIPTION]. Format: Notion-ready, under 1,500 words, knowledge-first with 10-15 actionable items including copy-paste prompts or configs for each. End with a CTA to [YOUR OFFER]. Tone: direct, practical, like a smart friend sharing insider knowledge — not a corporate how-to guide. No fluff, no padding." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Meta: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "This exact prompt created the document you're reading right now. Total generation time: 12 minutes." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "7. Proposal Generator" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Paste your discovery call notes. Get back a full client proposal — executive summary, scope of work, timeline, three pricing tiers, and an FAQ section handling your most common objections. Ready to send." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Consultants and agencies closing deals  |  🟢 Difficulty: Easy  |  ⏱ Setup: 10 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Here are my discovery call notes: [PASTE NOTES]. Generate a client proposal with: 1) Executive summary (the problem and our solution in 2 sentences), 2) Scope of work (4-5 specific, measurable deliverables), 3) Timeline (weeks, not vague estimates), 4) Three pricing tiers (Starter / Standard / Premium), 5) FAQ section addressing the top 3 objections I typically hear. Tone: confident, clear, zero jargon. My average project is $3K-10K." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "8. Client Onboarding Automation" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Triggered by a new client signup: sends welcome email from your Gmail template, creates their Notion client folder, and drafts a kickoff call calendar invite — all three, from a single trigger." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Coaches and consultants with recurring clients  |  🟡 Difficulty: Medium  |  ⏱ Setup: 45 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Trigger: new client signup. Client name: [NAME]. Email: [EMAIL]. Service: [SERVICE TYPE]. Actions: 1) Send welcome email from my Gmail using the template saved as 'Welcome Email' in my Templates folder, 2) Create a new page in my Notion 'Client Hub' database with their name, service, and today's start date, 3) Draft a 60-minute kickoff call calendar invite and send it to their email. Log all three actions in my CRM sheet." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "9. Client Check-In Automation" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Finds clients who haven't been contacted in 14+ days. Reads their latest Notion session notes, then drafts a personalized check-in email referencing their specific situation. Queued for your approval before anything sends." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Service providers with ongoing client relationships  |  🟡 Difficulty: Medium  |  ⏱ Setup: 30 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Check my Notion 'Active Clients' database. Find any client whose 'Last Check-In' date is more than 14 days ago. For each one: read their latest session notes and current goals. Draft a personalized check-in email that references something specific from those notes — not a generic 'just checking in.' Show me drafts for approval. After I approve, send from Gmail and update their 'Last Check-In' date in Notion." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "10. Lead Discovery & CRM Enrichment" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Feed it a list of 20 target company names. It finds decision-maker LinkedIn profiles, pulls company data, writes a personalized icebreaker for each, and outputs a CRM-ready CSV. Cold outreach at scale — with actual personalization." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: B2B consultants and agencies doing outbound  |  🔴 Difficulty: Advanced  |  ⏱ Setup: 60 min" }, "annotations": { "color": "red" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "I'll give you 20 company names. For each one: 1) Find the LinkedIn URL for their Head of Marketing or CEO, 2) Pull their company size, industry, and any relevant news from the last 90 days, 3) Write one personalized icebreaker sentence based on something specific about their business — not a generic compliment. Output as a CSV: Company | Decision Maker | LinkedIn URL | Company Size | Recent News | Icebreaker. Skip any you can't verify." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "11. Interview & Sales Call Research Brief" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Give it a person's name or company. Get back a 1-page brief: background, recent content, 5 specific non-generic questions to ask, and topics to tread carefully around. Ten minutes of research becomes ten seconds." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Podcasters, consultants prepping for sales calls  |  🟢 Difficulty: Easy  |  ⏱ Setup: 15 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Research [PERSON NAME / COMPANY] for an upcoming call. Find: 1) Their professional background and current role, 2) Last 3 pieces of content they published, 3) Their most-cited frameworks or ideas, 4) 5 specific, non-generic questions based on their actual work (not 'what advice would you give beginners?'), 5) Any controversies or sensitive topics to be aware of. Format as a 1-page brief I can read in under 10 minutes." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "12. Calendar Management Agent" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Weekly calendar audit that flags back-to-back meetings with no buffer, protects your deep work blocks, and drafts polite decline or reschedule messages for low-priority meeting requests — ready for your approval." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Busy consultants and coaches with packed schedules  |  🟡 Difficulty: Medium  |  ⏱ Setup: 25 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Every Monday at 8am, review my Google Calendar for the next 7 days. Flag: back-to-back meetings with no break, any meeting before 9am or after 5pm, and meetings with no agenda or description. Auto-block a 2-hour 'Deep Work' window on Tuesday and Thursday mornings if available. For any meeting requests from new contacts, draft a polite decline or reschedule suggestion for my review before sending." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "13. Daily Revenue & Cost Recap" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Pulls your Anthropic API costs and Stripe revenue every evening and sends a 3-line P&L snapshot to Telegram. Includes an automatic cost spike alert so you never discover a $50/day model bill a week late." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Business owners tracking AI spend and revenue  |  🟡 Difficulty: Medium  |  ⏱ Setup: 30 min" }, "annotations": { "color": "yellow" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Every weekday at 6pm: 1) Check my Anthropic API usage dashboard and calculate today's total cost in USD, 2) Pull today's total revenue from Stripe, 3) Calculate net. Send to Telegram in this format: 'Revenue: $X | AI Costs: $Y | Net: $Z'. If AI costs exceed $15 in a single day, add a ⚠️ COST SPIKE warning. Three lines max — no explanation unless there's a spike." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Caught a $47/day Claude Opus overrun in week one. Switched non-critical agents to Sonnet. Saved ~$300/month." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "14. GitHub Workspace Backup (Cron)" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Runs every Sunday at midnight. Commits all workspace files — your agent configs, prompts, system setups — and pushes to a private GitHub repo. Zero-touch disaster recovery for everything you've built." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Anyone running AI agents with important configurations  |  🟢 Difficulty: Easy  |  ⏱ Setup: 15 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Cron Config:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Schedule: 0 0 * * 0  (Every Sunday at midnight)\nCommand: cd /your/workspace && git add -A && git commit -m \"Weekly backup $(date +%Y-%m-%d)\" && git push origin main\n\nIn OpenClaw: add as a cron task. Set working directory to your workspace path. Add your GitHub credentials to environment vars." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "⚙️" },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Duncan's result: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "66 weekly backups and counting. Set it up once, never thought about it again." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "✅" },
+        "color": "blue_background"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "15. End-of-Day Shutdown Routine" } }],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Every weekday at 5pm: summarizes what got done, moves unfinished tasks to tomorrow with updated priorities, and sends a reflection prompt to Telegram. The AI version of a shutdown ritual — close the loop without thinking about it." } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "🎯 For: Anyone who loses track of what they accomplished  |  🟢 Difficulty: Easy  |  ⏱ Setup: 15 min" }, "annotations": { "color": "green" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "System Prompt:\n\n" }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "Every weekday at 5pm: 1) Review my task manager for tasks completed today, 2) Move unfinished items to tomorrow with updated priorities, 3) Write a 3-sentence summary of what I accomplished, 4) Send to Telegram with one reflection question to help me wind down. Total message: under 200 words. Always end with: 'Tomorrow's #1 priority: [top uncompleted task].' Never run on weekends." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "📋" },
+        "color": "gray_background"
+      }
+    },
+
+    { "object": "block", "type": "divider", "divider": {} },
+
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "⚡ QUICK REFERENCE" } }],
+        "color": "default"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "table",
+      "table": {
+        "table_width": 5,
+        "has_column_header": true,
+        "has_row_header": false
+      },
+      "children": [
+        {
+          "object": "block",
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [{ "type": "text", "text": { "content": "#" }, "annotations": { "bold": true } }],
+              [{ "type": "text", "text": { "content": "Use Case" }, "annotations": { "bold": true } }],
+              [{ "type": "text", "text": { "content": "Difficulty" }, "annotations": { "bold": true } }],
+              [{ "type": "text", "text": { "content": "Setup Time" }, "annotations": { "bold": true } }],
+              [{ "type": "text", "text": { "content": "Best For" }, "annotations": { "bold": true } }]
+            ]
+          }
+        },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"1"}}], [{"type":"text","text":{"content":"Morning Briefing"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"20 min"}}], [{"type":"text","text":{"content":"Everyone"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"2"}}], [{"type":"text","text":{"content":"Email Triage"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"20 min"}}], [{"type":"text","text":{"content":"Inbox-overwhelmed"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"3"}}], [{"type":"text","text":{"content":"Trend Research Pipeline"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"45 min"}}], [{"type":"text","text":{"content":"Content creators"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"4"}}], [{"type":"text","text":{"content":"Content Repurposing"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"15 min"}}], [{"type":"text","text":{"content":"Multi-platform posters"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"5"}}], [{"type":"text","text":{"content":"Social Publishing"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"30 min"}}], [{"type":"text","text":{"content":"Social managers"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"6"}}], [{"type":"text","text":{"content":"Lead Magnet Generator"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"10 min"}}], [{"type":"text","text":{"content":"Marketers"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"7"}}], [{"type":"text","text":{"content":"Proposal Generator"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"10 min"}}], [{"type":"text","text":{"content":"Consultants / agencies"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"8"}}], [{"type":"text","text":{"content":"Client Onboarding"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"45 min"}}], [{"type":"text","text":{"content":"Service businesses"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"9"}}], [{"type":"text","text":{"content":"Client Check-Ins"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"30 min"}}], [{"type":"text","text":{"content":"Service providers"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"10"}}], [{"type":"text","text":{"content":"Lead Discovery & CRM"}}], [{"type":"text","text":{"content":"🔴 Advanced"}}], [{"type":"text","text":{"content":"60 min"}}], [{"type":"text","text":{"content":"B2B outbound"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"11"}}], [{"type":"text","text":{"content":"Research Brief"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"15 min"}}], [{"type":"text","text":{"content":"Podcasters / sales"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"12"}}], [{"type":"text","text":{"content":"Calendar Management"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"25 min"}}], [{"type":"text","text":{"content":"Busy consultants"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"13"}}], [{"type":"text","text":{"content":"Revenue & Cost Recap"}}], [{"type":"text","text":{"content":"🟡 Medium"}}], [{"type":"text","text":{"content":"30 min"}}], [{"type":"text","text":{"content":"Cost-conscious owners"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"14"}}], [{"type":"text","text":{"content":"GitHub Workspace Backup"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"15 min"}}], [{"type":"text","text":{"content":"Agent builders"}}] ] } },
+        { "object": "block", "type": "table_row", "table_row": { "cells": [ [{"type":"text","text":{"content":"15"}}], [{"type":"text","text":{"content":"Shutdown Routine"}}], [{"type":"text","text":{"content":"🟢 Easy"}}], [{"type":"text","text":{"content":"15 min"}}], [{"type":"text","text":{"content":"Everyone"}}] ] } }
+      ]
+    },
+
+    { "object": "block", "type": "divider", "divider": {} },
+
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🚀 WANT THESE ALREADY BUILT?" } }],
+        "color": "default"
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "These aren't theoretical. Duncan runs most of these in his actual business every day. If you want to skip the setup and get them working in a weekend — with the exact configurations, walkthroughs, and live help — that's what The Build Room is for." } }
+        ]
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Pre-built agent templates you can clone into your own OpenClaw setup" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Weekly live builds where we set up new automations together — on camera" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "A community of non-developer business owners doing exactly what you're trying to do" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Direct access to Duncan when you get stuck" } }]
+      }
+    },
+
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "→ Join The Build Room: " }, "annotations": { "bold": true } },
+          { "type": "text", "text": { "content": "skool.com/buildroom", "link": { "url": "https://skool.com/buildroom" } }, "annotations": { "bold": true, "color": "blue" } },
+          { "type": "text", "text": { "content": "\n\nIf you made it to the bottom of this doc, you're the type who actually implements. See you inside." } }
+        ],
+        "icon": { "type": "emoji", "emoji": "🚀" },
+        "color": "purple_background"
+      }
+    }
+
+  ]
+}
