@@ -1,8 +1,9 @@
+import os
 #!/usr/bin/env python3
 import requests
 import json
 
-NOTION_TOKEN = "$NOTION_TOKEN"
+NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 LINKEDIN_POSTS_DB_ID = "d4266f2c-ed0a-4c5b-8b81-7cb4e2ffad86"
 
 headers = {

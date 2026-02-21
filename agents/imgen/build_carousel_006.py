@@ -15,7 +15,7 @@ from google import genai
 from google.genai import types
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-API_KEY = "os.environ.get("GOOGLE_API_KEY", "")"
+API_KEY = os.getenv("GOOGLE_API_KEY")
 IMGUR_CLIENT_ID = "546c25a59c58ad7"
 OUTPUT_DIR = Path("/data/.openclaw/workspace/agents/imgen/output/carousel-006")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

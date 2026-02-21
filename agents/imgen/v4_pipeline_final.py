@@ -8,8 +8,7 @@ import base64
 import requests
 
 # 1. API KEY SETUP
-api_key = "os.environ.get("GOOGLE_API_KEY", "")"
-os.environ["GOOGLE_API_KEY"] = api_key
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # 2. IMAGE GENERATION (Nano Banana Pro)
 client = genai.Client(api_key=api_key, http_options={'api_version': 'v1alpha'})

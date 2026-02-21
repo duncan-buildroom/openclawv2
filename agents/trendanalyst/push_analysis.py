@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """Push trend analysis to Notion with beautiful formatting.
 
@@ -11,12 +12,10 @@ sections-based format. Auto-detects based on whether a "sections" key exists.
 import sys, json, os, re, glob, html, requests
 
 NOTION_DB_ID = "308f259c-0f17-8161-abe2-e074a065d10e"
-TOKEN_PATH = "/data/.openclaw/workspace/.notion_token"
 REPORT_DIR = "/data/.openclaw/workspace/trend-reports"
 
 def get_token():
-    with open(TOKEN_PATH) as f:
-        return f.read().strip()
+    return os.getenv("NOTION_TOKEN")
 
 def hdrs(token):
     return {

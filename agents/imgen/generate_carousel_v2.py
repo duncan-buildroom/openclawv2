@@ -5,7 +5,7 @@ import json
 from PIL import Image, ImageEnhance, ImageDraw, ImageFont, ImageFilter
 
 # Configuration
-API_KEY = "os.environ.get("GOOGLE_API_KEY", "")"
+API_KEY = os.getenv("GOOGLE_API_KEY")
 REF_PATH = "/data/.openclaw/workspace/reference-photos/file_2---a14ce08d-ac3a-4916-b266-c920d21f40a0.jpg"
 OUTPUT_DIR = "output/instagram-carousel"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

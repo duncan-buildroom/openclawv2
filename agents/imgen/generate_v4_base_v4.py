@@ -4,8 +4,7 @@ import sys
 from PIL import Image
 
 # Configure API
-api_key = "os.environ.get("GOOGLE_API_KEY", "")"
-os.environ["GOOGLE_API_KEY"] = api_key
+api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 
 # Fallback: using the generativeai library with the specific model name

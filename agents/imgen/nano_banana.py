@@ -6,7 +6,7 @@ import base64
 import requests
 from pathlib import Path
 
-API_KEY = os.getenv("GOOGLE_API_KEY") or "os.environ.get("GOOGLE_API_KEY", "")"
+API_KEY = os.getenv("GOOGLE_API_KEY")
 DEFAULT_REF = "/data/.openclaw/workspace/reference-photos/file_2---a14ce08d-ac3a-4916-b266-c920d21f40a0.jpg"
 GEN_URL = f"https://generativelanguage.googleapis.com/v1beta/models/nano-banana-pro-preview:generateContent?key={API_KEY}"
 

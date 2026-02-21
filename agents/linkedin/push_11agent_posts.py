@@ -1,7 +1,8 @@
+import os
 import requests
 import json
 
-TOKEN = "$NOTION_TOKEN"
+TOKEN = os.getenv("NOTION_TOKEN")
 DB_ID = "d4266f2c-ed0a-4c5b-8b81-7cb4e2ffad86"
 
 headers = {

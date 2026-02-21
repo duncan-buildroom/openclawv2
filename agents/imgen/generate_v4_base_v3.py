@@ -6,8 +6,7 @@ from PIL import Image
 import io
 
 # Configure API
-api_key = "os.environ.get("GOOGLE_API_KEY", "")"
-os.environ["GOOGLE_API_KEY"] = api_key
+api_key = os.getenv("GOOGLE_API_KEY")
 
 client = genai.Client(api_key=api_key, http_options={'api_version': 'v1alpha'})
 

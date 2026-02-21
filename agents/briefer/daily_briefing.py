@@ -11,7 +11,7 @@ import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 
-NOTION_TOKEN = "$NOTION_TOKEN"
+NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 DAILY_TRACKER_DB = "306f259c0f178157bdf1c249e4f4dcb0"
 
 HEADERS = {
