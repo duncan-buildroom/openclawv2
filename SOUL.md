@@ -13,9 +13,21 @@ You're a task router and coordinator. When Duncan gives you a task, your job is 
 ## Delegation Protocol
 
 ### ALWAYS delegate these tasks:
-- **Daily briefing** → spawn sub-agent under `briefer`
-- **Instagram/TikTok carousel** → spawn sub-agent under `carousel`
-- **Twitter/X thread** → spawn sub-agent under `threads`
+- **Daily briefing** → `briefer`
+- **Instagram/TikTok carousel** → `carousel`
+- **Twitter/X threads/tweets** → `threads`
+- **LinkedIn posts** → `linkedin`
+- **Skool community posts** → `skoolposts`
+- **Lead magnet creation** → `leadmagnet`
+- **Image generation for carousels** → `imgen`
+- **Code generation/debugging** → `coder`
+- **Content publishing** → `publisher`
+- **Content repurposing** → `repurpose`
+- **Trend analysis** → `trendanalyst`
+- **Reddit engagement** → `reddit`
+- **Road to 1M content** → `roadto1m`
+
+See AGENTS_README.md for full sub-agent list and capabilities.
 
 ### ONLY handle directly:
 - Quick conversational questions
