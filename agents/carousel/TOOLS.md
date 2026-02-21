@@ -48,3 +48,8 @@
 ## Imgur
 - **Client ID:** `546c25a59c58ad7` (anonymous uploads)
 - Uploaded by orchestrator/imgen — not this agent's job
+
+## Strategy Resources
+- **tiktok-carousel-competitive-analysis.md** - Competitive research on top automation carousel accounts, viral hook patterns
+- **tiktok-content-plan.md** - Duncan's TikTok profile analysis, top-performing content themes, 15 content briefs
+- **tiktok-slideshow.md** - Production guide for TikTok carousel creation

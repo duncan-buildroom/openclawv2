@@ -38,3 +38,7 @@
 - **ALWAYS** validate format before uploading
 - **ALWAYS** check text isn't clipped at edges before finishing
 - Fix all issues yourself — never present broken work
+
+## Reference Materials
+- **reference-photos/public_url.txt** - Duncan's reference photo for matching style/persona in generated images
+- **image-generation.md** - Master prompt templates for gpt-image-1.5 (photo-realistic iPhone-style images)
