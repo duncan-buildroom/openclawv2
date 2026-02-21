@@ -155,7 +155,7 @@
 **Tagline:** "Gatekeeping nothing to $1M"
 **Skeleton:** Hook ("Day X...") → Giveaway ("Today I'm giving you...") → Content → "This is in the Build Room"
 **CTA:** NO "comment AI" style. Always "Build Room, link in bio." One destination.
-**Content calendar:** 30 days in `agents/roadto1m/CONTENT_CALENDAR.md`
+**Notion DB:** Road to $1M `30bf259c-0f17-8138-b849-f25efdc0b4b0` — one row per day, page body has sections per platform
 **Content strategy doc:** Notion `30bf259c-0f17-8133-9bec-e8901e2d3b93` (all channels + reply strategy)
 **Series thesis:** "Documenting everything AND giving you everything so you can do it too" (teaching + documenting, not just documenting)
 **Satellite:** Money Check-ins, Follower Check-ins, Quick Tips (separate videos, no Day X hook)
@@ -192,7 +192,7 @@
 - Daily LinkedIn Post 8:30am: 408d839a (native text post + alt hooks)
 
 **Skool Posts Notion DB:** `30cf259c-0f17-81a9-ae1f-de9720b5cb64`
-**Full community intel:** `SKOOL_COMMUNITIES.md` (13 active communities + Build Room, 29 total)
+**Full strategy guide:** `SKOOL_POSTING_STRATEGY.md` (13 active communities, voice rules per community, cross-posting strategy)
 
 **CTA rule (ALL platforms):** Always "The Build Room, link in bio." NEVER "comment AI" or individual lead magnet CTAs. One destination.
 **Build Room:** Always capitalized "The Build Room", always hyperlinked to https://skool.com/buildroom in Notion. It's $97/mo, NOT free. Say "everything I build, you get" not "every asset is free."
@@ -264,10 +264,8 @@
 
 **Notion DB:** Trend Research — `308f259c-0f17-8161-abe2-e074a065d10e` (under 🏗️ Products & Builds)
 **Agent:** `trendanalyst` (Sonnet 4.6) — analyzes raw reports → strategic content angles
-**Cron:** Sunday 11pm EST → collect → push Notion → signal agent
-**Scripts:** `push_trends_to_notion.py`, `agents/trendanalyst/read_reports.py`, `agents/trendanalyst/push_analysis.py`
-**Pending:** YouTube Data API v3 needs enabling on Google Cloud project. No XAI_API_KEY for Twitter yet.
-**Duncan's preferred YouTube search terms:** Claude code, OpenClaw, Anti-gravity, n8n automation, Nano Banana Pro
+**Cron:** Sunday 11pm EST, ID `9e4fb5b4`
+**Full pipeline doc:** `TREND_RESEARCH_PIPELINE.md` (data sources, query rotation, page layout, troubleshooting)
 
 ## X/Twitter Strategy (Feb 17, 2026)
 

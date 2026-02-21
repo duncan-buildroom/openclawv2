@@ -1,0 +1,15 @@
+{
+  "test_mode": true,
+  "test_communities": ["buildroom"],
+  "test_limits": {
+    "posts_per_day": 3,
+    "comments_per_day": 10
+  },
+  "credentials": {
+    "email": "duncan@buildroom.ai",
+    "password": "Banjo#1489!"
+  },
+  "notion": {
+    "db_id": "30cf259c-0f17-81a9-ae1f-de9720b5cb64"
+  }
+}

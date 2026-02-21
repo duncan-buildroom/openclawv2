@@ -1,0 +1,131 @@
+# Trend Research Pipeline — Complete Reference
+
+## Overview
+Weekly automated trend research → strategic content analysis → Notion dashboard
+
+## Schedule
+- **When:** Every Sunday at 11:00 PM EST
+- **Cron ID:** `9e4fb5b4-2584-4ebf-9a8f-6c49e1de7113`
+- **Type:** Main session
+
+---
+
+## Pipeline Flow
+
+1. **`run_weekly_trends.sh`** — Orchestrates the collection
+2. **Reddit/X collection** via `last30days.py` (2 rotating queries)
+3. **YouTube collection** via `youtube_trend_search.py` (5 fixed queries)
+4. **`push_trends_to_notion.py`** — Creates Notion page with raw data
+5. **`.needs_analysis` marker file** signals orchestrator
+6. **Orchestrator spawns `trendanalyst` agent** (Sonnet 4.6)
+7. **Agent reads reports** → analyzes → pushes full strategic analysis via `push_analysis.py`
+
+---
+
+## Data Sources
+
+### Reddit/X (via last30days.py)
+
+**Rotating queries (3 sets, weekly rotation):**
+
+- **Set 0:** "how to get clients without referrals", "automation tools for small business owners"
+- **Set 1:** "personal branding for consultants 2026", "how consultants scale past 20K per month"
+- **Set 2:** "LinkedIn content strategy 2026", "automation tools for small business owners"
+
+**Config:** `~/.config/last30days/.env` (OPENAI_API_KEY + X_BEARER_TOKEN)
+
+### YouTube (via youtube_trend_search.py)
+
+**Fixed queries:**
+- "Claude code"
+- "OpenClaw"
+- "Google AntiGravity coding platform"
+- "n8n automation"
+- "Nano Banana Pro"
+
+**API key:** YOUTUBE_API_KEY from `/data/.openclaw/workspace/.credentials`
+
+**Settings:**
+- English-only (relevanceLanguage=en)
+- Last 30 days
+- Top 5 by view count
+- Top 5 comments each
+- HTML entities cleaned via html.unescape()
+
+---
+
+## Notion Database
+
+- **DB ID:** `308f259c-0f17-8161-abe2-e074a065d10e`
+- **Location:** 🏗️ Products & Builds → Trend Research
+- **Properties:** Name, Date, Queries, Status, Key Findings, Content Angles, Sources
+
+---
+
+## Page Layout (After Analysis)
+
+1. **Summary callout**
+2. **🏆 Top Pick** (recommendation + execution + timeline + revenue + urgency)
+3. **💡 Content Ideas** (3 specific pieces with hooks)
+4. **🧲 Lead Magnet Opportunities** (concepts + conversion paths)
+5. **🎯 Ranked Content Angles** (5 with momentum scores)
+6. **📋 Content Suggestions by Format** (Twitter, YouTube, LinkedIn, blog, short-form)
+7. **🗣️ Swipe Copy** (power phrases, themes, hook templates)
+8. **🔥 Pain Points** (primary + secondary with quotes)
+9. **📌 Strategic Notes**
+10. **📚 Source Index** (clickable links to all Reddit/YouTube sources)
+
+---
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `run_weekly_trends.sh` | Main cron script |
+| `youtube_trend_search.py` | YouTube Data API v3 search |
+| `push_trends_to_notion.py` | Create initial Notion page |
+| `agents/trendanalyst/SOUL.md` | Agent role definition |
+| `agents/trendanalyst/read_reports.py` | Read raw reports for agent |
+| `agents/trendanalyst/push_analysis.py` | Push analysis to Notion |
+| `run_trend_analysis.sh` | Manual trigger for analysis |
+| `.credentials` | API keys (YouTube, X/Twitter) |
+
+---
+
+## Manual Run
+
+```bash
+# Full pipeline
+bash run_weekly_trends.sh
+
+# Just YouTube search
+python3 youtube_trend_search.py 2026-02-15
+
+# Just analysis (spawns trendanalyst agent)
+bash run_trend_analysis.sh 2026-02-15
+```
+
+---
+
+## Troubleshooting
+
+**Blank callouts in Notion:**
+- JSON key mismatch between agent output and push script
+- Check that push_analysis.py handles the actual output structure
+
+**HTML artifacts (&#39;):**
+- youtube_trend_search.py should clean with html.unescape()
+
+**Non-English results:**
+- Ensure relevanceLanguage=en in YouTube API params
+
+**Slow block deletion:**
+- Archive page + create new instead of deleting blocks one by one
+
+---
+
+**Agent:** `trendanalyst` (Sonnet 4.6)
+
+**Workspace:** `/data/.openclaw/workspace/agents/trendanalyst/`
+
+**Output:** Strategic content analysis pushed to Notion, ready for Duncan to review and execute

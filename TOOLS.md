@@ -1,24 +1,36 @@
 # TOOLS.md - Local Notes
 
 ## Credentials Policy
-**All credentials, API keys, and access tokens live in `.env` ONLY.**
-- Never store secrets in any other file
-- `.env` is gitignored — never committed
-- Reference with: `export $(grep -v '^#' .env | grep -v '^$' | xargs)`
 
-**Credentials in `.env`:**
+**Two-tier system:**
+
+### 1. LLM Provider Keys → `auth-profiles.json`
+**Location:** `/data/.openclaw/agents/main/agent/auth-profiles.json`
+**What goes here:** Any API key or OAuth token for model providers
+- Anthropic (Claude) - OAuth via Claude Max
+- Google (Gemini) - API key
+- Kimi - API key
+- OpenAI - API key (if added)
+- Any other LLM provider
+
+**Why:** OpenClaw's native auth system. Handles fallbacks, rate limits, provider routing.
+
+### 2. Third-Party Service Keys → `.env`
+**Location:** `/data/.openclaw/workspace/.env`
+**What goes here:** Non-LLM service credentials
 - `GITHUB_PAT` / `GITHUB_REPO` - GitHub backup
-- `GOOGLE_API_KEY` - Gemini, Nano Banana Pro, memory search
 - `NOTION_TOKEN` - Notion API integration
 - `BLOTATO_API_KEY` - Social media publishing
 - `N8N_INSTANCE` - n8n workflow instance URL
-- `KIMI_BOT_TOKEN` - Kimi AI (primary model for all agents)
-- `ANTHROPIC_API_KEY` - Claude API (legacy, not actively used)
 - Telegram bot token (in openclaw config)
 
+**Why:** Single source of truth for third-party integrations. Gitignored, never committed.
+
+**Reference .env:** `export $(grep -v '^#' .env | grep -v '^$' | xargs)`
+
 **Claude Authentication:**
-- Primary: Claude Max setup-token (OAuth) via `anthropic:default` profile
-- Fallback: API key from `ANTHROPIC_API_KEY` env var
+- Primary: Claude Max OAuth via `anthropic:default` profile
+- Fallback: API key via `anthropic:fallback` profile
 - Automatic fallback on rate limits/409 errors
 - Auth order configured in `/data/.openclaw/agents/main/agent/auth-profiles.json`
 
