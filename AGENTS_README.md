@@ -15,45 +15,37 @@ All sub-agents live in `/data/.openclaw/workspace/agents/<agent-id>/`
 
 | Agent ID | Name | Model | Purpose |
 |----------|------|-------|---------|
-| `carousel` | Carousel Content | Claude Sonnet 4.5 | Instagram/TikTok carousel content (copy + image concepts) |
-| `threads` | X/Twitter Agent | Gemini Flash | X/Twitter threads, tweets, replies, engagement |
-| `linkedin` | LinkedIn Agent | Gemini Flash | LinkedIn content and publishing |
-| `skoolposts` | Skool Posts Agent | Gemini Flash | Skool community posts |
-| `leadmagnet` | Lead Magnet Creator | Claude Sonnet 4.5 | Lead magnet creation and Notion publishing |
+| `carousel` | Carousel Content | Sonnet 4.5 | Instagram/TikTok carousel content (copy + image concepts) |
+| `threads` | X/Twitter Agent | Sonnet 4.5 | X/Twitter threads, tweets, replies, engagement |
+| `linkedin` | LinkedIn Agent | Sonnet 4.5 | LinkedIn content and publishing |
+| `skoolposts` | Skool Posts Agent | Sonnet 4.5 | Skool community posts |
+| `leadmagnet` | Lead Magnet Creator | Sonnet 4.5 | Lead magnet creation and Notion publishing |
 
 ### Specialized Agents
 
 | Agent ID | Name | Model | Purpose |
 |----------|------|-------|---------|
-| `briefer` | Daily Briefer | Gemini Flash | Daily morning briefing generation |
-| `imgen` | Image Generator | Gemini Flash | Carousel image generation |
-| `coder` | Code Generator | Claude Sonnet 4.5 | Code generation and debugging |
-| `publisher` | Content Publisher | Gemini Flash | Cross-platform content publishing |
-| `repurpose` | Content Repurposer | Gemini Flash | Content repurposing across platforms |
-| `trendanalyst` | Trend Analyst | Claude Sonnet 4.5 | Trend analysis and reporting |
-| `reddit` | Reddit Agent | Gemini Flash | Reddit monitoring and engagement |
-| `roadto1m` | Road to 1M Agent | Gemini Flash | Road to 1M curriculum content |
+| `briefer` | Daily Briefer | Sonnet 4.5 | Daily morning briefing generation |
+| `imgen` | Image Generator | Sonnet 4.5 | Carousel image generation |
+| `coder` | Code Generator | Sonnet 4.5 | Code generation and debugging |
+| `publisher` | Content Publisher | Sonnet 4.5 | Cross-platform content publishing |
+| `repurpose` | Content Repurposer | Sonnet 4.5 | Content repurposing across platforms |
+| `trendanalyst` | Trend Analyst | Sonnet 4.5 | Trend analysis and reporting |
+| `reddit` | Reddit Agent | Sonnet 4.5 | Reddit monitoring and engagement |
+| `roadto1m` | Road to 1M Agent | Sonnet 4.5 | Road to 1M curriculum content |
 
 ---
 
 ## Model Assignment Strategy
 
-**Gemini 3 Flash Preview** (90% cheaper)
-- Daily interactions
-- Content publishing
-- Monitoring/engagement
-- Simple content generation
+**All Sub-Agents:** Claude Sonnet 4.5
+- Consistent quality across all content creation
+- Better reasoning and output quality
+- Worth the cost for production work
 
-**Claude Sonnet 4.5** (when quality matters)
-- Complex content (carousels, lead magnets)
-- Code generation
-- Strategic analysis
-- Architecture decisions
-
-**Claude Opus 4.6** (rare, orchestrator only)
-- Critical debugging
-- Complex multi-agent orchestration
-- Strategic planning
+**Orchestrator:** Gemini 3 Flash Preview (default)
+- Cost-effective for routing decisions
+- Can escalate to Opus 4.6 when needed for complex orchestration
 
 ---
 
