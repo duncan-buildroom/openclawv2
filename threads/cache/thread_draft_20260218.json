@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-18",
+  "status": "pending_approval",
+  "topic": "7 AI agents that replaced my content team",
+  "thread": [
+    {
+      "tweet_number": 1,
+      "type": "hook",
+      "text": "I replaced my entire content team with 7 AI agents.\n\nHere's exactly what each one does:",
+      "char_count": 88,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 2,
+      "type": "context",
+      "text": "First: I'm not doing this to be cheap. I'm doing it because I was burning 6 hours a day on content scaffolding.\n\nI'm an operator. Not a content creator. The agents freed me to run my actual business.",
+      "char_count": 200,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 3,
+      "type": "body",
+      "text": "Agent 1: The Orchestrator.\n\nEvery morning at 2am it scrapes Reddit, pulls trending signals, and packages a briefing. By 7am I have a prioritized list of what to talk about. I never start with a blank page.",
+      "char_count": 205,
+      "image_concept": "Screenshot of the 2am briefing output, trending topics highlighted",
+      "shot_type": "detail"
+    },
+    {
+      "tweet_number": 4,
+      "type": "body",
+      "text": "Agent 2: The Thread Writer.\n\nKnows my voice rules, my past posts, my positioning. It drafts thread options from the morning briefing. I review, tweak maybe 20%, approve. What used to take 2 hours takes 10 minutes.",
+      "char_count": 213,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 5,
+      "type": "body",
+      "text": "Agent 3: The Carousel Builder.\n\nInput: a core idea. Output: slide-by-slide copy, hooks, CTA, formatted. I hand it off for design or build it myself in Canva. The copy is done before I open a single tool.",
+      "char_count": 203,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 6,
+      "type": "body",
+      "text": "Agent 4: The Research Agent.\n\nBefore anything goes live, it checks what I've posted in the last 30 days. No topic cannibalization. No accidental repeats. It's the memory I don't have the bandwidth to keep manually.",
+      "char_count": 214,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 7,
+      "type": "body",
+      "text": "Agent 5: The Publisher.\n\nSchedules posts across X and LinkedIn. Knows not to post back-to-back. Knows which time windows hit. I set the queue on Monday and don't touch it again.",
+      "char_count": 177,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 8,
+      "type": "body",
+      "text": "Agent 6: The Engagement Monitor.\n\nWatches for comments and threads worth joining. Surfaces them with context, the angle to take, the opening line. I stopped doomscrolling. I review a curated list instead.",
+      "char_count": 204,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 9,
+      "type": "body",
+      "text": "Agent 7: The Lead Magnet Builder.\n\nTakes top-performing content and repurposes it into PDFs, frameworks, and downloads. My Skool community gets new resources every week. I didn't write a single one from scratch.",
+      "char_count": 211,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 10,
+      "type": "proof",
+      "text": "Total monthly cost: under $30 in API fees.\n\nTime saved: 30-40 hours a week.\n\nI built the system once. It runs on its own. That's the only kind of automation worth building.",
+      "char_count": 171,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 11,
+      "type": "reframe",
+      "text": "The thing people get wrong: they think AI removes you from your content.\n\nIt doesn't. I'm still the voice. I still make every call. The agents just handle the scaffolding so I can focus on the 10% that actually needs me.",
+      "char_count": 219,
+      "image_concept": null,
+      "shot_type": null
+    },
+    {
+      "tweet_number": 12,
+      "type": "cta",
+      "text": "The framework I used to build all of this is called B.U.I.L.D.\n\nIt's what turned a collection of agents into an actual system.\n\nComment 'AI' and I'll send it to you.",
+      "char_count": 165,
+      "image_concept": null,
+      "shot_type": null
+    }
+  ]
+}

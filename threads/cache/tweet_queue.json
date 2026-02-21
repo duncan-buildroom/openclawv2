@@ -1,0 +1,74 @@
+{
+  "tweets": [
+    {
+      "text": "Everyone's hacking their $20 Claude subscription to run agents. I just pay for the API. My agents have run 24/7 for months, zero bans, zero drama. Sometimes the 'expensive' route is the cheap one.",
+      "char_count": 196,
+      "queued_at": "2026-02-18T12:32:25.379286+00:00",
+      "scheduled_for": "2026-02-18T14:00:00+00:00",
+      "status": "posted",
+      "posted_at": "2026-02-18T15:37:52.901390+00:00",
+      "tweet_id": "2024146357582229534"
+    },
+    {
+      "text": "Figma just shipped an MCP that turns Claude Code UI into editable Figma frames. I spent 15 years as an art director before I started building AI systems. This is the first tool that actually sits at the intersection of both.",
+      "char_count": 224,
+      "queued_at": "2026-02-18T12:32:25.380258+00:00",
+      "scheduled_for": "2026-02-18T16:04:46.605730+00:00",
+      "status": "posted",
+      "posted_at": "2026-02-18T16:08:18.514780+00:00",
+      "tweet_id": "2024154014363906328"
+    },
+    {
+      "text": "Personal branding didn't ruin LinkedIn. Lazy AI slop did. There's a difference between documenting real results and outsourcing your voice to GPT. 110K followers in 12 months, I wrote every word.",
+      "char_count": 195,
+      "queued_at": "2026-02-18T12:32:25.380805+00:00",
+      "scheduled_for": "2026-02-18T18:49:35.901348+00:00",
+      "status": "error",
+      "error": "429 Too Many Requests\nToo Many Requests"
+    },
+    {
+      "text": "I run 7 AI agents from one orchestrator. They research trends, write tweets, build carousels, and publish my content, every day. Total daily cost: less than a coffee. Built it once. It runs forever.",
+      "char_count": 198,
+      "queued_at": "2026-02-18T12:32:25.381397+00:00",
+      "scheduled_for": "2026-02-18T21:03:38.632325+00:00",
+      "status": "error",
+      "error": "429 Too Many Requests\nToo Many Requests"
+    },
+    {
+      "text": "OpenClaw's creator got hired by OpenAI. Everyone's debating the implications. I woke up to 5 Skool posts written, a LinkedIn post queued, and trend research done, all before 7am. Debates are interesting. Systems are better.",
+      "char_count": 224,
+      "queued_at": "2026-02-19T12:32:00+00:00",
+      "scheduled_for": "2026-02-19T14:30:00+00:00",
+      "status": "posted",
+      "angle": "trend-jacked / openclaw-openai hire",
+      "posted_at": "2026-02-19T14:38:17.522430+00:00",
+      "tweet_id": "2024493749150142832"
+    },
+    {
+      "text": "Everyone's building n8n workflows to replace their $1,500/mo VA. I built mine to replace myself. Research, writing, posting, image gen, publishing, all automated. The VA was never the bottleneck.",
+      "char_count": 196,
+      "queued_at": "2026-02-19T12:32:00+00:00",
+      "scheduled_for": "2026-02-19T17:30:00+00:00",
+      "status": "posted",
+      "angle": "trend-jacked / n8n VA replacement escalation",
+      "posted_at": "2026-02-19T17:40:56.185778+00:00",
+      "tweet_id": "2024539713424519609"
+    },
+    {
+      "text": "Giving away Claude API access to get customers is thinking too small. Give away the OUTPUT of your AI system. People don't want access to a tool. They want the result. That's the only offer worth making.",
+      "char_count": 204,
+      "queued_at": "2026-02-19T12:32:00+00:00",
+      "scheduled_for": "2026-02-19T20:00:00+00:00",
+      "status": "pending",
+      "angle": "personal insight / output not access"
+    },
+    {
+      "text": "110K followers. $27K/month. I document everything publicly while I build toward $1M. No gatekeeping. You get what I get, as I get it. That's the whole thing.",
+      "char_count": 158,
+      "queued_at": "2026-02-19T12:32:00+00:00",
+      "scheduled_for": "2026-02-19T22:30:00+00:00",
+      "status": "pending",
+      "angle": "proof/results / road to $1M documenting"
+    }
+  ]
+}

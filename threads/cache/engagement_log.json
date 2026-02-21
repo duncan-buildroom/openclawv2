@@ -1,0 +1,68 @@
+{
+  "2026-02-18": {
+    "morning": [],
+    "midday": [],
+    "evening": [
+      {
+        "handle": "@gregisenberg",
+        "tweet_id": "2024247983999521123",
+        "reply_id": "2024264712393773283",
+        "reply_text": "@gregisenberg The 'boring workflow in one industry' part is where most people get stuck. They think too broad. A distributor's freight reconciliation beats any flashy use case for actual cash flow.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024264712393773283",
+        "timestamp": "2026-02-18T23:28:13.263660+00:00",
+        "tweet_snippet": "how to use openclaw to spin up 24/7 digital employees and build cash-flowing assets",
+        "method": "blotato_mention"
+      },
+      {
+        "handle": "@SahilBloom",
+        "tweet_id": "2024210327857222038",
+        "reply_id": "2024265983041397025",
+        "reply_text": "@SahilBloom The pricing ceiling matters more than the $100k framing. Senior leaders pay for confidence and speed, not just answers. An AI tutor who can prebrief them before a board meeting is worth $2,000/month.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024265983041397025",
+        "timestamp": "2026-02-18T23:33:16.216881+00:00",
+        "tweet_snippet": "There's an opportunity right now to build a $100k per month side hustle as a Personal AI Tutor",
+        "method": "blotato_mention"
+      },
+      {
+        "handle": "@mattshumer_",
+        "tweet_id": "2024177926325870660",
+        "reply_id": "2024267380579258699",
+        "reply_text": "@mattshumer_ The slope from 14.9 to 72.5 in 16 months is what matters. At that rate, hitting 90 on OSWorld isn't years away, it's quarters. That's a very different world.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024267380579258699",
+        "timestamp": "2026-02-18T23:38:49.659301+00:00",
+        "tweet_snippet": "This is extremely consequential and worth paying attention to. [Claude OSWorld benchmark chart]",
+        "method": "blotato_mention"
+      },
+      {
+        "handle": "@levelsio",
+        "tweet_id": "2023960543959101938",
+        "reply_id": "2024268905644998823",
+        "reply_text": "@levelsio The production fear is right. Scoping the agent to one staging directory with confirm-before-write removes most of the risk. That one guardrail changes how aggressive you can be with everything else.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024268905644998823",
+        "timestamp": "2026-02-18T23:44:52.757117+00:00",
+        "tweet_snippet": "A dream I had finally came true: I can now chat directly with my sites to build any feature",
+        "method": "blotato_mention"
+      },
+      {
+        "handle": "@tdinh_me",
+        "tweet_id": "2024075389065457721",
+        "reply_id": "2024270553654128956",
+        "reply_text": "@tdinh_me The data access layer being the stable part makes sense. That's where the defensible IP actually lives. Most builders race to the UI, but whoever locks in the integration layer first holds the leverage.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024270553654128956",
+        "timestamp": "2026-02-18T23:51:25.929554+00:00",
+        "tweet_snippet": "The new type of software is going to be 'dynamic': A strong foundation of data access layer",
+        "method": "blotato_mention"
+      },
+      {
+        "handle": "@AlexHormozi",
+        "tweet_id": "2023788330018607278",
+        "reply_id": "2024272770880675980",
+        "reply_text": "@AlexHormozi The gap between losing and learning is usually just a decision to ask 'what specifically went wrong' instead of moving on. Most people skip that step and repeat the same loss.",
+        "reply_url": "https://x.com/DuncanRogoff/status/2024272770880675980",
+        "timestamp": "2026-02-19T00:00:14.555445+00:00",
+        "tweet_snippet": "You always lose, until you learn, then you win.",
+        "method": "blotato_mention"
+      }
+    ]
+  }
+}

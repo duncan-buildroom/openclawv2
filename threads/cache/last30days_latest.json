@@ -1,0 +1,170 @@
+{
+  "generated": "2026-02-19T02:00:00-05:00",
+  "data_sources": {
+    "completed": ["claude_openclaw_ai_coding", "n8n_automation_workflows"],
+    "failed_oom": ["ai_agents_automation_business", "personal_brand_audience_growth_ai", "skool_community_building"],
+    "note": "3/5 last30days searches OOM-killed. Supplemented with known trends and completed search data."
+  },
+
+  "trending_topics": [
+    {
+      "topic": "OpenClaw creator hired by OpenAI",
+      "heat": "high",
+      "why": "27pts/39cmt on r/artificial. People debating agent safety, exfiltration risks, and what it means for the ecosystem.",
+      "duncan_angle": "I run 15 agents on OpenClaw daily. Here's what actually happens when you give AI full system access."
+    },
+    {
+      "topic": "Zero coding skills + AI agents = real results",
+      "heat": "high",
+      "why": "106pts/74cmt on r/openclaw. Non-coders documenting 30-day agent journeys. Skeptics calling BS on costs.",
+      "duncan_angle": "I went from art director to running an AI automation agency. The gap between 'no code' and 'real results' is smaller than people think."
+    },
+    {
+      "topic": "n8n workflow replacing $1,500/mo VA tasks",
+      "heat": "high",
+      "why": "Trending on r/automation. Influencer sourcing + vetting automated. Direct ROI story.",
+      "duncan_angle": "I replaced 3 manual processes with n8n workflows last month. Here's the one that saved the most time."
+    },
+    {
+      "topic": "Claude API giveaway experiment — insane unit economics",
+      "heat": "high",
+      "why": "Trending on r/n8n. 160 customers, $141 cost, $3,500 value. People fascinated by the economics.",
+      "duncan_angle": "The real play isn't selling AI access. It's packaging AI into a system people can't build themselves."
+    },
+    {
+      "topic": "Agent-to-agent communication / deterministic workflows",
+      "heat": "medium",
+      "why": "Fresh today on r/openclaw. People want reliable multi-agent setups.",
+      "duncan_angle": "My agents talk to each other. Here's how the carousel pipeline actually works (orchestrator → writer → image gen → publisher)."
+    },
+    {
+      "topic": "Skills vs coding in AI agents",
+      "heat": "medium",
+      "why": "15cmt debate on r/openclaw. Split between 'agents build their own tools' vs 'pre-built skills save tokens.'",
+      "duncan_angle": "Expensive models build skills. Cheap models execute them. This is the only way to keep AI agent costs under control."
+    },
+    {
+      "topic": "Google Maps scraper + n8n for lead gen",
+      "heat": "medium",
+      "why": "Step-by-step tutorial trending on r/n8n. Lead gen automation is evergreen.",
+      "duncan_angle": "Stop scraping. Start building systems that attract leads. Here's what replaced cold outreach for me."
+    },
+    {
+      "topic": "Token costs / Claude subscription abuse concerns",
+      "heat": "medium",
+      "why": "Multiple threads about $25-50/day burns, TOS violations. People worried about bans.",
+      "duncan_angle": "I spend ~$X/mo on AI APIs running 15 agents. Here's how I keep costs down (model routing, not model gambling)."
+    }
+  ],
+
+  "high_engagement_remix_candidates": [
+    {
+      "title": "Anyone actually using OpenClaw?",
+      "source": "r/LocalLLaMA",
+      "engagement": "712pts, 626cmt",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r5v1jb/anyone_actually_using_openclaw/",
+      "remix_angle": "Yes. 15 agents. Daily content, trend research, community posts, image gen, publishing. All automated. Here's proof.",
+      "format": "thread (show the system)"
+    },
+    {
+      "title": "Zero coding skills, 30 days with OpenClaw",
+      "source": "r/openclaw",
+      "engagement": "106pts, 74cmt",
+      "url": "https://www.reddit.com/r/openclaw/comments/1r71fw8/zero_coding_skills_30_days_with_openclaw_heres/",
+      "remix_angle": "I'm on day 365+ with AI agents. Here's what changes after the first month (and what breaks).",
+      "format": "thread or carousel"
+    },
+    {
+      "title": "OpenClaw Best Practices: What Actually Works After Running It Daily",
+      "source": "r/openclaw",
+      "engagement": "326pts, 74cmt",
+      "url": "https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/",
+      "remix_angle": "My best practices after running 15 agents for months: write everything to files, use cheap models for execution, expensive for creation.",
+      "format": "tweet storm"
+    },
+    {
+      "title": "n8n workflow replacing $1,500/mo VA (Influencer Sourcing)",
+      "source": "r/automation",
+      "engagement": "trending",
+      "url": "https://www.reddit.com/r/automation/comments/1r88og2/i_built_an_n8n_workflow_to_replace_a_1500mo_va/",
+      "remix_angle": "Everyone's replacing VAs with n8n. But the real unlock is replacing YOURSELF. Here's what I automated this week.",
+      "format": "single tweet with hook"
+    },
+    {
+      "title": "Claude API giveaway experiment — 160 customers, $141 cost",
+      "source": "r/n8n",
+      "engagement": "trending",
+      "url": "https://www.reddit.com/r/n8n/comments/1r8nsvb/ran_a_24hr_experiment_giving_away_claude_api_for/",
+      "remix_angle": "This is smart but backwards. Don't give away API access. Give away the OUTPUT of your AI system. That's what people actually want.",
+      "format": "quote tweet / reply"
+    }
+  ],
+
+  "conversations_to_join": [
+    {
+      "thread": "Anyone actually using OpenClaw?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r5v1jb/anyone_actually_using_openclaw/",
+      "why": "626 comments. Massive reach. Duncan can drop a real use case (15 agents, content pipeline, daily output) and link Build Room.",
+      "timing": "Reply today — thread is 3 days old, still active"
+    },
+    {
+      "thread": "Agent to Agent Talk — 100% deterministic",
+      "url": "https://www.reddit.com/r/openclaw/comments/1r8owit/agent_to_agent_talk_100_deterministic/",
+      "why": "Fresh today. Duncan's multi-agent pipeline (orchestrator → carousel → imgen → publisher) is exactly what they're asking about.",
+      "timing": "Reply ASAP — posted today"
+    },
+    {
+      "thread": "n8n workflow replacing $1,500/mo VA",
+      "url": "https://www.reddit.com/r/automation/comments/1r88og2/i_built_an_n8n_workflow_to_replace_a_1500mo_va/",
+      "why": "Duncan has 30 n8n workflows on GitHub. Perfect credibility drop.",
+      "timing": "Reply today"
+    },
+    {
+      "thread": "Claude API giveaway experiment",
+      "url": "https://www.reddit.com/r/n8n/comments/1r8nsvb/ran_a_24hr_experiment_giving_away_claude_api_for/",
+      "why": "Duncan can reframe: 'The play isn't giving away API. It's building systems ON the API and giving away the output.' Links to Build Room.",
+      "timing": "Reply today — fresh"
+    }
+  ],
+
+  "content_angles_for_tomorrow": {
+    "tweets": [
+      {
+        "hook": "OpenClaw's creator just got hired by OpenAI. Meanwhile I'm running 15 agents on it daily. Here's what nobody's talking about:",
+        "angle": "Use the news cycle. Show YOUR system while everyone debates the hire.",
+        "type": "thread",
+        "priority": "high"
+      },
+      {
+        "hook": "Everyone's debating whether AI agents actually work. I woke up to 5 Skool posts written, a LinkedIn post queued, trend research compiled, and a carousel designed. All before 7am.",
+        "angle": "Proof > debate. Show the morning output of the system.",
+        "type": "single tweet",
+        "priority": "high"
+      },
+      {
+        "hook": "The #1 mistake people make with AI agents: using expensive models for everything. Use expensive models to BUILD skills. Cheap models to EXECUTE them. 90% cost reduction.",
+        "angle": "Practical tip from the skills vs coding debate. Directly addresses the token cost anxiety trending on Reddit.",
+        "type": "single tweet",
+        "priority": "medium"
+      },
+      {
+        "hook": "Someone replaced a $1,500/mo VA with an n8n workflow. Cool. I replaced MYSELF with 15 AI agents. Here's the difference:",
+        "angle": "Escalation hook. Take the trending VA replacement story and go bigger.",
+        "type": "thread",
+        "priority": "medium"
+      },
+      {
+        "hook": "If you're giving away Claude API access to get customers, you're thinking too small. Give away the OUTPUT. That's what people pay for.",
+        "angle": "Contrarian take on the trending Claude API giveaway experiment.",
+        "type": "single tweet",
+        "priority": "medium"
+      }
+    ],
+    "engagement_replies": [
+      "Reply to LocalLLaMA OpenClaw thread with real agent system proof",
+      "Reply to r/openclaw agent-to-agent thread with pipeline architecture",
+      "Reply to r/n8n Claude API giveaway with 'sell the output not the access' frame",
+      "Reply to r/automation VA replacement with Duncan's 30-workflow GitHub link"
+    ]
+  }
+}
