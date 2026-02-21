@@ -12,7 +12,8 @@
 - `NOTION_TOKEN` - Notion API integration
 - `BLOTATO_API_KEY` - Social media publishing
 - `N8N_INSTANCE` - n8n workflow instance URL
-- `ANTHROPIC_API_KEY` - Claude API fallback (only used on rate limits)
+- `KIMI_BOT_TOKEN` - Kimi AI (primary model for all agents)
+- `ANTHROPIC_API_KEY` - Claude API (legacy, not actively used)
 - Telegram bot token (in openclaw config)
 
 **Claude Authentication:**
