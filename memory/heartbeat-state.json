@@ -1,5 +1,9 @@
 {
   "lastChecks": {
     "backup": null
+  },
+  "lastFailure": {
+    "backup": "2026-02-21T10:59:00-05:00",
+    "error": "GitHub push protection blocked - secrets detected in .secrets/google-service-account.json and memory archives"
   }
 }

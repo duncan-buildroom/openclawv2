@@ -29,10 +29,10 @@
 **Reference .env:** `export $(grep -v '^#' .env | grep -v '^$' | xargs)`
 
 **Claude Authentication:**
-- Primary: Claude Max OAuth via `anthropic:default` profile
-- Fallback: API key via `anthropic:fallback` profile
-- Automatic fallback on rate limits/409 errors
-- Auth order configured in `/data/.openclaw/agents/main/agent/auth-profiles.json`
+- Using API key via `anthropic:default` profile
+- Key: sk-ant-api03-Fz20...7I3QAA
+- Pay-per-use pricing: $3 input / $15 output per million tokens
+- Auth configured in `/data/.openclaw/agents/main/agent/auth-profiles.json`
 
 ## GitHub
 - Repo: duncan-buildroom/openclawv2
